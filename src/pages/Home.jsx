@@ -5,6 +5,7 @@ import BrickLayout from "../components/BrickLayout";
 import New from "../components/New";
 import WhyRollin from '../components/WhyRollin'
 import Plus from "../components/Plus";
+import Cta from "../components/Cta";
 
 export default function Home() {
   return (
@@ -15,8 +16,9 @@ export default function Home() {
 
       <Plus />  
       {/* <BrickLayout /> */}
+     
       <WhyRollin />
-
+      <Cta />
  
     </div>
   )
