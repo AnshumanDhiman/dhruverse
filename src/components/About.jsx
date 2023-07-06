@@ -606,22 +606,18 @@ const About1 = () => {
             </div>
             <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
               <div className="mt-10 lg:mt-0">
-                <span className="block mb-2 text-lg font-semibold text-theme_4">
-                  Why Choose Us
-                </span>
+            
                 <h2 className="mb-8 text-3xl font-bold text-theme_4 sm:text-4xl">
-                  Make your customers happy by giving services.
+                Why Choose Us
                 </h2>
-                <p className="mb-8 text-base text-theme_4">
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
-                  The point of using Lorem Ipsum is that it has a more-or-less.
+                <p className="mb-8 text-xl font-light text-theme_4">
+                Our team is each to their own but one thing remains unchanged for all of us at Rollin, we are storytellers with a clear and simple objective of creating art and building a strong platform for future creation and innovation in digital and film industry.
                 </p>
                 <a
-                  href="/#"
+                  href="/contact"
                   className="inline-flex items-center justify-center px-10 py-4 text-base font-normal text-center text-theme_2 rounded-lg bg-theme_4 hover:bg-opacity-90 lg:px-8 xl:px-10"
                 >
-                  Get Started
+                Contact Us
                 </a>
               </div>
             </div>

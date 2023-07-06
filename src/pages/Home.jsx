@@ -6,6 +6,7 @@ import New from "../components/New";
 import WhyRollin from '../components/WhyRollin'
 import Plus from "../components/Plus";
 import Cta from "../components/Cta";
+import PartnersSection from "../components/Partner";
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
 
       <Plus />  
       {/* <BrickLayout /> */}
-     
+      <PartnersSection />
       <WhyRollin />
       <Cta />
  

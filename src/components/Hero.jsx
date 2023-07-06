@@ -14,7 +14,7 @@ const HeroSection = () => {
       <div className="absolute inset-0 bg-black opacity-50"></div>
       <div className="absolute inset-0 flex items-center justify-center">
         <div className="max-w-2xl text-center">
-          <h1 className="text-white text-4xl font-semibold mt-[25rem] opacity-50">
+          <h1 style={{fontFamily:'Bebas',letterSpacing:'3px'}} className="text-white text-4xl font-semibold mt-[25rem] opacity-50">
           Your Destination for Artful Superiority 
           </h1>
           {/* <p className="text-white text-xl mb-12">

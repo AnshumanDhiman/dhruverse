@@ -1,4 +1,4 @@
-import React from "react";
+/* eslint-disable react/no-unescaped-entities */
 
 const Cta = () => {
   return (
@@ -11,7 +11,7 @@ const Cta = () => {
             <div className="flex flex-wrap items-center -mx-4">
               <div className="w-full px-4 lg:w-1/2">
                 <span className="mb-2 text-base font-semibold text-white">
-                  Find out what's Next ?
+                  Find out What's Next ?
                 </span>
                 <h2 className="mb-6 text-3xl w-[60%] font-bold leading-tight text-white sm:mb-8 sm:text-[38px] lg:mb-0">
                   Explore the services we offer

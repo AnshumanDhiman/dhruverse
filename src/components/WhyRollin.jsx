@@ -28,10 +28,10 @@ const WhyZensolutions = () => {
   return (
     <div className="bg-theme_1 py-36">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <h2 className="text-3xl font-semibold text-center  bg-gradient-to-r text-theme_4">
-          About Us  <hr className="w-20 mx-auto border-t-2 border-theme_2 mt-3 mb-6" /> 
+      <h2 style={{fontFamily:'Bebas',letterSpacing:'3px'}} className="text-4xl font-semibold text-center bg-gradient-to-r text-theme_4">
+          About Us  
         </h2>
-        <p className="text-center text-theme_4 mb-8">
+        <p className="text-center text-theme_4 mb-8 mt-4 text-2xl font-light">
         At Rollin, we celebrate individuality while embracing a collective passion for storytelling and a shared vision to construct a powerful platform that fuels creativity and future innovation.
         </p>
 
