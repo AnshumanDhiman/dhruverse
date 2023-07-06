@@ -10,7 +10,7 @@ import PartnersSection from "../components/Partner";
 
 export default function Home() {
   return (
-    <div className="">
+   <>
       <Hero />
       <New />
       <Container />
@@ -20,7 +20,7 @@ export default function Home() {
       <PartnersSection />
       <WhyRollin />
       <Cta />
- 
-    </div>
+      </>
+
   )
 }

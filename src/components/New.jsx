@@ -25,7 +25,7 @@ const OurServices = () => {
         <h2 className="text-2xl pt-4 font-semibold bg-gradient-to-r ml-[20px] text-transparent bg-clip-text from-theme_3 to-theme_4">
           New Arrivals
         </h2>
-    <div className="py-4 px-32 ml-[-260px]">
+    <div className="py-4 px-32 ml-[-200px]">
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 rounded-lg">
 

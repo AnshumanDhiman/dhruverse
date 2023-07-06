@@ -4,7 +4,7 @@ const Cta = () => {
   return (
     <>
      
-        <div className="container">
+        {/* <div className="container"> */}
           <div
             className={`relative z-10 overflow-hidden bg-theme_2 py-12 px-8 md:p-[70px]`}
           >
@@ -98,7 +98,7 @@ const Cta = () => {
               </span>
             </div>
           </div>
-        </div>
+        {/* </div> */}
     </>
   );
 };

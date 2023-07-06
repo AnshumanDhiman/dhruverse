@@ -21,8 +21,8 @@ const Brand = () => {
       <section className="bg-theme_1 p-4">
       
       <h2 style={{fontFamily:'Bebas',letterSpacing:'3px'}} className="text-4xl text-theme_4 font-extrabold text-center mt-32">Our Happy Clients</h2>
-      <p className="text-theme_4 text-2xl text-center font-light p-16">At Rollin Studios, we value the power of partnerships. We are proud to collaborate with like-minded individuals and organizations who share our passion for creating exceptional media content.</p>
-        <div className="container flex justify-center items-center">
+      <p className="text-theme_4 text-2xl text-center font-light px-16 py-8">At Rollin Studios, we value the power of partnerships. We are proud to collaborate with like-minded individuals and organizations who share our passion for creating exceptional media content.</p>
+        <div className="flex justify-center items-center">
           <div className="flex flex-wrap -mx-4">
             <div className="w-full px-4">
               <div className="flex flex-wrap items-center justify-center  rounded-full ">
@@ -142,7 +142,7 @@ const SingleImage = ({ href, imgSrc, Alt }) => {
         href={href}
         className="mx-4 flex w-[150px] items-center justify-center  2xl:w-[180px]"
       >
-        <img src={imgSrc} alt={Alt} className="w-full p-8" />
+        <img src={imgSrc} alt={Alt} className="w-full p-4" />
       </a>
     </>
   );

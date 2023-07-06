@@ -18,7 +18,7 @@ export default function Index() {
 
 
     return (
-        <div className="container mx-auto">
+        <div className="mx-auto">
             <div className="flex items-center justify-center w-full h-full py-24 sm:py-8 px-4">
                 {/* Carousel for desktop and large size devices */}
                 <CarouselProvider className="lg:block hidden" naturalSlideWidth={100} isIntrinsicHeight={true} totalSlides={7} visibleSlides={4} step={1} infinite={true}>
