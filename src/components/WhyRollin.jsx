@@ -26,7 +26,7 @@ const WhyZensolutions = () => {
   ];
 
   return (
-    <div className="bg-theme_1 py-36">
+    <div className="bg-theme_1 pb-36">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <h2 style={{fontFamily:'Bebas',letterSpacing:'3px'}} className="text-4xl font-semibold text-center bg-gradient-to-r text-theme_4">
           About Us  

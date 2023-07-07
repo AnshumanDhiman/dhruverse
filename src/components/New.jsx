@@ -22,6 +22,7 @@ const OurServices = () => {
   return (
     <>
     <div className="bg-theme_1">
+    <p className='px-16 pt-8 font-light text-center text-3xl text-theme_4'>We are Rollin Studios, providing the best production, from pre to post. We are the ultimate platform where lies the pioneers of creative storytelling and visual mastery.</p>
         <h2 className="text-2xl pt-4 font-semibold bg-gradient-to-r ml-[20px] text-transparent bg-clip-text from-theme_3 to-theme_4">
           New Arrivals
         </h2>

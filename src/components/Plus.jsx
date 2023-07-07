@@ -71,7 +71,7 @@ export default function Plus() {
           className="relative z-[1] block rounded-lg bg-[hsla(0,0%,100%,0.55)] px-6 py-12 dark:bg-theme_2 dark:shadow-black/20 md:px-12 lg:-mr-14 backdrop-blur-[30px] shadow-lg">
           <h2 className="mb-6 text-4xl text-theme_4 font-bold">What do we Do ?</h2>
           <p className="mb-12 text-neutral-500 dark:text-neutral-300">
-          We are a production powerhouse armed with over 8 years of industry expertise, delivering top-tier quality content across all formats. With specialization in advertisements, fictional content, and music videos, we are up and rollin to deliver full contentment. 
+          We are a production powerhouse, armed with over 8 years of industry expertise. With experiences that includes engaging in creating content for various OTT projects across different platforms and working with India's biggest YouTube content creators, we certainly aim to deliver top-tier quality content across all formats. And with specialization in advertisements, fictional content and music videos, we are up and rollin to deliver full contentment to you. 
           </p>
 
           <div className="grid gap-x-6 md:grid-cols-3 text-center">

@@ -611,7 +611,7 @@ const About1 = () => {
                 Why Choose Us
                 </h2>
                 <p className="mb-8 text-xl font-light text-theme_4">
-                Our team is each to their own but one thing remains unchanged for all of us at Rollin, we are storytellers with a clear and simple objective of creating art and building a strong platform for future creation and innovation in digital and film industry.
+                Our team believes in 'each to their own' but one thing remains unchanged for all of us at Rollin, we are storytellers with a clear and simple objective of creating art and building a strong platform for future creation and innovation in film industry as well as digital industry.
                 </p>
                 <a
                   href="/contact"

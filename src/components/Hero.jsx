@@ -15,7 +15,7 @@ const HeroSection = () => {
       <div className="absolute inset-0 flex items-center justify-center">
         <div className="max-w-2xl text-center">
           <h1 style={{fontFamily:'Bebas',letterSpacing:'3px'}} className="text-white text-4xl font-semibold mt-[25rem] opacity-50">
-          Your Destination for Artful Superiority 
+          Delivering Dreams on Screen
           </h1>
           {/* <p className="text-white text-xl mb-12">
             Watch your favorite movies and TV shows anytime, anywhere.</p>

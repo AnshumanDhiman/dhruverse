@@ -32,7 +32,7 @@ const Contact = () => {
                       Our Location
                     </h4>
                     <p className="text-theme_4 text-body-color">
-                      99 S.t Jomblo Park Pekanbaru 28292. Indonesia
+                    Supertech Eco Village-1 Noida Extention Pincode-201306
                     </p>
                   </div>
                 </div>
@@ -54,7 +54,7 @@ const Contact = () => {
                       Phone Number
                     </h4>
                     <p className="text-theme_4 text-body-color">
-                      (+62)81 414 257 9980
+                      +91-7503399203
                     </p>
                   </div>
                 </div>
