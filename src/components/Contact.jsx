@@ -12,9 +12,7 @@ const Contact = () => {
                   GET IN TOUCH WITH US
                 </h2>
                 <p className="text-theme_4 leading-relaxed mb-9 text-body-color">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eius tempor incididunt ut labore e dolore magna aliqua. Ut
-                  enim adiqua minim veniam quis nostrud exercitation ullamco
+                For any queries and collaborations, reach out to us through our email or contact us through our phone number given below. Our team of experts is here and happy to assist.
                 </p>
                 <div className="mb-8 flex w-full max-w-[370px]">
                   <div className="mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-theme_2 theme_2 bg-opacity-5 text-theme_2 sm:h-[70px] sm:max-w-[70px]">
@@ -107,7 +105,7 @@ const Contact = () => {
                   <div>
                     <button
                       type="submit"
-                      className="w-full p-3 text-white transition border rounded border-theme_2 bg-theme_2 hover:bg-opacity-90"
+                      className="w-full p-3 text-white transition border rounded border-theme_4 hover:border-theme_2 hover:text-theme_2 hover:bg-theme_4 bg-theme_2 hover:bg-opacity-90"
                     >
                       Send Message
                     </button>

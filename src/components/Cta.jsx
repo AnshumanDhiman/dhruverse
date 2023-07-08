@@ -20,8 +20,8 @@ const Cta = () => {
               <div className="w-full px-4 lg:w-1/2">
                 <div className="flex flex-wrap space-x-4 lg:justify-end">
                   <a
-                    href="/#"
-                    className={`my-1 cursor-pointer inline-block rounded bg-info py-4 px-6 text-base font-medium text-white transition hover:bg-opacity-90 md:px-9 lg:px-6 xl:px-9`}
+                    href="/contact"
+                    className={`my-1 cursor-pointer inline-block rounded bg-info py-4 px-6 text-base font-medium border-theme_4 text-white transition hover:bg-opacity-90 md:px-9 lg:px-6 xl:px-9`}
                   >
                     Contact Us
                   </a>

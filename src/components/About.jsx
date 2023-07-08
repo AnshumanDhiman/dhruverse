@@ -607,7 +607,7 @@ const About1 = () => {
             <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
               <div className="mt-10 lg:mt-0">
             
-                <h2 className="mb-8 text-3xl font-bold text-theme_4 sm:text-4xl">
+                <h2 className="mb-8 text-3xl font-bold text-theme_4 sm:text-4xl ">
                 Why Choose Us
                 </h2>
                 <p className="mb-8 text-xl font-light text-theme_4">
@@ -615,7 +615,7 @@ const About1 = () => {
                 </p>
                 <a
                   href="/contact"
-                  className="inline-flex items-center justify-center px-10 py-4 text-base font-normal text-center text-theme_2 rounded-lg bg-theme_4 hover:bg-opacity-90 lg:px-8 xl:px-10"
+                  className="inline-flex items-center justify-center px-10 py-4 text-base font-normal text-center bg-theme_4 hover:bg-theme_2 hover:text-theme_4 border border-theme_4 hover:bg-opacity-90 lg:px-8 xl:px-10"
                 >
                 Contact Us
                 </a>
