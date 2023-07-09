@@ -11,22 +11,25 @@ const OurServices = () => {
   const services = [
     {
         image : i1,
-        link: "/services/web-development",
+        link: "/",
     },
     {
         image : i2,
-        link: "/services/automation",
+        link: "/",
     },
   ];
 
   return (
     <>
     <div className="bg-theme_1">
-    <p className='px-16 pt-8 font-light text-center text-3xl text-theme_4'>We are Rollin Studios, providing the best production, from pre to post. We are the ultimate platform where lies the pioneers of creative storytelling and visual mastery.</p>
-        <h2 className="text-2xl pt-4 font-semibold bg-gradient-to-r ml-[20px] text-transparent bg-clip-text from-theme_3 to-theme_4">
+    <p className="text-lg lg:text-3xl p-4 lg:p-16 md:text-xl md:p-16 sm:text-sm sm:p-8 font-light text-justify text-theme_4">
+  We are Rollin Studios, providing the best production, from pre to post. We are the ultimate platform where lies the pioneers of creative storytelling and visual mastery.
+</p>
+
+        <h2 className="text-2xl pt-0 lg:pt-4 md:pt-16 font-semibold bg-gradient-to-r ml-[20px] text-transparent bg-clip-text from-theme_3 to-theme_4">
           New Arrivals
         </h2>
-    <div className="py-4 px-32 ml-[-200px]">
+    <div className=" lg:py-4 lg:px-32 lg:ml-[-200px]">
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 rounded-lg">
 

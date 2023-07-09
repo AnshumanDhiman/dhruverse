@@ -2,10 +2,10 @@ import vid from '../assets/video/video.mp4'
 const HeroSection = () => {
   return (
     <>
-    <div className="relative">
-    <div className="relative h-[30rem] md:h-120">
+    <div className="relative ">
+    <div className="relative lg:h-[30rem] md:h-[25rem] sm:h-[10rem] ">
       <video
-        className="w-full h-full object-cover"
+        className="lg:w-full md:w-full sm:w-1/2 lg:h-full md:h-full sm:h-1/2 object-cover"
         src={vid}
         autoPlay
         loop
@@ -14,7 +14,7 @@ const HeroSection = () => {
       <div className="absolute inset-0 bg-black opacity-50"></div>
       <div className="absolute inset-0 flex items-center justify-center">
         <div className="max-w-2xl text-center">
-          <h1 style={{fontFamily:'Bebas',letterSpacing:'3px'}} className="text-white text-4xl font-semibold mt-[25rem] opacity-50">
+          <h1 style={{fontFamily:'Bebas',letterSpacing:'3px'}} className="text-white lg:text-4xl sm:text-xl font-semibold lg:mt-[25rem] sm:mt-[0rem]  opacity-50">
           Delivering Dreams on Screen
           </h1>
           {/* <p className="text-white text-xl mb-12">

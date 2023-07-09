@@ -119,9 +119,9 @@ const Footer = () => {
     // </footer>
 
     
-<footer className="bg-theme_1 shadow">
-    <div className="w-full px-8 mx-auto md:py-8">
-        <div className="sm:flex sm:items-center sm:justify-between">
+<footer className="bg-theme_1 shadow ">
+    <div className="w-full px-8 mx-auto py-8 md:py-8">
+        <div className="sm:flex sm:items-center sm:justify-between ">
             <a href="https://rollinstudios.in" className="flex items-center mb-4 sm:mb-0">
                 <img src={logo} className="w-24" alt="Flowbite Logo" />
                 

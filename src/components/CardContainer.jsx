@@ -8,18 +8,18 @@ export default function Container() {
     <div className='bg-theme_1'>
     <div className="mx-auto bg-theme_1"> 
 
-        <h2 className="text-2xl font-semibold ml-4 mb-[-25px] bg-gradient-to-r text-transparent bg-clip-text from-theme_3 to-theme_4">
+        <h2 className="text-xl text-center lg:text-left lg:text-2xl font-semibold lg:ml-4 py-4 mb-[-35px] lg:mb-[-25px] lg:py-0 bg-gradient-to-r text-transparent bg-clip-text from-theme_3 to-theme_4">
           Branding your digital Presence
         
         </h2>
         <ACard />
       
-        <h2 className="text-2xl font-semibold ml-4 mt-4 mb-[-55px] bg-gradient-to-r text-transparent bg-clip-text from-theme_3 to-theme_4">
+        <h2 className="text-xl text-center lg:text-left lg:text-2xl font-semibold lg:ml-4 py-4 mb-[-55px] lg:mb-[-25px] lg:py-0 bg-gradient-to-r text-transparent bg-clip-text from-theme_3 to-theme_4">
           Your Music, Our Visuals
         
         </h2>
         <MCard />
-        <h2 className="text-2xl font-semibold ml-4 mb-[-25px] bg-gradient-to-r text-transparent bg-clip-text from-theme_3 to-theme_4">
+        <h2 className="text-xl text-center lg:text-left lg:text-2xl font-semibold lg:ml-4 py-4 mb-[-35px] lg:mb-[-25px] lg:py-0 bg-gradient-to-r text-transparent bg-clip-text from-theme_3 to-theme_4">
          Experience Cinematic Brilliance 
 
         </h2>

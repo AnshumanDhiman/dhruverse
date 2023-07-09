@@ -4,12 +4,10 @@ const Cta = () => {
   return (
     <>
      
-        {/* <div className="container"> */}
-          <div
-            className={`relative z-10 overflow-hidden bg-theme_2 py-12 px-8 md:p-[70px]`}
-          >
-            <div className="flex flex-wrap items-center -mx-4">
-              <div className="w-full px-4 lg:w-1/2">
+     <div className="hidden sm:block">
+      <div className="lg:relative z-10 overflow-hidden bg-theme_2 py-12 px-8 md:p-[70px]">
+            <div className="flex flex-wrap items-center -mx-4 ">
+              <div className="w-full px-4 lg:w-1/2 ">
                 <span className="mb-2 text-base font-semibold text-white">
                   Find out What's Next ?
                 </span>
@@ -98,7 +96,7 @@ const Cta = () => {
               </span>
             </div>
           </div>
-        {/* </div> */}
+        </div> 
     </>
   );
 };
