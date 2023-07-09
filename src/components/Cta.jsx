@@ -21,13 +21,13 @@ const Cta = () => {
                 <div className="flex flex-wrap space-x-4 lg:justify-end">
                   <a
                     href="/contact"
-                    className={`my-1 cursor-pointer inline-block rounded bg-info py-4 px-6 text-base font-medium border-theme_4 text-white transition hover:bg-opacity-90 md:px-9 lg:px-6 xl:px-9`}
+                    className={`my-1 cursor-pointer inline-block rounded bg-info py-4 px-6 text-base font-medium border hover:bg-theme_4 hover:text-theme_2 border-theme_4 text-white transition hover:bg-opacity-90 md:px-9 lg:px-6 xl:px-9`}
                   >
                     Contact Us
                   </a>
                   <a
                     href="/#"
-                    className={`my-1 cursor-pointer inline-block rounded bg-white py-4 px-6 text-base font-medium text-black transition hover:bg-opacity-90 md:px-9 lg:px-6 xl:px-9`}
+                    className={`my-1 cursor-pointer inline-block rounded bg-white py-4 px-6 text-base font-medium text-theme_2 hover:bg-theme_2 hover:text-theme_4 hover:border transition hover:bg-opacity-90 md:px-9 lg:px-6 xl:px-9`}
                   >
                     View Services
                   </a>

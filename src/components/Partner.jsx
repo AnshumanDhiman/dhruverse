@@ -1,4 +1,6 @@
 /* eslint-disable react/prop-types */
+import React from "react";
+
 import y1 from "../assets/youtubers/1.jpg";
 import y2 from "../assets/youtubers/2.jpg";
 import y3 from "../assets/youtubers/3.jpg";
@@ -7,14 +9,19 @@ import y5 from "../assets/youtubers/5.jpg";
 import y6 from "../assets/youtubers/6.jpg";
 import y7 from "../assets/youtubers/7.jpg";
 import y8 from "../assets/youtubers/8.jpg";
-import React from "react";
+
 import o1 from "../assets/ott/1.png";
 import o2 from "../assets/ott/2.png";
 import o3 from "../assets/ott/3.png";
+import o4 from "../assets/ott/4.png";
 
 import m1 from "../assets/music/1.jpg";
 import m2 from "../assets/music/2.png";
 import m3 from "../assets/music/3.png";
+import m4 from "../assets/music/4.png";
+import m5 from "../assets/music/5.png";
+import m6 from "../assets/music/6.png";
+
 
 import a1 from "../assets/ads/1.png";
 import a2 from "../assets/ads/2.png";
@@ -37,7 +44,11 @@ const Brand = () => {
           <div className="flex flex-wrap -mx-4">
             <div className="w-full px-16 py-8">
               <div className="flex flex-wrap items-center justify-center  rounded-full ">
-             
+              <SingleImage
+                  href="#"
+                  Alt="Brand Image"
+                  imgSrc={o4}
+                />
                 <SingleImage
                   href="#"
                   Alt="Brand Image"
@@ -53,6 +64,20 @@ const Brand = () => {
                   Alt="Brand Image"
                   imgSrc={o3}
                 />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="flex justify-center items-center">
+          <div className="flex flex-wrap -mx-4">
+            <div className="w-full px-16">
+              <div className="flex flex-wrap items-center justify-center  rounded-full ">
+              <img className="w-16 p-1 m-12 mt-0 inline" src={m1} alt="" />
+              <img className="w-32 p-1 m-12 mt-0  inline" src={m2} alt="" />
+              <img className="w-32 p-1 m-12 mt-0  inline" src={m3} alt="" />
+              <img className="w-32 p-1 m-12 mt-0  inline" src={m4} alt="" />
+              <img className="w-32 p-1 m-12 mt-0  inline" src={m5} alt="" />
+              <img className="w-24 p-1 m-12 mt-0  inline" src={m6} alt="" />
               </div>
             </div>
           </div>
@@ -78,9 +103,6 @@ const Brand = () => {
   <div className="py-12 animate-marquee whitespace-nowrap">
     {[...Array(2)].map((_, index) => (
       <React.Fragment key={index}>
-        <img className="w-16 p-1 m-12 inline" src={m1} alt="" />
-        <img className="w-32 p-1 m-12 inline" src={m2} alt="" />
-        <img className="w-32 p-1 m-12 inline" src={m3} alt="" />
         <img className="w-16 p-1 m-12 inline" src={a1} alt="" />
         <img className="w-32 p-1 m-12 inline" src={a2} alt="" />
         <img className="w-32 p-1 m-12 inline" src={a3} alt="" />
