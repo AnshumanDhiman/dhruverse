@@ -2,8 +2,9 @@
 import React from "react";
 import { FaCode, FaRobot, FaPalette, FaPen, FaCheck } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import i1 from '../assets/thumbnails/music/1.jpg'
-import i2 from '../assets/thumbnails/film/2.jpg'
+import i1 from '../assets/thumbnails/film/19.jpg'
+import i2 from '../assets/thumbnails/music/6.jpg'
+
 
 
 
@@ -22,8 +23,8 @@ const OurServices = () => {
   return (
     <>
     <div className="bg-theme_1">
-    <p className="text-lg lg:text-3xl p-4 lg:p-16 md:text-xl md:p-16 sm:text-sm sm:p-8 font-light text-justify text-theme_4">
-  We are Rollin Studios, providing the best production, from pre to post. We are the ultimate platform where lies the pioneers of creative storytelling and visual mastery.
+    <p className="text-lg lg:text-2xl p-4 lg:p-8 md:text-xl md:p-8 sm:text-sm sm:p-8 font-light text-center text-theme_4">
+  We are Rollin Studios, providing the best production, from pre to post.<br/> We are the ultimate platform where lies the pioneers of creative storytelling and visual mastery.
 </p>
 
         <h2 className="text-2xl pt-0 lg:pt-4 md:pt-16 font-semibold bg-gradient-to-r ml-[20px] text-transparent bg-clip-text from-theme_3 to-theme_4">

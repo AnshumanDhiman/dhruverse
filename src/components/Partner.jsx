@@ -14,6 +14,7 @@ import o1 from "../assets/ott/1.png";
 import o2 from "../assets/ott/2.png";
 import o3 from "../assets/ott/3.png";
 import o4 from "../assets/ott/4.png";
+import o5 from "../assets/ott/5.png";
 
 import m1 from "../assets/music/1.jpg";
 import m2 from "../assets/music/2.png";
@@ -39,7 +40,7 @@ const Brand = () => {
 
       <section className="bg-theme_1 p-4">
       
-      <h2 style={{fontFamily:'Bebas Neue',letterSpacing:'3px'}} className="text-2xl lg:text-4xl text-theme_4 font-extrabold text-center mt-8 lg:mt-32">Our Happy Clients</h2>
+      <h2 style={{fontFamily:'Bebas Neue',letterSpacing:'3px'}} className="text-2xl lg:text-4xl text-theme_4 font-extrabold text-center mt-8 lg:mt-32">Allies & Associates</h2>
       <div className="flex justify-center items-center">
           <div className="flex flex-wrap -mx-4">
             <div className="w-full px-0 py-0 lg:px-16 lg:py-8">
@@ -64,6 +65,11 @@ const Brand = () => {
                   Alt="Brand Image"
                   imgSrc={o3}
                 />
+                 <SingleImage
+                  href="#"
+                  Alt="Brand Image"
+                  imgSrc={o5}
+                />
               </div>
             </div>
           </div>
@@ -85,31 +91,30 @@ const Brand = () => {
       <p className="text-theme_4 text-md lg:text-2xl text-center font-light lg:px-16 lg:py-8">At Rollin Studios, we value the power of partnerships. We are proud to collaborate with like-minded individuals and organizations who share our passion for creating exceptional media content.</p>
       <div className="flex justify-center items-center">
           <div className="flex flex-wrap -mx-4 mb-[-32px]">
-            <div className="w-full lg:px-32">
+            <div className="w-full lg:px-64">
               <div className="flex flex-wrap items-center justify-center  rounded-full ">
-              <img className="w-[75px] p-1 lg:w-32 m-4 lg:m-12 rounded-full ring-2 ring-gray-300 dark:ring-gray-500" src={y2} alt=""/>
-              <img className="w-[75px] p-1 lg:w-32 m-4 lg:m-12 rounded-full ring-2 ring-gray-300 dark:ring-gray-500" src={y1} alt=""/>
-              <img className="w-[75px] p-1 lg:w-32 m-4 lg:m-12 rounded-full ring-2 ring-gray-300 dark:ring-gray-500" src={y3} alt=""/>
-              <img className="w-[75px] p-1 lg:w-32 m-4 lg:m-12 rounded-full ring-2 ring-gray-300 dark:ring-gray-500" src={y4} alt=""/>
-              <img className="w-[75px] p-1 lg:w-32 m-4 lg:m-12 rounded-full ring-2 ring-gray-300 dark:ring-gray-500" src={y5} alt=""/>
-              <img className="w-[75px] p-1 lg:w-32 m-4 lg:mx-12 rounded-full ring-2 ring-gray-300 dark:ring-gray-500" src={y6} alt=""/>
-              <img className="w-[75px] p-1 lg:w-32 m-4 lg:mx-12 rounded-full ring-2 ring-gray-300 dark:ring-gray-500" src={y7} alt=""/>
-              <img className="w-[75px] p-1 lg:w-32 m-4 lg:mx-12 rounded-full ring-2 ring-gray-300 dark:ring-gray-500" src={y8} alt=""/>       
+              <img className="w-[75px] p-1 lg:w-[100px] m-4 lg:m-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500" src={y2} alt=""/>
+              <img className="w-[75px] p-1 lg:w-[100px] m-4 lg:m-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500" src={y1} alt=""/>
+              <img className="w-[75px] p-1 lg:w-[100px] m-4 lg:m-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500" src={y3} alt=""/>
+              <img className="w-[75px] p-1 lg:w-[100px] m-4 lg:m-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500" src={y4} alt=""/>
+              <img className="w-[75px] p-1 lg:w-[100px] m-4 lg:m-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500" src={y5} alt=""/>
+              <img className="w-[75px] p-1 lg:w-[100px] m-4 lg:mx-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500" src={y6} alt=""/>
+              <img className="w-[75px] p-1 lg:w-[100px] m-4 lg:mx-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500" src={y7} alt=""/>
+              <img className="w-[75px] p-1 lg:w-[100px] m-4 lg:mx-4 rounded-full ring-2 ring-gray-300 dark:ring-gray-500" src={y8} alt=""/>      
+              <img className="w-[75px] p-1 lg:w-[100px] m-4 lg:mx-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500" src={y8} alt=""/>       
               </div>
             </div>
           </div>
         </div>
-        <div className="relative flex overflow-x-hidden">
-  <div className="py-2 lg:py-12 animate-marquee whitespace-nowrap">
-    {[...Array(2)].map((_, index) => (
-      <React.Fragment key={index}>
+        <div className="relative  text-center">
+        <div className="py-2 pt-0 lg:pt-12 p">
         <img className="w-16 p-1 m-12 inline" src={a1} alt="" />
         <img className="w-32 p-1 m-12 inline" src={a2} alt="" />
         <img className="w-32 p-1 m-12 inline" src={a3} alt="" />
         <img className="w-32 p-1 m-12 inline" src={a4} alt="" />
         <img className="w-32 p-1 m-12 inline" src={a5} alt="" />
-      </React.Fragment>
-    ))}
+ 
+
   </div>
 
 </div>
