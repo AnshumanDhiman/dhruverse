@@ -6,7 +6,7 @@ import bgimg from '../assets/bg.png'
 const About1 = () => {
   return (
     <>
-    <div className='bg-theme_1'>
+    <div className=''>
      <div  style={{ backgroundImage: `url(${bgimg})`, backgroundRepeat:'no-repeat', backgroundAttachment:'fixed',backgroundSize:'cover' }} className='w-full h-[500px] p-50 grayscale opacity-50 '>
 
     

@@ -25,44 +25,6 @@ export default function Plus() {
 
   return (
     <>
-  {/* <div className="flex">
-    <div className="w-1/3 text-center text-4xl font-light">
-        <span className=" text-[#FF0000] text-4xl font-bold ">
-          <div ref={ref1}>
-            {inView1 && <CountUp end={500} duration={2} />}
-            +
-          </div>
-        </span>
-       
-        
-        Happy Clients
-    
-    </div>
-    <div className="w-1/3 text-center text-4xl font-light">
-     
-        <span className=" text-[#FF0000] text-4xl font-bold">
-          <div ref={ref2}>
-            {inView2 && <CountUp end={200} duration={2} />}
-            +
-          </div>
-        </span>
-       
-        Achievements
-    
-    </div>
-    <div className="w-1/3 text-center text-4xl font-light">
-      
-        <span className=" text-[#FF0000] text-4xl font-bold">
-          <div ref={ref3}>
-            {inView3 && <CountUp end={1000} duration={2} />}
-            MN+
-          </div>
-        </span>
-      
-        Projects Views
-      
-    </div>
-  </div> */}
 
 <section className="text-center lg:text-left lg:pt-20 "> 
   <div className=" lg:text-center text-justify xl:px-32 ">

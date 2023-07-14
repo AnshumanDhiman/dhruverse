@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import React from "react";
+
 
 import y1 from "../assets/youtubers/1.jpg";
 import y2 from "../assets/youtubers/2.jpg";
