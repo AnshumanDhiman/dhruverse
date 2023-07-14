@@ -15,13 +15,6 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<ContactUs />} />
         <Route path="/about" element={<About />} />
-        {/*
-        <Route path="/services/web-development" element={<WebDevelopment />} />
-        <Route path="/services/automation" element={<Automation />} />
-        <Route path="/services/ui-ux-design" element={<UiUx />} />
-        <Route path="/services/content-writing" element={<Content />} />
-        <Route path="/services/quality-assurance" element={<Quality />} />
-        <Route path="/contact" element={<Contact />} /> */}
       </Routes>
     </>
   );

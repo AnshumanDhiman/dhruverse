@@ -1,32 +1,32 @@
 import { FaAward, FaUsers, FaLightbulb } from "react-icons/fa";
 
-const WhyZensolutions = () => {
+const WhyRollin = () => {
   const cards = [
     {
       title: "Quality",
       description:
-        "We deliver high-quality solutions that meet the needs and expectations of our clients.",
+      "We deliver high-quality content with the objective of meeting the expectations of our clients",
       icon: <FaAward size={48} className="text-white" />,
       iconBackground: "#ffcc66",
     },
     {
       title: "Expert Team",
       description:
-        "Our team of experienced professionals is dedicated to providing top-notch IT services.",
+        "Our team of experienced and determined professionals is dedicated to providing exceptional and top notch services.",
       icon: <FaUsers size={48} className="text-white" />,
       iconBackground: "#66ccff",
     },
     {
       title: "Innovation",
       description:
-        "We constantly strive for innovation, bringing creative ideas to drive business success.",
+        "We constantly strive for innovation and creation to dig out the ultimate best and achieve success and desired result.",
       icon: <FaLightbulb size={48} className="text-white" />,
       iconBackground: "#ff6699",
     },
   ];
 
   return (
-    <div className="bg-theme_1 pb-0 lg:pb-36">
+    <div className=" bg-theme_1 pb-0 lg:pb-36">
       <div className="max-w-7xl mx-auto px-4 py-8 lg:py-0 md:py-0 sm:px-6 lg:px-8 ">
       <h2 style={{fontFamily:'Bebas Neue',letterSpacing:'3px'}} className=" text-2xl lg:text-4xl font-semibold text-center bg-gradient-to-r text-theme_4">
       <br/>
@@ -60,4 +60,4 @@ const WhyZensolutions = () => {
   );
 };
 
-export default WhyZensolutions;
+export default WhyRollin;

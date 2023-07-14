@@ -50,6 +50,7 @@ const About1 = () => {
                             <img className="md:hidden block" src="https://i.ibb.co/Pc6XVVC/Rectangle-120.png" alt="Elijah featured image" />
                             <p className="font-medium text-xl leading-5 text-gray-800 dark:text-white mt-4">Animesh</p>
                         </div>
+                        
                     </div>
                 </div>
             </div>
