@@ -38,7 +38,7 @@ const OurServices = () => {
           <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-theme_4 opacity-75"></span>
           <span className="relative inline-flex rounded-full h-5 w-5 bg-theme_3"></span>
         </span> */}
-    <div className="lg:py-4 lg:px-32 lg:ml-[-200px]">
+    <div className="lg:py-4 lg:px-32 lg:ml-[-200px] ">
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 rounded-lg">
 
