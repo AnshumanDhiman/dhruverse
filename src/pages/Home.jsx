@@ -8,15 +8,17 @@ import Plus from "../components/Plus";
 import Cta from "../components/Cta";
 import PartnersSection from "../components/Partner";
 
+
 export default function Home() {
   return (
    <>
+
       <Hero />
       <New />
       <Container />
 
       <Plus />  
-      {/* <BrickLayout /> */}
+     
       <PartnersSection />
       <WhyRollin />
       <Cta />
@@ -24,3 +26,4 @@ export default function Home() {
 
   )
 }
+{/* <BrickLayout /> */}
