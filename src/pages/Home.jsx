@@ -14,6 +14,8 @@ export default function Home() {
    <>
    
 <div className="noise"></div>
+<div className="circle-left"></div>
+<div className="circle-right"></div>
 <Hero />
 <New />
 <Container />
@@ -21,6 +23,7 @@ export default function Home() {
 <PartnersSection />
 <WhyRollin />
       <Cta />
+
        </>
 
   )
