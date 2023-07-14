@@ -47,7 +47,7 @@ const Navbar = () => {
   return (
     <div
       className={`shadow-sm fixed w-full top-0 transition-all duration-300 z-50 ${
-        isSticky ? "bg-white shadow-xl z-50" : ""
+        isSticky ? "bg-white shadow-xl z-[999]" : ""
       }`}
     >
       <header>

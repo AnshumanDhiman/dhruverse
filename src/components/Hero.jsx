@@ -11,7 +11,7 @@ const HeroSection = () => {
         loop
         muted
       />
-      <div className="absolute inset-0 bg-black opacity-50"></div>
+      <div className="absolute inset-0 opacity-50"></div>
       <div className="absolute inset-0 flex items-center justify-center">
         <div className="max-w-2xl text-center">
           {/* <h1 style={{fontFamily:'Bebas Neue',letterSpacing:'3px'}} className="text-white lg:text-4xl sm:text-xl font-semibold lg:mt-[25rem] sm:mt-[0rem]  opacity-50">

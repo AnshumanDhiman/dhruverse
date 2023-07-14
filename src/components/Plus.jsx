@@ -64,7 +64,7 @@ export default function Plus() {
     </div>
   </div> */}
 
-<section className="text-center lg:text-left lg:pt-20 bg-theme_1"> 
+<section className="text-center lg:text-left lg:pt-20 "> 
   <div className=" lg:text-center text-justify xl:px-32 ">
     <div className="grid items-center lg:grid-cols-2 ">
       <div className="lg:mb-12">

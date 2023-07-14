@@ -12,17 +12,24 @@ import PartnersSection from "../components/Partner";
 export default function Home() {
   return (
    <>
-
-      <Hero />
-      <New />
-      <Container />
-
-      <Plus />  
-     
-      <PartnersSection />
-      <WhyRollin />
+<div className="noise"></div>
+<Hero />
+<New />
+<Container />
+<Plus />  
+<PartnersSection />
+<WhyRollin />
       <Cta />
-      </>
+      {/*
+      
+
+
+
+     
+     
+
+       */}
+       </>
 
   )
 }

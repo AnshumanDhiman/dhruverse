@@ -38,7 +38,7 @@ const Brand = () => {
   return (
     <>
 
-      <section className="bg-theme_1 p-4">
+      <section className="p-4">
       
       <h2 style={{fontFamily:'Bebas Neue',letterSpacing:'3px'}} className="text-2xl lg:text-4xl text-theme_4 font-extrabold text-center mt-8 lg:mt-32">Allies & Associates</h2>
       <div className="flex justify-center items-center">
