@@ -30,11 +30,11 @@ const OurServices = () => {
         <h2 className=" text-2xl pt-0 lg:pt-4 md:pt-16 font-semibold bg-gradient-to-r ml-[20px] text-transparent bg-clip-text from-theme_3 to-theme_4">
           New Arrivals
         </h2>
-        <span className="relative flex h-5 w-5 ml-[630px] mb-[-25px] z-[900] ">
+        <span className="relative flex h-5 w-5 ml-[610px] mb-[-20px] z-[900] ">
           <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-theme_4 opacity-75"></span>
           <span className="relative inline-flex rounded-full h-5 w-5 bg-theme_2 border-2 border-theme_3"></span>
         </span>
-        <span className="relative flex h-5 w-5 ml-[1255px] mb-[-25px] z-[900] ">
+        <span className="relative flex h-5 w-5 ml-[1230px] mb-[-30px] z-[900] ">
           <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-theme_4 opacity-75"></span>
           <span className="relative inline-flex rounded-full h-5 w-5 bg-theme_2 border-2 border-theme_3"></span>
         </span>
