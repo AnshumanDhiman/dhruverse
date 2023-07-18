@@ -2,6 +2,9 @@
 import { useEffect } from 'react'
 import { gsap, Power2 } from 'gsap'
 
+const sr = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112099.50066721806!2d77.17810029726563!3d28.596494799999988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cef3760bdfdad%3A0x81d9c249430203b0!2sSupertech%20Eco%20village-1!5e0!3m2!1sen!2sin!4v1689699457515!5m2!1sen!2sin";
+
+
 const Contact = () => {
   useEffect(() => {
     // --------------
@@ -82,6 +85,9 @@ const Contact = () => {
                 <p className="text-theme_4 leading-relaxed mb-9 text-body-color">
                 For any queries and collaborations, reach out to us through our email or contact us through our phone number given below. Our team of experts is here and happy to assist.
                 </p>
+                <div className='pb-8'>
+                <iframe src={sr} width={700} height={300} style={{border:'0', borderRadius:'10px'}} allowfullscreen="" loading="lazy" />
+                </div>
                 <div className="mb-8 flex w-full max-w-[370px]">
                   <div className="mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-theme_2 theme_2 bg-opacity-5 text-theme_2 sm:h-[70px] sm:max-w-[70px]">
                     <svg
@@ -1034,6 +1040,9 @@ const Contact = () => {
           </div>
         </div>
       </section>
+      <>
+    
+      </>
     </>
   );
 };

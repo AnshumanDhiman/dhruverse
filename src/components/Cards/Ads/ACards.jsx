@@ -3,14 +3,14 @@ import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from "pure-re
 import './car.css'
 /* Install pure-react-carousel using -> npm i pure-react-carousel */
 
-import ai1 from '../../../assets/thumbnails/ads/1.jpg'
-import ai2 from '../../../assets/thumbnails/ads/2.png'
-import ai3 from '../../../assets/thumbnails/ads/3.png'
-import ai4 from '../../../assets/thumbnails/ads/4.png'
-import ai5 from '../../../assets/thumbnails/ads/5.png'
-import ai6 from '../../../assets/thumbnails/ads/6.png'
-import ai7 from '../../../assets/thumbnails/ads/7.png'
-import ai8 from '../../../assets/thumbnails/ads/8.png'
+import ai1 from '../../../assets/thumbnails/ads/a.jpg'
+import ai2 from '../../../assets/thumbnails/ads/b.jpg'
+import ai3 from '../../../assets/thumbnails/ads/c.jpg'
+import ai4 from '../../../assets/thumbnails/ads/d.jpg'
+import ai5 from '../../../assets/thumbnails/ads/e.jpg'
+import ai6 from '../../../assets/thumbnails/ads/f.jpg'
+import ai7 from '../../../assets/thumbnails/ads/g.jpg'
+import ai8 from '../../../assets/thumbnails/ads/h.jpg'
 
 
 export default function Index() {

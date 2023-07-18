@@ -3,7 +3,7 @@ import React from "react";
 import { FaCode, FaRobot, FaPalette, FaPen, FaCheck } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import i1 from '../assets/thumbnails/film/19.jpg'
-import i2 from '../assets/thumbnails/music/6.jpg'
+import i2 from '../assets/thumbnails/music/7.jpg'
 
 
 

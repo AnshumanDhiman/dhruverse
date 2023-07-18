@@ -7,8 +7,9 @@ import y3 from "../assets/youtubers/3.jpg";
 import y4 from "../assets/youtubers/4.jpg";
 import y5 from "../assets/youtubers/5.jpg";
 import y6 from "../assets/youtubers/6.jpg";
-import y7 from "../assets/youtubers/7.jpg";
+import y7 from "../assets/youtubers/7.jpeg";
 import y8 from "../assets/youtubers/8.jpg";
+import y9 from "../assets/youtubers/9.jpg";
 
 import o1 from "../assets/ott/1.png";
 import o2 from "../assets/ott/2.png";
@@ -101,7 +102,7 @@ const Brand = () => {
               <img className="w-[75px] p-1 lg:w-[100px] m-4 lg:mx-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500" src={y6} alt=""/>
               <img className="w-[75px] p-1 lg:w-[100px] m-4 lg:mx-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500" src={y7} alt=""/>
               <img className="w-[75px] p-1 lg:w-[100px] m-4 lg:mx-4 rounded-full ring-2 ring-gray-300 dark:ring-gray-500" src={y8} alt=""/>      
-              <img className="w-[75px] p-1 lg:w-[100px] m-4 lg:mx-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500" src={y8} alt=""/>       
+              <img className="w-[75px] p-1 lg:w-[100px] m-4 lg:mx-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500" src={y9} alt=""/>       
               </div>
             </div>
           </div>
