@@ -3,6 +3,7 @@
 import bgimg from "../assets/bg.png";
 import a1 from "../assets/about/a1.png";
 import a2 from "../assets/about/a2.png";
+import a3 from "../assets/about/a3.png";
 import i4 from "../assets/about/4.jpg";
 
 const About1 = () => {
@@ -53,15 +54,9 @@ const About1 = () => {
               />
             </div>
           </div>
-          <div className="lg:hidden relative flex overflow-x-hidden text-white opacity-60">
-          <div className="pt-8 animate-marquee whitespace-nowrap">
-            <img src={a1} alt="" className="w-full inline-block" />
+          <div className="inline-block w-full lg:hidden lg:py-0 py-6">
+          <img src={a3} alt="" className=" inline-block" />
           </div>
-
-          <div className="absolute  pt-8 animate-marquee2 whitespace-nowrap tex-white">
-            <img src={a2} alt="" className="w-full inline-block" />
-          </div>
-        </div>
         <br/>
         <br/>
 

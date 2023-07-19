@@ -5,7 +5,7 @@ import logo from '../assets/logo.png'
 const Navbar = () => {
   const [isSticky, setIsSticky] = useState(false);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+ 
 
   useEffect(() => {
     const handleScroll = () => {
@@ -32,11 +32,12 @@ const Navbar = () => {
   };
 
   const closeMenu = () => {
-    closeMenu();
+    document.getElementById("hamburger").checked = false;
   };
 
   const handleMenuLinkClick = () => {
     closeMenu();
+    
   };
 
   const handleDropdownLinkClick = () => {
