@@ -108,12 +108,12 @@ const Brand = () => {
           </div>
         </div>
         <div className="relative  text-center">
-        <div className="py-2 pt-0 lg:pt-12 p">
-        <img className="w-16 p-1 m-12 inline" src={a1} alt="" />
-        <img className="w-32 p-1 m-12 inline" src={a2} alt="" />
-        <img className="w-32 p-1 m-12 inline" src={a3} alt="" />
-        <img className="w-32 p-1 m-12 inline" src={a4} alt="" />
-        <img className="w-32 p-1 m-12 inline" src={a5} alt="" />
+        <div className="py-2 pt-8 lg:pt-12">
+        <img className="w-20 lg:w-16 p-1 m-4 lg:m-12 inline" src={a1} alt="" />
+        <img className="w-20 lg:w-32 p-1 m-4 lg:m-12 inline" src={a2} alt="" />
+        <img className="w-20 lg:w-32 p-1 m-4 lg:m-12 inline" src={a3} alt="" />
+        <img className="w-20 lg:w-32 p-1 m-4 lg:m-12 inline" src={a4} alt="" />
+        <img className="w-20 lg:w-32 p-1 m-4 lg:m-12 inline" src={a5} alt="" />
  
 
   </div>

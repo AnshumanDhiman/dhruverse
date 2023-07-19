@@ -1,80 +1,124 @@
 /* eslint-disable react/prop-types */
-import { useEffect } from 'react'
-import { gsap, Power2 } from 'gsap'
+import { useEffect } from "react";
+import { gsap, Power2 } from "gsap";
 
-const sr = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112099.50066721806!2d77.17810029726563!3d28.596494799999988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cef3760bdfdad%3A0x81d9c249430203b0!2sSupertech%20Eco%20village-1!5e0!3m2!1sen!2sin!4v1689699457515!5m2!1sen!2sin";
-
+const sr =
+  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112099.50066721806!2d77.17810029726563!3d28.596494799999988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cef3760bdfdad%3A0x81d9c249430203b0!2sSupertech%20Eco%20village-1!5e0!3m2!1sen!2sin!4v1689699457515!5m2!1sen!2sin";
 
 const Contact = () => {
   useEffect(() => {
     // --------------
     // Hover animaton
     // --------------
-    
+
     const mouthSpeed = 0.3;
     const easeType = Power2.easeOut;
     const mouthOpen = gsap.timeline({ paused: true });
-    mouthOpen.to('.mouth-back', {duration: mouthSpeed, ease: easeType, y: -70}, 0);
-    mouthOpen.to('.tongue', {duration: mouthSpeed * 1.5, ease: easeType, y: -70}, 0);
-    mouthOpen.to('.teeth', {duration: mouthSpeed, ease: easeType, y: -70, scaleY: 1.2}, 0);
-    mouthOpen.to('.body', {duration: mouthSpeed, ease: easeType, scaleY: 1.06, transformOrigin: 'center bottom'}, 0);
-    mouthOpen.to('.freckles', {duration: mouthSpeed, ease: easeType, y: -10}, 0);
-    mouthOpen.to('.ears', {duration: mouthSpeed, ease: easeType, y: 6}, 0);
-    mouthOpen.to('.eye-right', {duration: mouthSpeed, ease: easeType, x: -2}, 0);
-    mouthOpen.to('.eye-left', {duration: mouthSpeed, ease: easeType, x: 2}, 0);
-    mouthOpen.to('.eyes', {duration: mouthSpeed, ease: easeType, y: 2}, 0);
-    mouthOpen.to('.nostrils', {duration: mouthSpeed, ease: easeType, y: -6}, 0);
-    
+    mouthOpen.to(
+      ".mouth-back",
+      { duration: mouthSpeed, ease: easeType, y: -70 },
+      0,
+    );
+    mouthOpen.to(
+      ".tongue",
+      { duration: mouthSpeed * 1.5, ease: easeType, y: -70 },
+      0,
+    );
+    mouthOpen.to(
+      ".teeth",
+      { duration: mouthSpeed, ease: easeType, y: -70, scaleY: 1.2 },
+      0,
+    );
+    mouthOpen.to(
+      ".body",
+      {
+        duration: mouthSpeed,
+        ease: easeType,
+        scaleY: 1.06,
+        transformOrigin: "center bottom",
+      },
+      0,
+    );
+    mouthOpen.to(
+      ".freckles",
+      { duration: mouthSpeed, ease: easeType, y: -10 },
+      0,
+    );
+    mouthOpen.to(".ears", { duration: mouthSpeed, ease: easeType, y: 6 }, 0);
+    mouthOpen.to(
+      ".eye-right",
+      { duration: mouthSpeed, ease: easeType, x: -2 },
+      0,
+    );
+    mouthOpen.to(
+      ".eye-left",
+      { duration: mouthSpeed, ease: easeType, x: 2 },
+      0,
+    );
+    mouthOpen.to(".eyes", { duration: mouthSpeed, ease: easeType, y: 2 }, 0);
+    mouthOpen.to(
+      ".nostrils",
+      { duration: mouthSpeed, ease: easeType, y: -6 },
+      0,
+    );
+
     // ------------
     // Mouse events
     // ------------
-    
-    const button = document.querySelector('button');
-    
+
+    const button = document.querySelector("button");
 
     // ----------
     // Ear wiggle
     // ----------
-    
+
     const earWiggle = gsap.timeline({ paused: true, repeat: 2 });
-    earWiggle.set('.ear-right', { transformOrigin: "center center" });
-    earWiggle.to('.ear-right', { duration: 0.1, rotation: 45 });
-    earWiggle.to('.ear-right', { duration: 0.1, rotation: 0 });
-    
+    earWiggle.set(".ear-right", { transformOrigin: "center center" });
+    earWiggle.to(".ear-right", { duration: 0.1, rotation: 45 });
+    earWiggle.to(".ear-right", { duration: 0.1, rotation: 0 });
+
     window.setInterval(earWigglePlay, 2500);
-    
-    function earWigglePlay() { earWiggle.play(0); }
-    
+
+    function earWigglePlay() {
+      earWiggle.play(0);
+    }
+
     // ------------
     // Eye tracking
     // ------------
-    
-    const eyeRightPupil = document.querySelector('.eye-right-pupil');
-    const eyeLeftPupil = document.querySelector('.eye-left-pupil');
-    const eyeLeftInner = document.querySelector('.eye-left-inner');
+
+    const eyeRightPupil = document.querySelector(".eye-right-pupil");
+    const eyeLeftPupil = document.querySelector(".eye-left-pupil");
+    const eyeLeftInner = document.querySelector(".eye-left-inner");
     const innerEyeWidth = eyeLeftInner.getBoundingClientRect().width;
     const innerEyeHeight = eyeLeftInner.getBoundingClientRect().height;
     const pupilWidth = eyeLeftPupil.getBoundingClientRect().width;
     const pupilHeight = eyeLeftPupil.getBoundingClientRect().height;
-    const xMovement = (innerEyeWidth - pupilWidth)/2;
-    const yMovement = (innerEyeHeight - pupilHeight)/2;
-    
-    window.addEventListener('mousemove', updateEyePosition);
-    
+    const xMovement = (innerEyeWidth - pupilWidth) / 2;
+    const yMovement = (innerEyeHeight - pupilHeight) / 2;
+
+    window.addEventListener("mousemove", updateEyePosition);
+
     function updateEyePosition(event) {
-      const posX = ((event.clientX / document.body.clientWidth) * 2 - 1) * xMovement;
-      const posY = ((event.clientY / document.body.clientHeight) * 2 - 1) * yMovement;
-      
+      const posX =
+        ((event.clientX / document.body.clientWidth) * 2 - 1) * xMovement;
+      const posY =
+        ((event.clientY / document.body.clientHeight) * 2 - 1) * yMovement;
+
       eyeLeftPupil.style.transform = `translate(${posX}px, ${posY}px)`;
       eyeRightPupil.style.transform = `translate(${posX}px, ${posY}px)`;
     }
-    
+
     // Last minute link to the tutorial
-    button.addEventListener('click', () => window.open('https://codepen.io/MarioD/post/interactive-hippo-button-tutorial'));
-      });
+    button.addEventListener("click", () =>
+      window.open(
+        "https://codepen.io/MarioD/post/interactive-hippo-button-tutorial",
+      ),
+    );
+  });
   return (
     <>
-      <section className=" p-24 lg:py-[120px] overflow-hidden relative z-10">
+      <section className="py-24 px-8 lg:px-24 lg:py-24 overflow-hidden relative z-10">
         <div className="container">
           <div className="flex flex-wrap -mx-4 lg:justify-between">
             <div className="w-full px-4 lg:w-1/2 xl:w-6/12">
@@ -83,10 +127,18 @@ const Contact = () => {
                   GET IN TOUCH WITH US
                 </h2>
                 <p className="text-theme_4 leading-relaxed mb-9 text-body-color">
-                For any queries and collaborations, reach out to us through our email or contact us through our phone number given below. Our team of experts is here and happy to assist.
+                  For any queries and collaborations, reach out to us through
+                  our email or contact us through our phone number given below.
+                  Our team of experts is here and happy to assist.
                 </p>
-                <div className='pb-8'>
-                <iframe src={sr} width={700} height={300} style={{border:'0', borderRadius:'10px'}} allowfullscreen="" loading="lazy" />
+                <div className="pb-8">
+                  <iframe
+                    src={sr}
+                    className="w-[350px] ml-[-10px] lg:ml-0 md:l-0 h-[200px] lg:w-[700px] lg:h-[300px]"
+                    style={{ border: "0", borderRadius: "10px" }}
+                    allowfullscreen=""
+                    loading="lazy"
+                  />
                 </div>
                 <div className="mb-8 flex w-full max-w-[370px]">
                   <div className="mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-theme_2 theme_2 bg-opacity-5 text-theme_2 sm:h-[70px] sm:max-w-[70px]">
@@ -104,7 +156,7 @@ const Contact = () => {
                       Our Location
                     </h4>
                     <p className="text-theme_4 text-body-color">
-                    Supertech Eco Village-1 Noida Extention Pincode-201306
+                      Supertech Eco Village-1 Noida Extention Pincode-201306
                     </p>
                   </div>
                 </div>
@@ -176,74 +228,175 @@ const Contact = () => {
                     name="details"
                     defaultValue=""
                   />
-                         <p className="text-md inline-block mr-12  text-white cursor-pointer border rounded border-theme_4 hover:border-theme_2 hover:text-theme_2 hover:bg-theme_4 bg-theme_2 hover:bg-opacity-9 p-3 "  type="submit">Send Message</p>
-                         
-                     
-                      {/* className="w-full p-3 text-white transition border rounded border-theme_4 hover:border-theme_2 hover:text-theme_2 hover:bg-theme_4 bg-theme_2 hover:bg-opacity-90"
-                    >
-                      Send Message
-                    </button> */}
+                  <p
+                    className="text-sm lg:text-md inline-block mr-12  text-white cursor-pointer border rounded border-theme_4 hover:border-theme_2 hover:text-theme_2 hover:bg-theme_4 bg-theme_2 hover:bg-opacity-9 p-2 lg:p-3 "
+                    type="submit"
+                  >
+                    Send Message
+                  </p>
 
-                  <div className="text-center inline-block mt-[-100px]">
-             
-                  <button className='contact-button'>
-    <svg viewBox="0 0 242 109" xmlns="http://www.w3.org/2000/svg">
-      <g className="ears">
-        <g className="ear-left">
-          <ellipse className="ear-left-outer" transform="matrix(0.9391 -0.3436 0.3436 0.9391 -3.6062 17.8444)" cx="48.5" cy="19.1" rx="11.4" ry="13.8"/>
-          <ellipse className="ear-left-inner" transform="matrix(0.9391 -0.3436 0.3436 0.9391 -3.8876 17.4659)" cx="47.3" cy="19.7" rx="7.3" ry="11.2"/>
-        </g>
-        <g className="ear-right">
-          <ellipse className="ear-right-outer" transform="matrix(0.3436 -0.9391 0.9391 0.3436 106.5379 189.869)" cx="189.1" cy="18.7" rx="14.4" ry="11.9"/>
-          <ellipse className="ear-right-inner" transform="matrix(0.3436 -0.9391 0.9391 0.3436 106.8522 191.5127)" cx="190.4" cy="19.3" rx="11.7" ry="7.7"/>
-        </g>
-      </g>
-      <g className="eyes">
-        <g className="eye-right">
-          <path className="eye-right-outer" d="M174.9,27H186c0-0.3,0-0.7,0-1c0-14.4-11.6-26-26-26c-14.4,0-26,11.6-26,26 c0,0.3,0,0.7,0,1h6.1H174.9z"/>
-          <path className="eye-right-inner" d="M175,25c0-11-7.8-20-17.5-20S140,14,140,25c0,0.7,0,1.3,0.1,2h34.8 C175,26.3,175,25.7,175,25z"/>
-          <circle className="eye-right-pupil" cx="158" cy="18" r="5"/>
-        </g>
-        <g className="eye-left">
-          <path className="eye-left-outer" d="M96.9,27h6.1c0-0.3,0-0.7,0-1c0-14.4-11.6-26-26-26C62.6,0,51,11.6,51,26 c0,0.3,0,0.7,0,1h11.1H96.9z"/>
-          <path className="eye-left-inner" d="M97,25c0-11-7.8-20-17.5-20S62,14,62,25c0,0.7,0,1.3,0.1,2h34.8C97,26.3,97,25.7,97,25z" />
-          <circle className="eye-left-pupil" cx="80" cy="17.7" r="5"/>
-        </g>
-      </g>
-      <g className="nostrils">
-        <g className="nostril-right">
-          <ellipse className="nostril-right-outer" cx="130.5" cy="27.5" rx="6.5" ry="5.5"/>
-          <circle className="nostril-right-inner" cx="130" cy="28" r="4"/>
-        </g>
-        <g className="nostril-left">
-          <ellipse className="nostril-left-outer" cx="106.5" cy="27.5" rx="6.5" ry="5.5"/>
-          <circle className="nostril-left-inner" cx="107" cy="28" r="4"/>
-        </g>
-      </g>
-      <path className="body" d="M218,98H24C10.8,98,0,87.2,0,74V51c0-13.2,10.8-24,24-24h194c13.2,0,24,10.8,24,24v23 C242,87.2,231.2,98,218,98z"/>
-      <g className="freckles">
-        <circle className="freckle" cx="13.7" cy="41.4" r="1.6"/>
-        <circle className="freckle" cx="20.1" cy="44.7" r="1.6"/>
-        <circle className="freckle" cx="19.6" cy="37.8" r="1.6"/>
-      </g>
-      <g className="mouth">
-        <g className="mouth-pieces">
-          <path className="mouth-back" d="M23.6,168.2l-3-56.1c0-7.8,6.4-14.1,14.1-14.1h172.4c7.8,0,14.1,6.4,14.1,14.1l-3,56.1"/>
-   
-          <path className="tongue" d="M174.9,168.2c-7.3-5-24.5-9.9-54.8-9.9s-48,5.1-54.8,9.9"/>
-        </g>
-      </g>
-      <g className="teeth">
-        <path className="tooth-left" d="M115,97.9v7.5c0,2-1.7,3.6-3.6,3.6H89.7c-2,0-3.6-1.7-3.6-3.6v-7.5H115z"/>
-        <path className="tooth-right" d="M154,97.9v7.5c0,2-1.7,3.6-3.6,3.6h-21.7c-2,0-3.6-1.7-3.6-3.6v-7.5H154z"/>
-      </g>
-    </svg>       
-  </button>
-                   
+                  <div className="hidden lg:inline-block text-center mt-[-100px]">
+                    <button className="contact-button">
+                      <svg
+                        viewBox="0 0 242 109"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g className="ears">
+                          <g className="ear-left">
+                            <ellipse
+                              className="ear-left-outer"
+                              transform="matrix(0.9391 -0.3436 0.3436 0.9391 -3.6062 17.8444)"
+                              cx="48.5"
+                              cy="19.1"
+                              rx="11.4"
+                              ry="13.8"
+                            />
+                            <ellipse
+                              className="ear-left-inner"
+                              transform="matrix(0.9391 -0.3436 0.3436 0.9391 -3.8876 17.4659)"
+                              cx="47.3"
+                              cy="19.7"
+                              rx="7.3"
+                              ry="11.2"
+                            />
+                          </g>
+                          <g className="ear-right">
+                            <ellipse
+                              className="ear-right-outer"
+                              transform="matrix(0.3436 -0.9391 0.9391 0.3436 106.5379 189.869)"
+                              cx="189.1"
+                              cy="18.7"
+                              rx="14.4"
+                              ry="11.9"
+                            />
+                            <ellipse
+                              className="ear-right-inner"
+                              transform="matrix(0.3436 -0.9391 0.9391 0.3436 106.8522 191.5127)"
+                              cx="190.4"
+                              cy="19.3"
+                              rx="11.7"
+                              ry="7.7"
+                            />
+                          </g>
+                        </g>
+                        <g className="eyes">
+                          <g className="eye-right">
+                            <path
+                              className="eye-right-outer"
+                              d="M174.9,27H186c0-0.3,0-0.7,0-1c0-14.4-11.6-26-26-26c-14.4,0-26,11.6-26,26 c0,0.3,0,0.7,0,1h6.1H174.9z"
+                            />
+                            <path
+                              className="eye-right-inner"
+                              d="M175,25c0-11-7.8-20-17.5-20S140,14,140,25c0,0.7,0,1.3,0.1,2h34.8 C175,26.3,175,25.7,175,25z"
+                            />
+                            <circle
+                              className="eye-right-pupil"
+                              cx="158"
+                              cy="18"
+                              r="5"
+                            />
+                          </g>
+                          <g className="eye-left">
+                            <path
+                              className="eye-left-outer"
+                              d="M96.9,27h6.1c0-0.3,0-0.7,0-1c0-14.4-11.6-26-26-26C62.6,0,51,11.6,51,26 c0,0.3,0,0.7,0,1h11.1H96.9z"
+                            />
+                            <path
+                              className="eye-left-inner"
+                              d="M97,25c0-11-7.8-20-17.5-20S62,14,62,25c0,0.7,0,1.3,0.1,2h34.8C97,26.3,97,25.7,97,25z"
+                            />
+                            <circle
+                              className="eye-left-pupil"
+                              cx="80"
+                              cy="17.7"
+                              r="5"
+                            />
+                          </g>
+                        </g>
+                        <g className="nostrils">
+                          <g className="nostril-right">
+                            <ellipse
+                              className="nostril-right-outer"
+                              cx="130.5"
+                              cy="27.5"
+                              rx="6.5"
+                              ry="5.5"
+                            />
+                            <circle
+                              className="nostril-right-inner"
+                              cx="130"
+                              cy="28"
+                              r="4"
+                            />
+                          </g>
+                          <g className="nostril-left">
+                            <ellipse
+                              className="nostril-left-outer"
+                              cx="106.5"
+                              cy="27.5"
+                              rx="6.5"
+                              ry="5.5"
+                            />
+                            <circle
+                              className="nostril-left-inner"
+                              cx="107"
+                              cy="28"
+                              r="4"
+                            />
+                          </g>
+                        </g>
+                        <path
+                          className="body"
+                          d="M218,98H24C10.8,98,0,87.2,0,74V51c0-13.2,10.8-24,24-24h194c13.2,0,24,10.8,24,24v23 C242,87.2,231.2,98,218,98z"
+                        />
+                        <g className="freckles">
+                          <circle
+                            className="freckle"
+                            cx="13.7"
+                            cy="41.4"
+                            r="1.6"
+                          />
+                          <circle
+                            className="freckle"
+                            cx="20.1"
+                            cy="44.7"
+                            r="1.6"
+                          />
+                          <circle
+                            className="freckle"
+                            cx="19.6"
+                            cy="37.8"
+                            r="1.6"
+                          />
+                        </g>
+                        <g className="mouth">
+                          <g className="mouth-pieces">
+                            <path
+                              className="mouth-back"
+                              d="M23.6,168.2l-3-56.1c0-7.8,6.4-14.1,14.1-14.1h172.4c7.8,0,14.1,6.4,14.1,14.1l-3,56.1"
+                            />
+
+                            <path
+                              className="tongue"
+                              d="M174.9,168.2c-7.3-5-24.5-9.9-54.8-9.9s-48,5.1-54.8,9.9"
+                            />
+                          </g>
+                        </g>
+                        <g className="teeth">
+                          <path
+                            className="tooth-left"
+                            d="M115,97.9v7.5c0,2-1.7,3.6-3.6,3.6H89.7c-2,0-3.6-1.7-3.6-3.6v-7.5H115z"
+                          />
+                          <path
+                            className="tooth-right"
+                            d="M154,97.9v7.5c0,2-1.7,3.6-3.6,3.6h-21.7c-2,0-3.6-1.7-3.6-3.6v-7.5H154z"
+                          />
+                        </g>
+                      </svg>
+                    </button>
                   </div>
                 </form>
                 <div>
-             
                   <span className="absolute -right-10 top-[90px] z-[-1]">
                     <svg
                       width={34}
@@ -1040,9 +1193,7 @@ const Contact = () => {
           </div>
         </div>
       </section>
-      <>
-    
-      </>
+      <></>
     </>
   );
 };
@@ -1057,7 +1208,7 @@ const ContactTextArea = ({ row, placeholder, name, defaultValue }) => {
           rows={row}
           placeholder={placeholder}
           name={name}
-          className="border-[f0f0f0] bg-theme_2 w-full resize-none rounded border py-3 px-[14px] text-theme_4 text-body-color outline-none focus:border-theme_4 focus-visible:shadow-none"
+          className="border-[f0f0f0] bg-theme_2 w-full resize-none rounded border py-1 px-[5px] lg:py-3 lg:px-[14px] text-theme_4 text-body-color outline-none text-sm focus:border-theme_4 focus-visible:shadow-none"
           defaultValue={defaultValue}
         />
       </div>
@@ -1073,7 +1224,7 @@ const ContactInputBox = ({ type, placeholder, name }) => {
           type={type}
           placeholder={placeholder}
           name={name}
-          className="border-[f0f0f0] w-full rounded border py-3 px-[14px] bg-theme_2 text-theme_4 text-body-color outline-none focus:border-theme_4 focus-visible:shadow-none"
+          className="border-[f0f0f0] w-full rounded border py-1 px-[5px] lg:py-3 lg:px-[14px] bg-theme_2 text-theme_4 text-body-color text-sm outline-none focus:border-theme_4 focus-visible:shadow-none"
         />
       </div>
     </>

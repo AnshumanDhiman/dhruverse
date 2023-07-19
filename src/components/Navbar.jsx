@@ -32,7 +32,7 @@ const Navbar = () => {
   };
 
   const closeMenu = () => {
-    setIsMenuOpen(false);
+    closeMenu();
   };
 
   const handleMenuLinkClick = () => {
