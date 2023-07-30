@@ -16,7 +16,7 @@ export const useGsapHeroImgReveal = (el, delay = 0) => {
         duration: 2,
         delay,
         ease: "power4.out",
-      }
+      },
     );
   }, [el, delay]);
 };
@@ -35,7 +35,7 @@ export const useGsapHeadLineReveal = (items, delay = 0) => {
         delay,
         ease: "power4.out",
         stagger: 0.2,
-      }
+      },
     );
   }, [items, delay]);
 };
@@ -57,7 +57,7 @@ export const useGsapNavLinkReveal = (items, delay = 0) => {
         scrollTrigger: {
           trigger: el,
         },
-      }
+      },
     );
   }, [items, delay]);
 };
@@ -74,7 +74,7 @@ export const useGsapBioReveal = (el, delay = 0) => {
         duration: 1,
         delay,
         ease: "power4.out",
-      }
+      },
     );
   }, [el, delay]);
 };
@@ -91,7 +91,7 @@ export const useGsapSocialReveal = (el, delay = 0) => {
         duration: 1,
         delay,
         ease: "power4.out",
-      }
+      },
     );
   }, [el, delay]);
 };
@@ -111,7 +111,7 @@ export const useGsapSectionTitleReveal = (el, delay = 0) => {
         scrollTrigger: {
           trigger: el.current,
         },
-      }
+      },
     );
   }, [el, delay]);
 };
@@ -133,7 +133,7 @@ export const useGsapProjectLeftRightReveal = (items, delay = 0) => {
         scrollTrigger: {
           trigger: el,
         },
-      }
+      },
     );
   }, [items, delay]);
 };
@@ -155,7 +155,7 @@ export const useGsapInputReveal = (items, delay = 0) => {
         scrollTrigger: {
           trigger: el,
         },
-      }
+      },
     );
   }, [items, delay]);
 };
@@ -170,7 +170,7 @@ export const useGsapSkillItemReveal = (items) => {
             el.classList.add("reveal");
           },
         },
-      })
+      }),
     );
   }, [items]);
 };
@@ -190,7 +190,7 @@ export const useGsapSkillTextReveal = (el) => {
         scrollTrigger: {
           trigger: el,
         },
-      }
+      },
     );
   }, [el]);
 };
@@ -210,7 +210,7 @@ export const useGsapFooterReveal = (el) => {
         scrollTrigger: {
           trigger: el.current,
         },
-      }
+      },
     );
   }, [el]);
 };

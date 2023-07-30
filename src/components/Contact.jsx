@@ -228,12 +228,14 @@ const Contact = () => {
                     name="details"
                     defaultValue=""
                   />
+                   <a href='https://api.whatsapp.com/send?phone=+917503399203&text=Hi' target="_blank" rel="noreferrer">
                   <p
                     className="text-sm lg:text-md inline-block mr-12  text-white cursor-pointer border rounded border-theme_4 hover:border-theme_2 hover:text-theme_2 hover:bg-theme_4 bg-theme_2 hover:bg-opacity-9 p-2 lg:p-3 "
                     type="submit"
                   >
                     Send Message
                   </p>
+                  </a>
 
                   <div className="hidden lg:inline-block text-center mt-[-100px]">
                     <button className="contact-button">

@@ -7,8 +7,7 @@ import { useSmoothScroll } from "./hooks/useSmoothScroll";
 function App() {
   useSmoothScroll();
   return (
-    <>  
-
+    <>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<ContactUs />} />

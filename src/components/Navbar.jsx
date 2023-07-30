@@ -1,11 +1,10 @@
 /* eslint-disable no-unused-vars */
 import { useEffect, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-import logo from '../assets/logo.png'
+import logo from "../assets/logo.png";
 const Navbar = () => {
   const [isSticky, setIsSticky] = useState(false);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
- 
 
   useEffect(() => {
     const handleScroll = () => {
@@ -37,7 +36,6 @@ const Navbar = () => {
 
   const handleMenuLinkClick = () => {
     closeMenu();
-    
   };
 
   const handleDropdownLinkClick = () => {
@@ -107,7 +105,7 @@ const Navbar = () => {
                           }
                           onClick={handleMenuLinkClick}
                         >
-                          <span  className="relative group-hover:text-white">
+                          <span className="relative group-hover:text-white">
                             About Us
                           </span>
                         </NavLink>
@@ -134,7 +132,6 @@ const Navbar = () => {
         </div>
       </header>
     </div>
-    
   );
 };
 

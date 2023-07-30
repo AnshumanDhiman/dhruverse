@@ -5,7 +5,7 @@ const WhyRollin = () => {
     {
       title: "Quality",
       description:
-      "We deliver high-quality content with the objective of meeting the expectations of our clients",
+        "We deliver high-quality content with the objective of meeting the expectations of our clients",
       icon: <FaAward size={48} className="text-white" />,
       iconBackground: "#ffcc66",
     },
@@ -28,12 +28,17 @@ const WhyRollin = () => {
   return (
     <div className=" pb-0 lg:pb-36">
       <div className="max-w-7xl mx-auto px-4 py-8 lg:py-0 md:py-0 sm:px-6 lg:px-8 ">
-      <h2 style={{fontFamily:'Bebas Neue',letterSpacing:'3px'}} className=" text-2xl lg:text-4xl font-semibold text-center bg-gradient-to-r text-theme_4">
-      <br/>
-          About Us  
+        <h2
+          style={{ fontFamily: "Bebas Neue", letterSpacing: "3px" }}
+          className=" text-2xl lg:text-4xl font-semibold text-center bg-gradient-to-r text-theme_4"
+        >
+          <br />
+          About Us
         </h2>
         <p className="text-center text-theme_4 mb-8 mt-4 text-md md:text-2xl lg:text-2xl font-light">
-        At Rollin, we celebrate individuality while embracing a collective passion for storytelling and a shared vision to construct a powerful platform that fuels creativity and future innovation.
+          At Rollin, we celebrate individuality while embracing a collective
+          passion for storytelling and a shared vision to construct a powerful
+          platform that fuels creativity and future innovation.
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 md:grid-cols-3 gap-8">

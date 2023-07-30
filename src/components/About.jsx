@@ -9,7 +9,6 @@ import i4 from "../assets/about/4.jpg";
 const About1 = () => {
   return (
     <>
-     
       <div className="">
         <div
           style={{
@@ -19,11 +18,8 @@ const About1 = () => {
             backgroundSize: "cover",
           }}
           className="hidden lg:block w-full h-[500px] opacity-40 z-[-999]"
-        >
+        ></div>
 
-
-        </div>
-       
         <div className="hidden  relative lg:flex overflow-x-hidden text-white opacity-70">
           <div className="animate-marquee whitespace-nowrap">
             <img src={a1} alt="" className="w-full inline-block" />
@@ -34,35 +30,46 @@ const About1 = () => {
           </div>
         </div>
 
-        
-      
         <div className="2xl:container 2xl:mx-auto lg:pt-16 lg:px-20 md:pt-12 md:px-6 pt-24 px-4">
           <div className="flex flex-col lg:flex-row justify-between gap-8">
             <div className="w-full lg:w-5/12 flex flex-col justify-center">
-            <h1 className="text-3xl lg:text-4xl font-bold leading-9 text-gray-800 dark:text-white pb-4">
-            Unleashing Artistic Storytelling and Innovation
+              <h1 className="text-3xl lg:text-4xl font-bold leading-9 text-gray-800 dark:text-white pb-4">
+                Unleashing Artistic Storytelling and Innovation
               </h1>
               <p className="font-normal text-base leading-6 text-gray-600 dark:text-white">
-              Our team believes in 'each to their own' but one thing remains unchanged for all of us at Rollin, we are storytellers with a clear and simple objective of creating art and building a strong platform for future creation and innovation in film industry as well as digital industry.
+                Our team believes in 'each to their own' but one thing remains
+                unchanged for all of us at Rollin, we are storytellers with a
+                clear and simple objective of creating art and building a strong
+                platform for future creation and innovation in film industry as
+                well as digital industry.
               </p>
             </div>
             <div className="w-[25rem] ml-[-40px] lg:ml-0 md:ml-0 lg:w-8/12">
               <img
                 className="w-full h-full grayscale px-12"
-                src={i4}    
+                src={i4}
                 alt="A group of People"
               />
             </div>
           </div>
           <div className="inline-block w-full lg:hidden lg:py-0 py-6">
-          <img src={a3} alt="" className=" inline-block" />
+            <img src={a3} alt="" className=" inline-block" />
           </div>
-        <br/>
-        <br/>
+          <br />
+          <br />
 
-        <div className="hidden lg:block text-center absolute top-[50%] left-[43%] z-[999]">
-        <h1 style={{fontFamily:'Bebas Neue',letterSpacing:'5px',fontWeight:'bold'}} className="text-6xl text-white ">ABOUT US</h1>
-        </div>
+          <div className="hidden lg:block text-center absolute top-[50%] left-[43%] z-[999]">
+            <h1
+              style={{
+                fontFamily: "Bebas Neue",
+                letterSpacing: "5px",
+                fontWeight: "bold",
+              }}
+              className="text-6xl text-white "
+            >
+              ABOUT US
+            </h1>
+          </div>
         </div>
       </div>
     </>
