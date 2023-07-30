@@ -22,12 +22,12 @@ const Cta = () => {
                 >
                   Contact Us
                 </a>
-                <a
+                {/* <a
                   href="/#"
                   className={`my-1 cursor-pointer inline-block rounded bg-white py-4 px-6 text-base font-medium text-theme_2 hover:bg-theme_2 hover:text-theme_4 hover:border transition hover:bg-opacity-90 md:px-9 lg:px-6 xl:px-9`}
                 >
                   View Services
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
