@@ -87,7 +87,7 @@ import {
                     </Slide>
                     <Slide index={1}>
                       <a
-                        href="https://youtu.be/ZO4NckgDoBM"
+                        href="https://youtu.be/2rRdl3vMqPI"
                         target="_blank"
                         rel="noreferrer"
                       >
@@ -118,7 +118,7 @@ import {
                     </Slide>
                     <Slide index={3}>
                       <a
-                        href="https://youtu.be/2cJVb2uOdt4"
+                        href="https://youtu.be/1-SGJrjqP4s"
                         target="_blank"
                         rel="noreferrer"
                       >
@@ -439,7 +439,7 @@ import {
                     </Slide>
                     <Slide index={1}>
                       <a
-                        href="https://youtu.be/ZO4NckgDoBM"
+                        href="https://youtu.be/2rRdl3vMqPI"
                         target="_blank"
                         rel="noreferrer"
                       >
@@ -469,7 +469,7 @@ import {
                     </Slide>
                     <Slide index={3}>
                       <a
-                        href="https://youtu.be/2cJVb2uOdt4"
+                        href="https://youtu.be/1-SGJrjqP4s"
                         target="_blank"
                         rel="noreferrer"
                       >
@@ -776,7 +776,7 @@ import {
                     </Slide>
                     <Slide index={1}>
                       <a
-                        href="https://youtu.be/ZO4NckgDoBM"
+                        href="https://youtu.be/2rRdl3vMqPI"
                         target="_blank"
                         rel="noreferrer"
                       >
@@ -806,7 +806,7 @@ import {
                     </Slide>
                     <Slide index={3}>
                       <a
-                        href="https://youtu.be/2cJVb2uOdt4"
+                        href="https://youtu.be/1-SGJrjqP4s"
                         target="_blank"
                         rel="noreferrer"
                       >
