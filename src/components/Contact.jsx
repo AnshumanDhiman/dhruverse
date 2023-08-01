@@ -197,8 +197,8 @@ const Contact = () => {
                     <h4 className="mb-1 text-xl font-bold text-theme_4">
                       Email Address
                     </h4>
-                    <a href="mailto:contact@rollinstuidos.in" className="text-theme_4 text-body-color">
-                      contact@rollinstuidos.in
+                    <a href="mailto:contact@rollinstudios.in" className="text-theme_4 text-body-color">
+                      contact@rollinstudios.in
                     </a>
                   </div>
                 </div>
