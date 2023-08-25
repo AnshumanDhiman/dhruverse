@@ -2,18 +2,19 @@
 import React from "react";
 import { FaCode, FaRobot, FaPalette, FaPen, FaCheck } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import i1 from "../assets/thumbnails/film/19.jpg";
-import i2 from "../assets/thumbnails/music/7.jpg";
+import i1 from "../assets/images/meter.jpg";
+import i2 from "../assets/thumbnails/film/19.jpg";
+
 
 const OurServices = () => {
   const services = [
     {
       image: i1,
-      link: "https://youtu.be/NlwVW-_LPBs",
+      link: "https://youtu.be/CRL-kbzVCjw?si=HkPjJUyGW-0luLXJ",
     },
     {
       image: i2,
-      link: "https://youtu.be/w8C156-2W8c",
+      link: "https://youtu.be/NlwVW-_LPBs",
     },
   ];
 
