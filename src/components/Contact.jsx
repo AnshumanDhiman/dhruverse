@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import { gsap, Power2 } from "gsap";
 
 const sr =
-  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112099.50066721806!2d77.17810029726563!3d28.596494799999988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cef3760bdfdad%3A0x81d9c249430203b0!2sSupertech%20Eco%20village-1!5e0!3m2!1sen!2sin!4v1689699457515!5m2!1sen!2sin";
+  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60308.68333274311!2d72.78420715770024!3d19.138660411965965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b618b6d891dd%3A0x91f8a857c731d132!2sAndheri%20West%2C%20Mumbai%2C%20Maharashtra%20400047!5e0!3m2!1sen!2sin!4v1693683220271!5m2!1sen!2sin";
 
 const Contact = () => {
   useEffect(() => {
@@ -156,7 +156,7 @@ const Contact = () => {
                       Our Location
                     </h4>
                     <p className="text-theme_4 text-body-color">
-                      Supertech Eco Village-1 Noida Extention Pincode-201306
+                      Mumbai, Andheri West, 400068
                     </p>
                   </div>
                 </div>

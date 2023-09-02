@@ -15,6 +15,7 @@ import {
   import mi5 from "../../../assets/thumbnails/music/5.jpg";
   import mi6 from "../../../assets/thumbnails/music/1.jpg";
   import mi7 from "../../../assets/thumbnails/music/2.jpg";
+  import mi8 from "../../../assets/thumbnails/music/8.jpg";
   
   export default function Index() {
     return (
@@ -25,7 +26,7 @@ import {
             className="lg:block hidden"
             naturalSlideWidth={100}
             isIntrinsicHeight={true}
-            totalSlides={7}
+            totalSlides={8}
             visibleSlides={4}
             step={1}
             infinite={true}
@@ -59,7 +60,22 @@ import {
                     id="slider"
                     className="h-full flex lg:gap-8 md:gap-6 gap-14 items-center justify-start transition ease-out duration-700"
                   >
-                    <Slide index={0}>
+                  <Slide index={0}>
+                      <a
+                        href="https://youtu.be/CRL-kbzVCjw?si=HkPjJUyGW-0luLXJ"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
+                          <img
+                            src={mi8}
+                            alt="sitting area"
+                            className="object-cover object-center w-full rounded-lg"
+                          />
+                        </div>
+                      </a>
+                    </Slide>
+                    <Slide index={1}>
                       <a
                         href="https://youtu.be/w8C156-2W8c"
                         target="_blank"
@@ -74,7 +90,7 @@ import {
                         </div>
                       </a>
                     </Slide>
-                    <Slide index={1}>
+                    <Slide index={2}>
                       <a
                         href="https://youtu.be/R-sh3kfdHQ4"
                         target="_blank"
@@ -89,7 +105,7 @@ import {
                         </div>
                       </a>
                     </Slide>
-                    <Slide index={2}>
+                    <Slide index={3}>
                       <a
                         href="https://youtu.be/jhO8rOtIBUM"
                         target="_blank"
@@ -105,7 +121,7 @@ import {
                         </div>
                       </a>
                     </Slide>
-                    <Slide index={3}>
+                    <Slide index={4}>
                       <a
                         href="https://youtu.be/jV3SBCKvgWs"
                         target="_blank"
@@ -121,7 +137,7 @@ import {
                         </div>
                       </a>
                     </Slide>
-                    <Slide index={4}>
+                    <Slide index={5}>
                       <a
                         href="https://youtu.be/OMwffU8s14E"
                         target="_blank"
@@ -137,7 +153,7 @@ import {
                         </div>
                       </a>
                     </Slide>
-                    <Slide index={5}>
+                    <Slide index={6}>
                       <a
                         href="https://youtu.be/k0F2pQlh0YI"
                         target="_blank"
@@ -153,7 +169,7 @@ import {
                         </div>
                       </a>
                     </Slide>
-                    <Slide index={6}>
+                    <Slide index={7}>
                       <a
                         href="https://youtu.be/3Ob96cUn4o8"
                         target="_blank"
@@ -202,7 +218,7 @@ import {
             className="lg:hidden md:block hidden"
             naturalSlideWidth={100}
             isIntrinsicHeight={true}
-            totalSlides={7}
+            totalSlides={8}
             visibleSlides={2}
             step={1}
             infinite={true}
@@ -238,6 +254,21 @@ import {
                   >
                     <Slide index={0}>
                       <a
+                        href="https://youtu.be/CRL-kbzVCjw?si=HkPjJUyGW-0luLXJc"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <div className="flex flex-shrink-0 relative w-full sm:w-auto">
+                          <img
+                            src={mi8}
+                            alt="sitting area"
+                            className="object-cover object-center w-full rounded-lg"
+                          />
+                        </div>
+                      </a>
+                    </Slide>
+                    <Slide index={1}>
+                      <a
                         href="https://youtu.be/w8C156-2W8c"
                         target="_blank"
                         rel="noreferrer"
@@ -251,7 +282,7 @@ import {
                         </div>
                       </a>
                     </Slide>
-                    <Slide index={1}>
+                    <Slide index={2}>
                       <a
                         href="https://youtu.be/R-sh3kfdHQ4"
                         target="_blank"
@@ -266,7 +297,7 @@ import {
                         </div>
                       </a>
                     </Slide>
-                    <Slide index={2}>
+                    <Slide index={3}>
                       <a
                         href="https://youtu.be/jhO8rOtIBUM"
                         target="_blank"
@@ -281,7 +312,7 @@ import {
                         </div>
                       </a>
                     </Slide>
-                    <Slide index={3}>
+                    <Slide index={4}>
                       <a
                         href="https://youtu.be/jV3SBCKvgWs"
                         target="_blank"
@@ -296,7 +327,7 @@ import {
                         </div>
                       </a>
                     </Slide>
-                    <Slide index={4}>
+                    <Slide index={5}>
                       <a
                         href="https://youtu.be/OMwffU8s14E"
                         target="_blank"
@@ -311,7 +342,7 @@ import {
                         </div>
                       </a>
                     </Slide>
-                    <Slide index={5}>
+                    <Slide index={6}>
                       <a
                         href="https://youtu.be/k0F2pQlh0YI"
                         target="_blank"
@@ -326,7 +357,7 @@ import {
                         </div>
                       </a>
                     </Slide>
-                    <Slide index={6}>
+                    <Slide index={7}>
                       <a
                         href="https://youtu.be/3Ob96cUn4o8"
                         target="_blank"
@@ -373,7 +404,7 @@ import {
             className="block md:hidden "
             naturalSlideWidth={100}
             isIntrinsicHeight={true}
-            totalSlides={7}
+            totalSlides={8}
             visibleSlides={1}
             step={1}
             infinite={true}
@@ -407,7 +438,22 @@ import {
                     id="slider"
                     className="h-full w-full flex lg:gap-8 md:gap-6 items-center justify-start transition ease-out duration-700"
                   >
-                    <Slide index={0}>
+                   <Slide index={0}>
+                      <a
+                        href="https://youtu.be/CRL-kbzVCjw?si=HkPjJUyGW-0luLXJ"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <div className="flex flex-shrink-0 relative w-full sm:w-auto">
+                          <img
+                            src={mi8}
+                            alt="sitting area"
+                            className="object-cover object-center w-full rounded-lg"
+                          />
+                        </div>
+                      </a>
+                    </Slide>
+                    <Slide index={1}>
                       <a
                         href="https://youtu.be/w8C156-2W8c"
                         target="_blank"
@@ -422,7 +468,7 @@ import {
                         </div>
                       </a>
                     </Slide>
-                    <Slide index={1}>
+                    <Slide index={2}>
                       <a
                         href="https://youtu.be/R-sh3kfdHQ4"
                         target="_blank"
@@ -437,7 +483,7 @@ import {
                         </div>
                       </a>
                     </Slide>
-                    <Slide index={2}>
+                    <Slide index={3}>
                       <a
                         href="https://youtu.be/jhO8rOtIBUM"
                         target="_blank"
@@ -452,7 +498,7 @@ import {
                         </div>
                       </a>
                     </Slide>
-                    <Slide index={3}>
+                    <Slide index={4}>
                       <a
                         href="https://youtu.be/jV3SBCKvgWs"
                         target="_blank"
@@ -467,7 +513,7 @@ import {
                         </div>
                       </a>
                     </Slide>
-                    <Slide index={4}>
+                    <Slide index={5}>
                       <a
                         href="https://youtu.be/OMwffU8s14E"
                         target="_blank"
@@ -482,7 +528,7 @@ import {
                         </div>
                       </a>
                     </Slide>
-                    <Slide index={5}>
+                    <Slide index={6}>
                       <a
                         href="https://youtu.be/k0F2pQlh0YI"
                         target="_blank"
@@ -497,7 +543,7 @@ import {
                         </div>
                       </a>
                     </Slide>
-                    <Slide index={6}>
+                    <Slide index={7}>
                       <a
                         href="https://youtu.be/3Ob96cUn4o8"
                         target="_blank"
