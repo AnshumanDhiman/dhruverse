@@ -16,7 +16,8 @@ import {
   import ai3 from "../../../assets/thumbnails/ads/f.jpg";
   import ai1 from "../../../assets/thumbnails/ads/g.jpg";
   import ai8 from "../../../assets/thumbnails/ads/h.jpg";
-  
+  import ai9 from "../../../assets/thumbnails/ads/i.png";
+
   export default function Index() {
     return (
       <div className="mx-auto">
@@ -26,7 +27,7 @@ import {
             className="lg:block hidden"
             naturalSlideWidth={100}
             isIntrinsicHeight={true}
-            totalSlides={8}
+            totalSlides={9}
             visibleSlides={4}
             step={1}
             infinite={true}
@@ -60,18 +61,20 @@ import {
                     id="slider"
                     className="h-full flex lg:gap-8 md:gap-6 gap-14 items-center justify-start transition ease-out duration-700"
                   >
-                    <Slide index={0}>
+                
+                <Slide index={0}>
                       <a
-                        href="https://youtu.be/BmBNPwx6ZzU"
+                        href="https://youtu.be/wsFwnZ5OxNM?si=q5gJC0BIQMk6jb71"
                         target="_blank"
                         rel="noreferrer"
                       >
                         <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
                           <img
-                            src={ai1}
+                            src={ai9}
                             alt="sitting area"
-                            className="object-cover object-center w-full rounded-lg"
+                            className="object-cover object-center w-full  rounded-lg border-lg"
                           />
+                          <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
                         </div>
                       </a>
                     </Slide>
@@ -186,6 +189,22 @@ import {
                         </div>
                       </a>
                     </Slide>
+                    <Slide index={8}>
+                      <a
+                        href="https://youtu.be/BmBNPwx6ZzU"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
+                          <img
+                            src={ai1}
+                            alt="sitting area"
+                            className="object-cover object-center w-full rounded-lg"
+                          />
+                        </div>
+                      </a>
+                    </Slide>
+                  
                   </div>
                 </Slider>
               </div>
@@ -217,7 +236,7 @@ import {
             className="lg:hidden md:block hidden"
             naturalSlideWidth={100}
             isIntrinsicHeight={true}
-            totalSlides={18}
+            totalSlides={9}
             visibleSlides={2}
             step={1}
             infinite={true}
@@ -251,18 +270,19 @@ import {
                     id="slider"
                     className="h-full flex lg:gap-8 md:gap-6 gap-14 items-center justify-start transition ease-out duration-700"
                   >
-                    <Slide index={0}>
+                     <Slide index={0}>
                       <a
-                        href="https://youtu.be/BmBNPwx6ZzU"
+                        href="https://youtu.be/wsFwnZ5OxNM?si=q5gJC0BIQMk6jb71"
                         target="_blank"
                         rel="noreferrer"
                       >
                         <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
                           <img
-                            src={ai1}
+                            src={ai9}
                             alt="sitting area"
-                            className="object-cover object-center w-full rounded-lg"
+                            className="object-cover object-center w-full  rounded-lg border-lg"
                           />
+                          <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
                         </div>
                       </a>
                     </Slide>
@@ -377,6 +397,22 @@ import {
                         </div>
                       </a>
                     </Slide>
+                    <Slide index={8}>
+                      <a
+                        href="https://youtu.be/BmBNPwx6ZzU"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
+                          <img
+                            src={ai1}
+                            alt="sitting area"
+                            className="object-cover object-center w-full rounded-lg"
+                          />
+                        </div>
+                      </a>
+                    </Slide>
+                  
                   </div>
                 </Slider>
               </div>
@@ -408,7 +444,7 @@ import {
             className="block md:hidden "
             naturalSlideWidth={100}
             isIntrinsicHeight={true}
-            totalSlides={18}
+            totalSlides={9}
             visibleSlides={1}
             step={1}
             infinite={true}
@@ -442,18 +478,19 @@ import {
                     id="slider"
                     className="h-full w-full flex lg:gap-8 md:gap-6 items-center justify-start transition ease-out duration-700"
                   >
-                    <Slide index={0}>
+                   <Slide index={0}>
                       <a
-                        href="https://youtu.be/BmBNPwx6ZzU"
+                        href="https://youtu.be/wsFwnZ5OxNM?si=q5gJC0BIQMk6jb71"
                         target="_blank"
                         rel="noreferrer"
                       >
                         <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
                           <img
-                            src={ai1}
+                            src={ai9}
                             alt="sitting area"
-                            className="object-cover object-center w-full rounded-lg"
+                            className="object-cover object-center w-full  rounded-lg border-lg"
                           />
+                          <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
                         </div>
                       </a>
                     </Slide>
@@ -568,6 +605,22 @@ import {
                         </div>
                       </a>
                     </Slide>
+                    <Slide index={8}>
+                      <a
+                        href="https://youtu.be/BmBNPwx6ZzU"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
+                          <img
+                            src={ai1}
+                            alt="sitting area"
+                            className="object-cover object-center w-full rounded-lg"
+                          />
+                        </div>
+                      </a>
+                    </Slide>
+                   
                   </div>
                 </Slider>
               </div>

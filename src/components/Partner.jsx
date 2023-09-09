@@ -9,6 +9,12 @@ import y6 from "../assets/youtubers/6.jpg";
 import y7 from "../assets/youtubers/7.jpeg";
 import y8 from "../assets/youtubers/8.jpg";
 import y9 from "../assets/youtubers/9.jpg";
+import y10 from "../assets/youtubers/10.jpg";
+import y11 from "../assets/youtubers/11.jpg";
+import y12 from "../assets/youtubers/12.jpg";
+import y13 from "../assets/youtubers/13.jpg";
+import y14 from "../assets/youtubers/14.jpg";
+import y15 from "../assets/youtubers/15.jpg";
 
 import o1 from "../assets/ott/1.png";
 import o2 from "../assets/ott/2.png";
@@ -99,51 +105,126 @@ const Brand = () => {
           <div className="flex flex-wrap -mx-4 mb-[-32px]">
             <div className="w-full lg:px-64">
               <div className="flex flex-wrap items-center justify-center  rounded-full ">
+              <div>
                 <img
-                  className="w-[75px] p-1 lg:w-[100px] m-4 lg:m-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
+                  className="w-[75px] p-1 lg:w-[100px] m-4 lg:mx-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
+                  src={y10}
+                  alt=""
+                />
+                <p className="text-theme_4 text-center">Gaurav Arora</p>
+                </div>
+              <div>
+                <img
+                  className="w-[75px] p-1 lg:w-[100px] m-4 lg:mx-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
                   src={y2}
                   alt=""
                 />
+                <p className="text-theme_4 text-center">Harsh Beniwal</p>
+                </div>
+                <div>
                 <img
-                  className="w-[75px] p-1 lg:w-[100px] m-4 lg:m-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
+                  className="w-[75px] p-1 lg:w-[100px] m-4 lg:mx-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
                   src={y1}
                   alt=""
                 />
+                <p className="text-theme_4 text-center">Amit Bhadana</p>
+                </div>
+                <div>
                 <img
-                  className="w-[75px] p-1 lg:w-[100px] m-4 lg:m-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
+                  className="w-[75px] p-1 lg:w-[100px] m-4 lg:mx-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
                   src={y3}
                   alt=""
                 />
+                <p className="text-theme_4 text-center">Aditya Rikhari</p>
+                </div>
+                <div>
                 <img
-                  className="w-[75px] p-1 lg:w-[100px] m-4 lg:m-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
+                  className="w-[75px] p-1 lg:w-[100px] m-4 lg:mx-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
                   src={y4}
                   alt=""
                 />
+                <p className="text-theme_4 text-center">Hasley India</p>
+                </div>
+                <div>
                 <img
-                  className="w-[75px] p-1 lg:w-[100px] m-4 lg:m-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
+                  className="w-[75px] p-1 lg:w-[100px] m-4 lg:mx-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
                   src={y5}
                   alt=""
                 />
+                <p className="text-theme_4 text-center">Triggered Insaan</p>
+                </div>
+                <div>
                 <img
                   className="w-[75px] p-1 lg:w-[100px] m-4 lg:mx-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
                   src={y6}
                   alt=""
                 />
+                <p className="text-theme_4 text-center">Fukra Insaan</p>
+                </div>
+                <div>
                 <img
                   className="w-[75px] p-1 lg:w-[100px] m-4 lg:mx-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
                   src={y7}
                   alt=""
                 />
+                <p className="text-theme_4 text-center">Swagger Sharma</p>
+                </div>
+                <div>
                 <img
                   className="w-[75px] p-1 lg:w-[100px] m-4 lg:mx-4 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
                   src={y8}
                   alt=""
                 />
+                <p className="text-theme_4 text-center">Tanmay Bhat</p>
+                </div>
+                <div>
                 <img
                   className="w-[75px] p-1 lg:w-[100px] m-4 lg:mx-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
                   src={y9}
                   alt=""
                 />
+                  <p className="text-theme_4 text-center">Elvish Yadav</p>
+                  </div>
+                  <div>
+                <img
+                  className="w-[75px] p-1 lg:w-[100px] m-4 lg:mx-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
+                  src={y11}
+                  alt=""
+                />
+                  <p className="text-theme_4 text-center">Payal Jain</p>
+                  </div>
+                  <div>
+                <img
+                  className="w-[75px] p-1 lg:w-[100px] m-4 lg:mx-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
+                  src={y12}
+                  alt=""
+                />
+                  <p className="text-theme_4 text-center">Mayank Mishra</p>
+                  </div>
+                  <div>
+                <img
+                  className="w-[75px] p-1 lg:w-[100px] m-4 lg:mx-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
+                  src={y13}
+                  alt=""
+                />
+                  <p className="text-theme_4 text-center">Purav Jha</p>
+                  </div>
+                  <div>
+                <img
+                  className="w-[75px] p-1 lg:w-[100px] m-4 lg:mx-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
+                  src={y14}
+                  alt=""
+                />
+                  <p className="text-theme_4 text-center">Real Hit</p>
+                  </div>
+                  <div>
+                <img
+                  className="w-[75px] p-1 lg:w-[100px] m-4 lg:mx-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
+                  src={y15}
+                  alt=""
+                />
+                  <p className="text-theme_4 text-center">Bali</p>
+                  </div>
               </div>
             </div>
           </div>
@@ -192,6 +273,7 @@ const SingleImage = ({ href, imgSrc, Alt }) => {
         className="mx-4 flex w-[95px] lg:w-[150px] items-center justify-center  2xl:w-[180px]"
       >
         <img src={imgSrc} alt={Alt} className="w-full p-4" />
+      
       </a>
     </>
   );

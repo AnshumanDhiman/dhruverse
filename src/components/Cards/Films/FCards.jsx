@@ -26,8 +26,9 @@ import {
   import fi16 from "../../../assets/thumbnails/film/3.jpg";
   import fi17 from "../../../assets/thumbnails/film/17.jpg";
   import fi18 from "../../../assets/thumbnails/film/18.jpg";
-  import fi20 from "../../../assets/thumbnails/film/20.jpg";
-  
+  import fi20 from "../../../assets/thumbnails/film/21.jpg";
+  import fi21 from "../../../assets/thumbnails/film/20.jpg";
+
   export default function Index() {
     return (
       <div className="mx-auto">
@@ -37,7 +38,7 @@ import {
             className="lg:block hidden"
             naturalSlideWidth={100}
             isIntrinsicHeight={true}
-            totalSlides={19}
+            totalSlides={20}
             visibleSlides={4}
             step={1}
             infinite={true}
@@ -73,7 +74,7 @@ import {
                   >
                   <Slide index={0}>
                       <a
-                        href="https://www.youtube.com/watch?v=_km09CetQoQ"
+                        href="https://www.hotstar.com/in/clip/the-last-night/1260079622/watch?filters=content_type%3Dclip"
                         target="_blank"
                         rel="noreferrer"
                       >
@@ -102,38 +103,25 @@ import {
                       </a>
                     </Slide>
                     <Slide index={2}>
-                      <a
-                        href="https://youtu.be/2rRdl3vMqPI"
+                    <a
+                        href="https://youtu.be/YTRC7Ym7z1w"
                         target="_blank"
                         rel="noreferrer"
                       >
                         <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
                           <img
-                            src={fi2}
-                            alt="sitting area"
-                            className="object-cover object-center w-full  rounded-lg"
-                          />
-                        </div>
-                      </a>
-                    </Slide>
-                    <Slide index={3}>
-                      <a
-                        href="https://youtu.be/yOR45vNyQB8"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
-                          <img
-                            src={fi3}
+                            src={fi17}
                             alt="sitting area"
                             className="object-cover object-center w-full  rounded-lg border-lg"
                           />
                           <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
                         </div>
                       </a>
+
+
                     </Slide>
-                    <Slide index={4}>
-                      <a
+                    <Slide index={3}>
+                    <a
                         href="https://youtu.be/1-SGJrjqP4s"
                         target="_blank"
                         rel="noreferrer"
@@ -147,22 +135,41 @@ import {
                           <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
                         </div>
                       </a>
+                     
                     </Slide>
-                    <Slide index={5}>
-                      <a
-                        href="https://youtu.be/Ey-BeuV4Xk8"
+                    <Slide index={4}>
+                    <a
+                        href="https://youtu.be/ZO4NckgDoBM"
                         target="_blank"
                         rel="noreferrer"
                       >
                         <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
                           <img
-                            src={fi5}
+                            src={fi18}
                             alt="sitting area"
                             className="object-cover object-center w-full  rounded-lg border-lg"
                           />
                           <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
                         </div>
                       </a>
+                   
+                    </Slide>
+                    <Slide index={5}>
+                    <a
+                        href="https://youtu.be/a-3vS7oZ-lI"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
+                          <img
+                            src={fi13}
+                            alt="sitting area"
+                            className="object-cover object-center w-full  rounded-lg border-lg"
+                          />
+                          <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
+                        </div>
+                      </a>
+                    
                     </Slide>
                     <Slide index={6}>
                       <a
@@ -277,14 +284,14 @@ import {
                       </a>
                     </Slide>
                     <Slide index={13}>
-                      <a
-                        href="https://youtu.be/a-3vS7oZ-lI"
+                    <a
+                        href="https://youtu.be/Ey-BeuV4Xk8"
                         target="_blank"
                         rel="noreferrer"
                       >
                         <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
                           <img
-                            src={fi13}
+                            src={fi5}
                             alt="sitting area"
                             className="object-cover object-center w-full  rounded-lg border-lg"
                           />
@@ -341,14 +348,30 @@ import {
                       </a>
                     </Slide>
                     <Slide index={17}>
-                      <a
-                        href="https://youtu.be/YTRC7Ym7z1w"
+                    <a
+                        href="https://youtu.be/2rRdl3vMqPI"
                         target="_blank"
                         rel="noreferrer"
                       >
                         <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
                           <img
-                            src={fi17}
+                            src={fi2}
+                            alt="sitting area"
+                            className="object-cover object-center w-full  rounded-lg"
+                          />
+                        </div>
+                      </a>
+                      
+                    </Slide>
+                    <Slide index={18}>
+                    <a
+                        href="https://youtu.be/yOR45vNyQB8"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
+                          <img
+                            src={fi3}
                             alt="sitting area"
                             className="object-cover object-center w-full  rounded-lg border-lg"
                           />
@@ -356,15 +379,15 @@ import {
                         </div>
                       </a>
                     </Slide>
-                    <Slide index={18}>
-                      <a
-                        href="https://youtu.be/ZO4NckgDoBM"
+                    <Slide index={19}>
+                    <a
+                        href="https://www.youtube.com/watch?v=_km09CetQoQ"
                         target="_blank"
                         rel="noreferrer"
                       >
                         <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
                           <img
-                            src={fi18}
+                            src={fi21}
                             alt="sitting area"
                             className="object-cover object-center w-full  rounded-lg border-lg"
                           />
@@ -404,7 +427,7 @@ import {
             className="lg:hidden md:block hidden"
             naturalSlideWidth={100}
             isIntrinsicHeight={true}
-            totalSlides={19}
+            totalSlides={20}
             visibleSlides={2}
             step={1}
             infinite={true}
@@ -440,7 +463,7 @@ import {
                   >
                   <Slide index={0}>
                       <a
-                        href="https://www.youtube.com/watch?v=_km09CetQoQ"
+                        href="https://www.hotstar.com/in/clip/the-last-night/1260079622/watch?filters=content_type%3Dclip"
                         target="_blank"
                         rel="noreferrer"
                       >
@@ -469,37 +492,23 @@ import {
                       </a>
                     </Slide>
                     <Slide index={2}>
-                      <a
-                        href="https://youtu.be/2rRdl3vMqPI"
+                    <a
+                        href="https://youtu.be/YTRC7Ym7z1w"
                         target="_blank"
                         rel="noreferrer"
                       >
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                           <img
-                            src={fi2}
+                            src={fi17}
                             alt="sitting area"
                             className="object-cover object-center w-full rounded-lg"
                           />
                         </div>
                       </a>
+                      
                     </Slide>
                     <Slide index={3}>
-                      <a
-                        href="https://youtu.be/yOR45vNyQB8"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                          <img
-                            src={fi3}
-                            alt="sitting area"
-                            className="object-cover object-center w-full rounded-lg"
-                          />
-                        </div>
-                      </a>
-                    </Slide>
-                    <Slide index={4}>
-                      <a
+                    <a
                         href="https://youtu.be/1-SGJrjqP4s"
                         target="_blank"
                         rel="noreferrer"
@@ -513,15 +522,31 @@ import {
                         </div>
                       </a>
                     </Slide>
-                    <Slide index={5}>
-                      <a
-                        href="https://youtu.be/Ey-BeuV4Xk8"
+                    <Slide index={4}>
+                    <a
+                        href="https://youtu.be/ZO4NckgDoBM"
                         target="_blank"
                         rel="noreferrer"
                       >
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                           <img
-                            src={fi5}
+                            src={fi18}
+                            alt="sitting area"
+                            className="object-cover object-center w-full rounded-lg"
+                          />
+                        </div>
+                      </a>
+                    
+                    </Slide>
+                    <Slide index={5}>
+                    <a
+                        href="https://youtu.be/a-3vS7oZ-lI"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <div className="flex flex-shrink-0 relative w-full sm:w-auto">
+                          <img
+                            src={fi13}
                             alt="sitting area"
                             className="object-cover object-center w-full rounded-lg"
                           />
@@ -634,19 +659,20 @@ import {
                       </a>
                     </Slide>
                     <Slide index={13}>
-                      <a
-                        href="https://youtu.be/a-3vS7oZ-lI"
+                    <a
+                        href="https://youtu.be/Ey-BeuV4Xk8"
                         target="_blank"
                         rel="noreferrer"
                       >
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                           <img
-                            src={fi13}
+                            src={fi5}
                             alt="sitting area"
                             className="object-cover object-center w-full rounded-lg"
                           />
                         </div>
                       </a>
+                    
                     </Slide>
                     <Slide index={14}>
                       <a
@@ -656,7 +682,7 @@ import {
                       >
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                           <img
-                            src={fi4}
+                            src={fi14}
                             alt="sitting area"
                             className="object-cover object-center w-full rounded-lg"
                           />
@@ -671,7 +697,7 @@ import {
                       >
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                           <img
-                            src={fi5}
+                            src={fi15}
                             alt="sitting area"
                             className="object-cover object-center w-full rounded-lg"
                           />
@@ -686,7 +712,7 @@ import {
                       >
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                           <img
-                            src={fi6}
+                            src={fi16}
                             alt="sitting area"
                             className="object-cover object-center w-full rounded-lg"
                           />
@@ -694,14 +720,14 @@ import {
                       </a>
                     </Slide>
                     <Slide index={17}>
-                      <a
-                        href="https://youtu.be/YTRC7Ym7z1w"
+                    <a
+                        href="https://youtu.be/2rRdl3vMqPI"
                         target="_blank"
                         rel="noreferrer"
                       >
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                           <img
-                            src={fi7}
+                            src={fi2}
                             alt="sitting area"
                             className="object-cover object-center w-full rounded-lg"
                           />
@@ -709,19 +735,36 @@ import {
                       </a>
                     </Slide>
                     <Slide index={18}>
-                      <a
-                        href="https://youtu.be/ZO4NckgDoBM"
+                    <a
+                        href="https://youtu.be/yOR45vNyQB8"
                         target="_blank"
                         rel="noreferrer"
                       >
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                           <img
-                            src={fi8}
+                            src={fi3}
                             alt="sitting area"
                             className="object-cover object-center w-full rounded-lg"
                           />
                         </div>
                       </a>
+                     
+                    </Slide>
+                    <Slide index={19}>
+                    <a
+                        href="https://www.youtube.com/watch?v=_km09CetQoQ"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <div className="flex flex-shrink-0 relative w-full sm:w-auto">
+                          <img
+                            src={fi21}
+                            alt="sitting area"
+                            className="object-cover object-center w-full rounded-lg"
+                          />
+                        </div>
+                      </a>
+                     
                     </Slide>
                   </div>
                 </Slider>
@@ -756,7 +799,7 @@ import {
             className="block md:hidden "
             naturalSlideWidth={100}
             isIntrinsicHeight={true}
-            totalSlides={19}
+            totalSlides={20}
             visibleSlides={1}
             step={1}
             infinite={true}
@@ -792,7 +835,7 @@ import {
                   >
                  <Slide index={0}>
                       <a
-                        href="https://www.youtube.com/watch?v=_km09CetQoQ"
+                        href="https://www.hotstar.com/in/clip/the-last-night/1260079622/watch?filters=content_type%3Dclip"
                         target="_blank"
                         rel="noreferrer"
                       >
@@ -821,37 +864,23 @@ import {
                       </a>
                     </Slide>
                     <Slide index={2}>
-                      <a
-                        href="https://youtu.be/2rRdl3vMqPI"
+                    <a
+                        href="https://youtu.be/YTRC7Ym7z1w"
                         target="_blank"
                         rel="noreferrer"
                       >
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                           <img
-                            src={fi2}
+                            src={fi17}
                             alt="sitting area"
                             className="object-cover object-center w-full rounded-lg"
                           />
                         </div>
                       </a>
+                    
                     </Slide>
                     <Slide index={3}>
-                      <a
-                        href="https://youtu.be/yOR45vNyQB8"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                          <img
-                            src={fi3}
-                            alt="sitting area"
-                            className="object-cover object-center w-full rounded-lg"
-                          />
-                        </div>
-                      </a>
-                    </Slide>
-                    <Slide index={4}>
-                      <a
+                    <a
                         href="https://youtu.be/1-SGJrjqP4s"
                         target="_blank"
                         rel="noreferrer"
@@ -865,15 +894,32 @@ import {
                         </div>
                       </a>
                     </Slide>
-                    <Slide index={5}>
-                      <a
-                        href="https://youtu.be/Ey-BeuV4Xk8"
+                    <Slide index={4}>
+                    <a
+                        href="https://youtu.be/ZO4NckgDoBM"
                         target="_blank"
                         rel="noreferrer"
                       >
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                           <img
-                            src={fi5}
+                            src={fi18}
+                            alt="sitting area"
+                            className="object-cover object-center w-full rounded-lg"
+                          />
+                        </div>
+                      </a>
+                   
+                     
+                    </Slide>
+                    <Slide index={5}>
+                    <a
+                        href="https://youtu.be/a-3vS7oZ-lI"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <div className="flex flex-shrink-0 relative w-full sm:w-auto">
+                          <img
+                            src={fi13}
                             alt="sitting area"
                             className="object-cover object-center w-full rounded-lg"
                           />
@@ -986,19 +1032,20 @@ import {
                       </a>
                     </Slide>
                     <Slide index={13}>
-                      <a
-                        href="https://youtu.be/a-3vS7oZ-lI"
+                    <a
+                        href="https://youtu.be/Ey-BeuV4Xk8"
                         target="_blank"
                         rel="noreferrer"
                       >
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                           <img
-                            src={fi13}
+                            src={fi5}
                             alt="sitting area"
                             className="object-cover object-center w-full rounded-lg"
                           />
                         </div>
                       </a>
+                    
                     </Slide>
                     <Slide index={14}>
                       <a
@@ -1008,7 +1055,7 @@ import {
                       >
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                           <img
-                            src={fi4}
+                            src={fi14}
                             alt="sitting area"
                             className="object-cover object-center w-full rounded-lg"
                           />
@@ -1023,7 +1070,7 @@ import {
                       >
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                           <img
-                            src={fi5}
+                            src={fi15}
                             alt="sitting area"
                             className="object-cover object-center w-full rounded-lg"
                           />
@@ -1038,7 +1085,7 @@ import {
                       >
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                           <img
-                            src={fi6}
+                            src={fi16}
                             alt="sitting area"
                             className="object-cover object-center w-full rounded-lg"
                           />
@@ -1046,29 +1093,46 @@ import {
                       </a>
                     </Slide>
                     <Slide index={17}>
-                      <a
-                        href="https://youtu.be/YTRC7Ym7z1w"
+                    <a
+                        href="https://youtu.be/2rRdl3vMqPI"
                         target="_blank"
                         rel="noreferrer"
                       >
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                           <img
-                            src={fi7}
+                            src={fi2}
+                            alt="sitting area"
+                            className="object-cover object-center w-full rounded-lg"
+                          />
+                        </div>
+                      </a>
+
+
+                    </Slide>
+                    <Slide index={18}>
+                    <a
+                        href="https://youtu.be/yOR45vNyQB8"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <div className="flex flex-shrink-0 relative w-full sm:w-auto">
+                          <img
+                            src={fi3}
                             alt="sitting area"
                             className="object-cover object-center w-full rounded-lg"
                           />
                         </div>
                       </a>
                     </Slide>
-                    <Slide index={18}>
-                      <a
-                        href="https://youtu.be/ZO4NckgDoBM"
+                    <Slide index={19}>
+                    <a
+                        href="https://www.youtube.com/watch?v=_km09CetQoQ"
                         target="_blank"
                         rel="noreferrer"
                       >
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                           <img
-                            src={fi8}
+                            src={fi21}
                             alt="sitting area"
                             className="object-cover object-center w-full rounded-lg"
                           />
