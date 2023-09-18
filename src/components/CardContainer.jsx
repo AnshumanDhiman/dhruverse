@@ -22,7 +22,7 @@ export default function Container() {
           </h2>
           <ACard />
           <br/>
-          <p className="text-theme_3 opacity-75 text-center">The content on this website reflects our services and required assistance for the completion of these projects. However, we do not claim ownership.</p>
+          <p className="text-theme_3 opacity-75 text-center lg:mb-0 mb-8">The content on this website reflects our services and required assistance for the completion of these projects. However, we do not claim ownership.</p>
          
         </div>
       </div>
