@@ -16,7 +16,9 @@ import {
   import ai3 from "../../../assets/thumbnails/ads/f.jpg";
   import ai1 from "../../../assets/thumbnails/ads/g.jpg";
   import ai8 from "../../../assets/thumbnails/ads/h.jpg";
-  import ai9 from "../../../assets/thumbnails/ads/i.png";
+  import ai9 from "../../../assets/thumbnails/ads/i.jpg";
+  import ai10 from "../../../assets/thumbnails/ads/j.jpg";
+  import ai11 from "../../../assets/thumbnails/ads/k.jpg";
 
   export default function Index() {
     return (
