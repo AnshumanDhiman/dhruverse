@@ -105,7 +105,7 @@ const Brand = () => {
           <div className="flex flex-wrap -mx-4 mb-[-32px]">
             <div className="w-full lg:px-64">
               <div className="flex flex-wrap items-center justify-center  rounded-full ">
-              <div>
+              <div className="hidden lg:block">
                 <img
                   className="w-[75px] p-1 lg:w-[100px] m-4 lg:mx-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
                   src={y10}
@@ -129,7 +129,7 @@ const Brand = () => {
                 />
                 <p className="text-theme_4 text-center">Amit Bhadana</p>
                 </div>
-                <div>
+                <div className="hidden lg:block">
                 <img
                   className="w-[75px] p-1 lg:w-[100px] m-4 lg:mx-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
                   src={y3}
@@ -185,7 +185,7 @@ const Brand = () => {
                 />
                   <p className="text-theme_4 text-center">Elvish Yadav</p>
                   </div>
-                  <div>
+                  <div className="hidden lg:block">
                 <img
                   className="w-[75px] p-1 lg:w-[100px] m-4 lg:mx-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
                   src={y11}
@@ -193,7 +193,7 @@ const Brand = () => {
                 />
                   <p className="text-theme_4 text-center">Payal Jain</p>
                   </div>
-                  <div>
+                  <div className="hidden lg:block">
                 <img
                   className="w-[75px] p-1 lg:w-[100px] m-4 lg:mx-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
                   src={y12}
@@ -201,7 +201,7 @@ const Brand = () => {
                 />
                   <p className="text-theme_4 text-center">Mayank Mishra</p>
                   </div>
-                  <div>
+                  <div className="hidden lg:block">
                 <img
                   className="w-[75px] p-1 lg:w-[100px] m-4 lg:mx-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
                   src={y13}
@@ -209,7 +209,7 @@ const Brand = () => {
                 />
                   <p className="text-theme_4 text-center">Purav Jha</p>
                   </div>
-                  <div>
+                  <div className="hidden lg:block">
                 <img
                   className="w-[75px] p-1 lg:w-[100px] m-4 lg:mx-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
                   src={y14}
@@ -217,7 +217,7 @@ const Brand = () => {
                 />
                   <p className="text-theme_4 text-center">Real Hit</p>
                   </div>
-                  <div>
+                  <div className="hidden lg:block">
                 <img
                   className="w-[75px] p-1 lg:w-[100px] m-4 lg:mx-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
                   src={y15}
