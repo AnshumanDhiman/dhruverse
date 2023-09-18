@@ -21,6 +21,8 @@ export default function Container() {
             Branding your digital Presence
           </h2>
           <ACard />
+          <br/>
+          <p className="text-theme_3 opacity-75 text-center">The content on this website reflects our services and required assistance for the completion of these projects. However, we do not claim ownership.</p>
          
         </div>
       </div>
