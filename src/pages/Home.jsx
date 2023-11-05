@@ -3,7 +3,7 @@ import Hero from "../components/Hero";
 import Container from "../components/CardContainer";
 import BrickLayout from "../components/BrickLayout";
 import New from "../components/New";
-import WhyRollin from "../components/WhyRollin";
+import WhydhruVerse from "../components/WhydhruVerse";
 import Plus from "../components/Plus";
 import Cta from "../components/Cta";
 import PartnersSection from "../components/Partner";
@@ -19,7 +19,7 @@ export default function Home() {
       <Container />
       <Plus />
       <PartnersSection />
-      <WhyRollin />
+      <WhydhruVerse />
       <Cta />
     </>
   );

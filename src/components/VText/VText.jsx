@@ -17,7 +17,7 @@ const GridComponent = () => {
             />
             <div className="video-copy">
               <h1 className="font-this text-[120px] md:text-[200px] sm:text-[100px] font-bold">
-                ROLLIN
+                dhruVerse
               </h1>
             </div>
           </div>

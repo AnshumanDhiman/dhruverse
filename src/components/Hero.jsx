@@ -1,4 +1,4 @@
-import vid from "../assets/video/video1.mp4";
+import vid from "../assets/video/video2.mp4";
 const HeroSection = () => {
   return (
     <>
@@ -15,7 +15,7 @@ const HeroSection = () => {
           <div className="absolute inset-0 flex items-center justify-center">
             <div className="max-w-2xl text-center">
               {/* <h1 style={{fontFamily:'Bebas Neue',letterSpacing:'3px'}} className="text-white lg:text-4xl sm:text-xl font-semibold lg:mt-[25rem] sm:mt-[0rem]  opacity-50">
-          Delivering Dreams on Screen
+          Delivering Dreams on Screen 
           </h1> */}
               {/* <p className="text-white text-xl mb-12">
             Watch your favorite movies and TV shows anytime, anywhere.</p>

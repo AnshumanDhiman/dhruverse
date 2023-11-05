@@ -32,7 +32,7 @@
 //     <>
 //     <div className="panel" data-color="white">
 //     <div>
-//       <h1>Magic scrolling colours</h1>
+//       <h1>Magic scdhruVerseg colours</h1>
 //       <p>Scroll to animate the background colour of the body as a full height panel becomes visible.</p>
 //       <p>I have tried to comment the code, particurly the JavaScript, as much as possible. I hope it's clear to understand.</p>
 //       <p>If you have any questions my twitter is <a href="https://twitter.com/daveredfern">@daveredfern</a>.</p>

@@ -1,9 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
-import { FaCode, FaRobot, FaPalette, FaPen, FaCheck } from "react-icons/fa";
-import { Link } from "react-router-dom";
-import i2 from "../assets/thumbnails/music/8.jpg";
-import i1 from "../assets/thumbnails/film/20.jpg";
+import i1 from "../assets/thumbnails/film/3.jpg";
 
 
 const OurServices = () => {
@@ -12,17 +9,13 @@ const OurServices = () => {
       image: i1,
       link: "https://www.youtube.com/watch?v=_km09CetQoQ",
     },
-    {
-      image: i2,
-      link: "https://youtu.be/CRL-kbzVCjw?si=HkPjJUyGW-0luLXJ",
-    },
   ];
 
   return (
     <>
       <div className="">
         <p className="text-md lg:text-2xl p-4 lg:p-8 md:text-xl md:p-8 sm:text-sm sm:p-8 font-light text-justify lg:text-center text-theme_4">
-          We are Rollin Studios, providing the best production, from pre to
+          We are dhruVerse, providing the best production, from pre to
           post.
           <span className="inline lg:block">
             {" "}

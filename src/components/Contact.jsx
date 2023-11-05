@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import { gsap, Power2 } from "gsap";
 
 const sr =
-  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60308.68333274311!2d72.78420715770024!3d19.138660411965965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b618b6d891dd%3A0x91f8a857c731d132!2sAndheri%20West%2C%20Mumbai%2C%20Maharashtra%20400047!5e0!3m2!1sen!2sin!4v1693683220271!5m2!1sen!2sin";
+  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112060.14019331978!2d77.15230774967195!3d28.633376950729005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x37205b715389640!2sDelhi!5e0!3m2!1sen!2sin!4v1699190938114!5m2!1sen!2sin";
 
 const Contact = () => {
   useEffect(() => {
@@ -156,7 +156,7 @@ const Contact = () => {
                       Our Location
                     </h4>
                     <p className="text-theme_4 text-body-color">
-                      Mumbai, Andheri West, 400068
+                      Delhi, India
                     </p>
                   </div>
                 </div>
@@ -178,7 +178,7 @@ const Contact = () => {
                       Phone Number
                     </h4>
                     <p className="text-theme_4 text-body-color">
-                      +91-7503399203
+                      +91-9650807789
                     </p>
                   </div>
                 </div>
@@ -197,8 +197,8 @@ const Contact = () => {
                     <h4 className="mb-1 text-xl font-bold text-theme_4">
                       Email Address
                     </h4>
-                    <a href="mailto:contact@rollinstudios.in" className="text-theme_4 text-body-color">
-                      contact@rollinstudios.in
+                    <a href="mailto:contact@dhruverse.in" className="text-theme_4 text-body-color">
+                      contact@dhruverse.in
                     </a>
                   </div>
                 </div>

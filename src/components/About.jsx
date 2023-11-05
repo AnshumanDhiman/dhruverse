@@ -38,7 +38,7 @@ const About1 = () => {
               </h1>
               <p className="font-normal text-base leading-6 text-gray-600 dark:text-white">
                 Our team believes in 'each to their own' but one thing remains
-                unchanged for all of us at Rollin, we are storytellers with a
+                unchanged for all of us at dhruVerse, we are storytellers with a
                 clear and simple objective of creating art and building a strong
                 platform for future creation and innovation in film industry as
                 well as digital industry.

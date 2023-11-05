@@ -122,7 +122,7 @@ const Footer = () => {
       <div className="w-full px-8 mx-auto py-8 md:py-8">
         <div className="sm:flex sm:items-center sm:justify-between ">
           <a
-            href="https://rollinstudios.in"
+            href="https://dhruVersestudios.in"
             className="flex items-center mb-4 sm:mb-0"
           >
             <img src={logo} className="w-24" alt="Flowbite Logo" />
@@ -152,7 +152,7 @@ const Footer = () => {
         <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
           © 2023{" "}
           <a href="https://flowbite.com/" className="hover:underline">
-            Rollin™
+            dhruVerse™
           </a>
           . All Rights Reserved.
         </span>

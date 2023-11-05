@@ -37,7 +37,7 @@ export default function Plus() {
                   platforms and working with India's biggest YouTube content
                   creators, we certainly aim to deliver top-tier quality content
                   across all formats. And with specialization in advertisements,
-                  fictional content and music videos, we are up and rollin to
+                  fictional content and music videos, we are up and dhruVerse to
                   deliver full contentment to you.
                 </p>
 

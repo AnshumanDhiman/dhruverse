@@ -2,18 +2,14 @@
 
 import y1 from "../assets/youtubers/1.jpg";
 import y2 from "../assets/youtubers/2.jpg";
-import y3 from "../assets/youtubers/3.jpg";
 import y4 from "../assets/youtubers/4.jpg";
-import y5 from "../assets/youtubers/5.jpg";
 import y6 from "../assets/youtubers/6.jpg";
-import y7 from "../assets/youtubers/7.jpeg";
 import y8 from "../assets/youtubers/8.jpg";
-import y9 from "../assets/youtubers/9.jpg";
 import y10 from "../assets/youtubers/10.jpg";
 import y11 from "../assets/youtubers/11.jpg";
 import y12 from "../assets/youtubers/12.jpg";
 import y13 from "../assets/youtubers/13.jpg";
-import y14 from "../assets/youtubers/14.jpg";
+
 import y15 from "../assets/youtubers/15.jpg";
 
 import o1 from "../assets/ott/1.png";
@@ -97,7 +93,7 @@ const Brand = () => {
           </div>
         </div>
         <p className="text-theme_4 text-md lg:text-2xl text-center font-light lg:px-16 lg:py-8">
-          At Rollin Studios, we value the power of partnerships. We are proud to
+          At dhruVerse, we value the power of partnerships. We are proud to
           collaborate with like-minded individuals and organizations who share
           our passion for creating exceptional media content.
         </p>
@@ -129,14 +125,7 @@ const Brand = () => {
                 />
                 <p className="text-theme_4 text-center">Amit Bhadana</p>
                 </div>
-                <div className="hidden lg:block">
-                <img
-                  className="w-[75px] p-1 lg:w-[100px] m-4 lg:mx-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
-                  src={y3}
-                  alt=""
-                />
-                <p className="text-theme_4 text-center">Aditya Rikhari</p>
-                </div>
+        
                 <div>
                 <img
                   className="w-[75px] p-1 lg:w-[100px] m-4 lg:mx-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
@@ -145,14 +134,7 @@ const Brand = () => {
                 />
                 <p className="text-theme_4 text-center">Hasley India</p>
                 </div>
-                <div>
-                <img
-                  className="w-[75px] p-1 lg:w-[100px] m-4 lg:mx-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
-                  src={y5}
-                  alt=""
-                />
-                <p className="text-theme_4 text-center">Triggered Insaan</p>
-                </div>
+                
                 <div>
                 <img
                   className="w-[75px] p-1 lg:w-[100px] m-4 lg:mx-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
@@ -161,14 +143,7 @@ const Brand = () => {
                 />
                 <p className="text-theme_4 text-center">Fukra Insaan</p>
                 </div>
-                <div>
-                <img
-                  className="w-[75px] p-1 lg:w-[100px] m-4 lg:mx-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
-                  src={y7}
-                  alt=""
-                />
-                <p className="text-theme_4 text-center">Swagger Sharma</p>
-                </div>
+               
                 <div>
                 <img
                   className="w-[75px] p-1 lg:w-[100px] m-4 lg:mx-4 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
@@ -177,14 +152,7 @@ const Brand = () => {
                 />
                 <p className="text-theme_4 text-center">Tanmay Bhat</p>
                 </div>
-                <div>
-                <img
-                  className="w-[75px] p-1 lg:w-[100px] m-4 lg:mx-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
-                  src={y9}
-                  alt=""
-                />
-                  <p className="text-theme_4 text-center">Elvish Yadav</p>
-                  </div>
+               
                   <div className="hidden lg:block">
                 <img
                   className="w-[75px] p-1 lg:w-[100px] m-4 lg:mx-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
@@ -209,14 +177,7 @@ const Brand = () => {
                 />
                   <p className="text-theme_4 text-center">Purav Jha</p>
                   </div>
-                  <div className="hidden lg:block">
-                <img
-                  className="w-[75px] p-1 lg:w-[100px] m-4 lg:mx-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
-                  src={y14}
-                  alt=""
-                />
-                  <p className="text-theme_4 text-center">Real Hit</p>
-                  </div>
+                
                   <div className="hidden lg:block">
                 <img
                   className="w-[75px] p-1 lg:w-[100px] m-4 lg:mx-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
