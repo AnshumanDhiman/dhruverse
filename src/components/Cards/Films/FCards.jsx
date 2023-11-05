@@ -12,6 +12,8 @@ import {
   import fi2 from "../../../assets/thumbnails/film/2.jpg";
   import fi3 from "../../../assets/thumbnails/film/3.jpg";
   import fi4 from "../../../assets/thumbnails/film/4.jpg";
+  import fi5 from "../../../assets/thumbnails/film/5.jpg";
+
 
   export default function Index() {
     return (
@@ -22,7 +24,7 @@ import {
             className="lg:block hidden"
             naturalSlideWidth={100}
             isIntrinsicHeight={true}
-            totalSlides={4}
+            totalSlides={20}
             visibleSlides={4}
             step={1}
             infinite={true}
@@ -121,11 +123,22 @@ import {
                         </div>
                       </a>
                     </Slide>
-                  
-                  
-                   
-                   
-                  
+                    <Slide index={4}>
+                      <a
+                        href="https://youtu.be/Tg54DU7IIek"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
+                          <img
+                            src={fi5}
+                            alt="sitting area"
+                            className="object-cover object-center w-full  rounded-lg border-lg"
+                          />
+                          <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
+                        </div>
+                      </a>
+                    </Slide>            
                   </div>
                 </Slider>
               </div>
@@ -159,7 +172,7 @@ import {
             naturalSlideWidth={100}
             isIntrinsicHeight={true}
             totalSlides={4}
-            visibleSlides={2}
+            visibleSlides={4}
             step={1}
             infinite={true}
           >

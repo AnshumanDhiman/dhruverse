@@ -17,7 +17,7 @@ const About1 = () => {
             backgroundAttachment: "fixed",
             backgroundSize: "cover",
           }}
-          className="hidden lg:block w-full h-[500px] opacity-[65%] z-[-999]"
+          className="hidden lg:block w-full h-[600px]  opacity-[65%] z-[-999]"
         ></div>
 
         <div className="hidden  relative lg:flex overflow-x-hidden text-white opacity-70">
