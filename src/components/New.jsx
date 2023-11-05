@@ -1,13 +1,17 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import i1 from "../assets/thumbnails/film/3.jpg";
-
+import i2 from "../assets/thumbnails/ads/2.jpeg";
 
 const OurServices = () => {
   const services = [
     {
       image: i1,
-      link: "https://www.youtube.com/watch?v=_km09CetQoQ",
+
+    },
+    {
+      image: i2,
+
     },
   ];
 
@@ -33,15 +37,15 @@ const OurServices = () => {
               {services.map((service, index) => (
                 <div
                   key={index}
-                  className="flex flex-col items-center justify-center bg-theme_1 rounded-lg shadow-2xl hover:bg-theme_2 transition duration-300 ease-in-out transform cursor-pointer hover:animate-pulse "
+                  className="flex flex-col items-center justify-center bg-theme_1 rounded-lg shadow-2xl transition duration-300 ease-in-out transform cursor-pointer hover:animate-pulse "
                 >
-                  <a href={service.link} target="_blank" rel="noreferrer">
+                 
                     <img
                       src={service.image}
                       className="rounded-lg "
                       alt="image"
                     />
-                  </a>
+                  
                 </div>
               ))}
             </div>
