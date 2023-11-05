@@ -11,6 +11,12 @@ import {
 
   import ai1 from "../../../assets/thumbnails/ads/1.jpg";
   import ai2 from "../../../assets/thumbnails/ads/2.jpeg";
+  import ai3 from "../../../assets/thumbnails/ads/3.png";
+  import ai4 from "../../../assets/thumbnails/ads/8.png";
+  import ai5 from "../../../assets/thumbnails/ads/5.png";
+  import ai6 from "../../../assets/thumbnails/ads/6.png";
+  import ai7 from "../../../assets/thumbnails/ads/7.png";
+  import ai8 from "../../../assets/thumbnails/ads/4.png";
 
 
   export default function Index() {
@@ -22,7 +28,7 @@ import {
             className="lg:block hidden"
             naturalSlideWidth={100}
             isIntrinsicHeight={true}
-            totalSlides={15}
+            totalSlides={7}
             visibleSlides={4}
             step={1}
             infinite={true}
@@ -82,6 +88,102 @@ import {
                         <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
                           <img
                             src={ai2}
+                            alt="sitting area"
+                            className="object-cover object-center w-full  rounded-lg border-lg"
+                          />
+                          <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
+                        </div>
+                      </a>
+                    </Slide>
+                    <Slide index={2}>
+                      <a
+                        href="https://youtu.be/wsFwnZ5OxNM?si=q5gJC0BIQMk6jb71"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
+                          <img
+                            src={ai3}
+                            alt="sitting area"
+                            className="object-cover object-center w-full  rounded-lg border-lg"
+                          />
+                          <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
+                        </div>
+                      </a>
+                    </Slide>
+                    <Slide index={3}>
+                      <a
+                        href="https://youtu.be/wsFwnZ5OxNM?si=q5gJC0BIQMk6jb71"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
+                          <img
+                            src={ai4}
+                            alt="sitting area"
+                            className="object-cover object-center w-full  rounded-lg border-lg"
+                          />
+                          <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
+                        </div>
+                      </a>
+                    </Slide>
+                    <Slide index={4}>
+                      <a
+                        href="https://youtu.be/wsFwnZ5OxNM?si=q5gJC0BIQMk6jb71"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
+                          <img
+                            src={ai5}
+                            alt="sitting area"
+                            className="object-cover object-center w-full  rounded-lg border-lg"
+                          />
+                          <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
+                        </div>
+                      </a>
+                    </Slide>
+                    <Slide index={5}>
+                      <a
+                        href="https://youtu.be/wsFwnZ5OxNM?si=q5gJC0BIQMk6jb71"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
+                          <img
+                            src={ai6}
+                            alt="sitting area"
+                            className="object-cover object-center w-full  rounded-lg border-lg"
+                          />
+                          <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
+                        </div>
+                      </a>
+                    </Slide>
+                    <Slide index={6}>
+                      <a
+                        href="https://youtu.be/wsFwnZ5OxNM?si=q5gJC0BIQMk6jb71"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
+                          <img
+                            src={ai7}
+                            alt="sitting area"
+                            className="object-cover object-center w-full  rounded-lg border-lg"
+                          />
+                          <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
+                        </div>
+                      </a>
+                    </Slide>
+                    <Slide index={7}>
+                      <a
+                        href="https://youtu.be/wsFwnZ5OxNM?si=q5gJC0BIQMk6jb71"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
+                          <img
+                            src={ai8}
                             alt="sitting area"
                             className="object-cover object-center w-full  rounded-lg border-lg"
                           />
