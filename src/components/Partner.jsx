@@ -17,15 +17,11 @@ import o2 from "../assets/ott/2.png";
 import o3 from "../assets/ott/3.png";
 import o4 from "../assets/ott/4.png";
 import o5 from "../assets/ott/5.png";
+import o6 from "../assets/ott/6.png";
+import o7 from "../assets/ott/7.png";
+import o8 from "../assets/ott/8.png";
 
-import m1 from "../assets/music/1.jpg";
-import m2 from "../assets/music/2.png";
-import m3 from "../assets/music/3.png";
-import m4 from "../assets/music/4.png";
-import m5 from "../assets/music/5.png";
-import m6 from "../assets/music/6.png";
 
-import a1 from "../assets/ads/1.png";
 import a2 from "../assets/ads/2.png";
 import a3 from "../assets/ads/3.png";
 import a4 from "../assets/ads/4.png";
@@ -35,68 +31,30 @@ const Brand = () => {
   return (
     <>
       <section className="p-4">
-        <h2
-          style={{ fontFamily: "Bebas Neue", letterSpacing: "3px" }}
-          className="text-2xl lg:text-4xl text-theme_4 font-extrabold text-center mt-8 lg:mt-32"
-        >
-          Allies & Associates
-        </h2>
-        <div className="flex justify-center items-center">
-          <div className="flex flex-wrap -mx-4">
-            <div className="w-full px-0 py-0 lg:px-16 lg:py-8">
-              <div className="flex flex-wrap items-center justify-center rounded-full ">
-                <SingleImage href="#" Alt="Brand Image" imgSrc={o4} />
-                <SingleImage href="#" Alt="Brand Image" imgSrc={o1} />
-                <SingleImage href="#" Alt="Brand Image" imgSrc={o2} />
-                <SingleImage href="#" Alt="Brand Image" imgSrc={o3} />
-                <SingleImage href="#" Alt="Brand Image" imgSrc={o5} />
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="flex justify-center items-center">
-          <div className="flex flex-wrap -mx-4">
-            <div className="w-full px-0 lg:px-16">
-              <div className="flex flex-wrap items-center justify-center  rounded-full ">
-                <img
-                  className="w-[45px] lg:w-16 p-1 m-4 lg:m-12 mt-0 inline"
-                  src={m1}
-                  alt=""
-                />
-                <img
-                  className="w-[95px] lg:w-32 p-1 m-4 lg:m-12 mt-0  inline"
-                  src={m2}
-                  alt=""
-                />
-                <img
-                  className="w-[105px] lg:w-32 p-1 m-4 lg:m-12 mt-0  inline"
-                  src={m3}
-                  alt=""
-                />
-                <img
-                  className="w-[95px] lg:w-32 p-1 m-4 lg:m-12 mt-0  inline"
-                  src={m4}
-                  alt=""
-                />
-                <img
-                  className="w-[95px] lg:w-32 p-1 m-4 lg:m-12 mt-0  inline"
-                  src={m5}
-                  alt=""
-                />
-                <img
-                  className="w-[75px] lg:w-24 p-1 m-4 lg:m-12 mt-0  inline"
-                  src={m6}
-                  alt=""
-                />
-              </div>
-            </div>
-          </div>
-        </div>
+      <br/><br/>
         <p className="text-theme_4 text-md lg:text-2xl text-center font-light lg:px-16 lg:py-8">
           At dhruVerse, we value the power of partnerships. We are proud to
           collaborate with like-minded individuals and organizations who share
           our passion for creating exceptional media content.
         </p>
+        <div className="flex justify-center items-center">
+          <div className="flex flex-wrap -mx-4">
+            <div className="w-full px-0 py-0 lg:px-32 lg:py-8">
+              <div className="flex flex-wrap items-center justify-center rounded-full ">
+                <SingleImage href="#" Alt="Brand Image" imgSrc={o1} />
+                <SingleImage href="#" Alt="Brand Image" imgSrc={o2} />
+                <SingleImage href="#" Alt="Brand Image" imgSrc={o3} />
+                <SingleImage href="#" Alt="Brand Image" imgSrc={o4} />
+                <SingleImage href="#" Alt="Brand Image" imgSrc={o5} />
+                <SingleImage href="#" Alt="Brand Image" imgSrc={o6} />
+                <SingleImage href="#" Alt="Brand Image" imgSrc={o7} />
+                <SingleImage href="#" Alt="Brand Image" imgSrc={o8} />
+                
+              </div>
+            </div>
+          </div>
+        </div>
+       
         <div className="flex justify-center items-center">
           <div className="flex flex-wrap -mx-4 mb-[-32px]">
             <div className="w-full lg:px-64">
@@ -192,11 +150,7 @@ const Brand = () => {
         </div>
         <div className="relative  text-center">
           <div className="py-2 pt-8 lg:pt-12">
-            <img
-              className="w-20 lg:w-16 p-1 m-4 lg:m-12 inline"
-              src={a1}
-              alt=""
-            />
+       
             <img
               className="w-20 lg:w-32 p-1 m-4 lg:m-12 inline"
               src={a2}

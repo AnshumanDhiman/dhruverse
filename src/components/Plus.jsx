@@ -47,7 +47,7 @@ export default function Plus() {
                       ref={ref1}
                       className="text-theme_4 mb-4 text-3xl font-bold"
                     >
-                      {inView1 && <CountUp end={500} duration={2} />}+
+                      {inView1 && <CountUp end={100} duration={2} />}+
                     </div>
                     <h5 className="mb-0 text-lg font-medium text-neutral-500 dark:text-neutral-300">
                       Happy Clients
@@ -59,7 +59,7 @@ export default function Plus() {
                       ref={ref2}
                       className="text-theme_4 mb-4 text-3xl font-bold"
                     >
-                      {inView2 && <CountUp end={200} duration={2} />}+
+                      {inView2 && <CountUp end={150} duration={2} />}+
                     </div>
                     <h5 className="mb-0 text-lg font-medium text-neutral-500 dark:text-neutral-300">
                       Achievements
@@ -71,7 +71,7 @@ export default function Plus() {
                       ref={ref3}
                       className="text-theme_4 mb-4 text-3xl font-bold"
                     >
-                      {inView3 && <CountUp end={1000} duration={2} />}
+                      {inView3 && <CountUp end={500} duration={2} />}
                       MN+
                     </div>
                     <h5 className="mb-0 text-lg font-medium text-neutral-500 dark:text-neutral-300">
