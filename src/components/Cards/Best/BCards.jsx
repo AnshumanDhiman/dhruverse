@@ -465,7 +465,7 @@ export default function Index() {
                   <Slide index={0}>
                     <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                       <img
-                        src={bi8}
+                        src={bi1}
                         alt="sitting area"
                         className="object-cover object-center w-full rounded-lg"
                       />
@@ -474,7 +474,7 @@ export default function Index() {
                   <Slide index={1}>
                     <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                       <img
-                        src={bi1}
+                        src={bi2}
                         alt="sitting area"
                         className="object-cover object-center w-full rounded-lg"
                       />
@@ -483,7 +483,7 @@ export default function Index() {
                   <Slide index={2}>
                     <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                       <img
-                        src={bi2}
+                        src={bi3}
                         alt="sitting area"
                         className="object-cover object-center w-full rounded-lg"
                       />
@@ -492,7 +492,7 @@ export default function Index() {
                   <Slide index={3}>
                     <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                       <img
-                        src={bi3}
+                        src={bi4}
                         alt="sitting area"
                         className="object-cover object-center w-full rounded-lg"
                       />
@@ -501,7 +501,7 @@ export default function Index() {
                   <Slide index={4}>
                     <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                       <img
-                        src={bi4}
+                        src={bi5}
                         alt="sitting area"
                         className="object-cover object-center w-full rounded-lg"
                       />
@@ -510,7 +510,7 @@ export default function Index() {
                   <Slide index={5}>
                     <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                       <img
-                        src={bi5}
+                        src={bi6}
                         alt="sitting area"
                         className="object-cover object-center w-full rounded-lg"
                       />
