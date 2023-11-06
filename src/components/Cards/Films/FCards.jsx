@@ -13,6 +13,11 @@ import {
   import fi3 from "../../../assets/thumbnails/film/3.jpg";
   import fi4 from "../../../assets/thumbnails/film/4.jpg";
   import fi5 from "../../../assets/thumbnails/film/5.jpg";
+  import fi6 from "../../../assets/thumbnails/film/6.jpg";
+  import fi7 from "../../../assets/thumbnails/film/7.jpg";
+  import fi8 from "../../../assets/thumbnails/film/8.jpg";
+  import fi9 from "../../../assets/thumbnails/film/9.jpg";
+  import fi10 from "../../../assets/thumbnails/film/10.jpg";
 
 
   export default function Index() {
@@ -24,8 +29,8 @@ import {
             className="lg:block hidden"
             naturalSlideWidth={100}
             isIntrinsicHeight={true}
-            totalSlides={5}
-            visibleSlides={4}
+            totalSlides={10}
+            visibleSlides={5}
             step={1}
             infinite={true}
           >
@@ -118,7 +123,67 @@ import {
                           <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
                         </div>
                      
-                    </Slide>            
+                    </Slide>
+                    <Slide index={5}>
+                    
+                    <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
+                      <img
+                        src={fi6}
+                        alt="sitting area"
+                        className="object-cover object-center w-full  rounded-lg border-lg"
+                      />
+                      <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
+                    </div>
+                 
+                </Slide>    
+                <Slide index={6}>
+                    
+                    <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
+                      <img
+                        src={fi7}
+                        alt="sitting area"
+                        className="object-cover object-center w-full  rounded-lg border-lg"
+                      />
+                      <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
+                    </div>
+                 
+                </Slide>    
+                <Slide index={7}>
+                    
+                    <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
+                      <img
+                        src={fi8}
+                        alt="sitting area"
+                        className="object-cover object-center w-full  rounded-lg border-lg"
+                      />
+                      <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
+                    </div>
+                 
+                </Slide>    
+                <Slide index={8}>
+                    
+                    <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
+                      <img
+                        src={fi9}
+                        alt="sitting area"
+                        className="object-cover object-center w-full  rounded-lg border-lg"
+                      />
+                      <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
+                    </div>
+                 
+                </Slide>    
+                <Slide index={9}>
+                    
+                    <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
+                      <img
+                        src={fi10}
+                        alt="sitting area"
+                        className="object-cover object-center w-full  rounded-lg border-lg"
+                      />
+                      <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
+                    </div>
+                 
+                </Slide>                
                   </div>
                 </Slider>
               </div>

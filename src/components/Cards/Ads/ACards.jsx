@@ -29,7 +29,7 @@ import {
             naturalSlideWidth={100}
             isIntrinsicHeight={true}
             totalSlides={8}
-            visibleSlides={4}
+            visibleSlides={5}
             step={1}
             infinite={true}
           >

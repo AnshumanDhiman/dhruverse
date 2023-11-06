@@ -46,7 +46,7 @@ const About1 = () => {
             </div>
             <div className="w-[25rem] ml-[-40px] lg:ml-0 md:ml-0 lg:w-8/12">
               <img
-                className="w-full h-full grayscale px-12"
+                className="w-full h-full px-12"
                 src={i4}
                 alt="A group of People"
               />
