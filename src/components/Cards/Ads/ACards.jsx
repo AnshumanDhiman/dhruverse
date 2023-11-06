@@ -28,7 +28,7 @@ import {
             className="lg:block hidden"
             naturalSlideWidth={100}
             isIntrinsicHeight={true}
-            totalSlides={7}
+            totalSlides={8}
             visibleSlides={4}
             step={1}
             infinite={true}
