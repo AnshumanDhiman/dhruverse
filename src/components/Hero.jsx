@@ -9,7 +9,7 @@ const HeroSection = () => {
     autoPlay
     loop
     muted
-    style={{ objectPosition: 'center 20%' }} // Adjust the '20%' to your desired cropping value
+    style={{ objectPosition: 'center 20%' }}
   />
   <div className="absolute inset-0 opacity-50"></div>
   <div className="absolute inset-0 flex items-center justify-center">

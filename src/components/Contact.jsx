@@ -147,15 +147,7 @@ const Contact = () => {
                   our email or contact us through our phone number given below.
                   Our team of experts is here and happy to assist.
                 </p>
-                <div className="pb-8">
-                  <iframe
-                    src={sr}
-                    className="w-[350px] ml-[-10px] lg:ml-0 md:l-0 h-[200px] lg:w-[700px] lg:h-[300px]"
-                    style={{ border: "0", borderRadius: "10px" }}
-                    allowfullscreen=""
-                    loading="lazy"
-                  />
-                </div>
+              
                 <div className="mb-8 flex w-full max-w-[370px]">
                   <div className="mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-theme_2 theme_2 bg-opacity-5 text-theme_2 sm:h-[70px] sm:max-w-[70px]">
                     <svg
@@ -234,7 +226,7 @@ const Contact = () => {
                   name="firstName"
                   value={formData.firstName}
                   onChange={handleInputChange}
-                  className="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
+                  className="block w-full px-5 py-2.5 mt-2 bg-theme_2 text-theme_4 placeholder-theme_3 border border-theme_3 rounded-lg focus:border-theme_3 focus:ring-theme_3 focus:outline-none focus:ring focus:ring-opacity-40"
                 />
               </div>
 
@@ -245,7 +237,7 @@ const Contact = () => {
                 <input
                   type="text"
                   placeholder="Last Name"
-                  className="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
+                  className="block w-full px-5 py-2.5 mt-2 bg-theme_2 text-theme_4 placeholder-theme_3 border border-theme_3 rounded-lg focus:border-theme_3 focus:ring-theme_3 focus:outline-none focus:ring focus:ring-opacity-40"
                   name="lastName"
                   value={formData.lastName}
                   onChange={handleInputChange}
@@ -260,7 +252,7 @@ const Contact = () => {
               <input
                 type="email"
                 placeholder="example@example.com"
-                className="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
+                className="block w-full px-5 py-2.5 mt-2 bg-theme_2 text-theme_4 placeholder-theme_3 border border-theme_3 rounded-lg focus:border-theme_3 focus:ring-theme_3 focus:outline-none focus:ring focus:ring-opacity-40"
                 name="email"
                 value={formData.email}
                 onChange={handleInputChange}
@@ -272,7 +264,7 @@ const Contact = () => {
                 Message
               </label>
               <textarea
-                className="block w-full h-32 px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
+                className="block w-full h-32 px-5 py-2.5 mt-2 bg-theme_2 text-theme_4 placeholder-theme_3 border border-theme_3 rounded-lg focus:border-theme_3 focus:ring-theme_3 focus:outline-none focus:ring focus:ring-opacity-40"
                 placeholder="Message"
                 name="message"
                 value={formData.message}
@@ -282,7 +274,7 @@ const Contact = () => {
                 
                   <button
                      type="submit"
-                    className="text-sm lg:text-md inline-block mr-12  text-white cursor-pointer border rounded border-theme_4 hover:border-theme_2 hover:text-theme_2 hover:bg-theme_4 bg-theme_2 hover:bg-opacity-9 p-2 lg:p-3 "
+                    className="text-sm lg:text-md inline-block mr-12  text-white cursor-pointer border rounded border-theme_4 hover:border-theme_2 hover:text-theme_2 hover:bg-theme_4 bg-theme_2 hover:bg-opacity-9 p-2 lg:p-3 mt-8 lg:mt-0"
                   >
                     Send Message
                   </button>

@@ -237,7 +237,7 @@ export default function Index() {
           naturalSlideWidth={100}
           isIntrinsicHeight={true}
           totalSlides={14}
-            visibleSlides={1}
+            visibleSlides={2}
           step={1}
           infinite={true}
         >

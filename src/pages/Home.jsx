@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import Hero from "../components/Hero";
 import Container from "../components/CardContainer";
-import BrickLayout from "../components/BrickLayout";
+
 import New from "../components/New";
 import WhydhruVerse from "../components/WhydhruVerse";
 import Plus from "../components/Plus";
@@ -24,6 +24,4 @@ export default function Home() {
     </>
   );
 }
-{
-  /* <BrickLayout /> */
-}
+

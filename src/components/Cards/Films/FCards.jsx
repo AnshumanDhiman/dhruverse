@@ -216,8 +216,8 @@ import {
             className="lg:hidden md:block hidden"
             naturalSlideWidth={100}
             isIntrinsicHeight={true}
-            totalSlides={4}
-            visibleSlides={4}
+            totalSlides={10}
+            visibleSlides={2}
             step={1}
             infinite={true}
           >
@@ -336,7 +336,7 @@ import {
             className="block md:hidden "
             naturalSlideWidth={100}
             isIntrinsicHeight={true}
-            totalSlides={4}
+            totalSlides={10}
             visibleSlides={1}
             step={1}
             infinite={true}
