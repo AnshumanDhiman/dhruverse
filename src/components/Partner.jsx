@@ -41,14 +41,15 @@ const Brand = () => {
           <div className="flex flex-wrap -mx-4">
             <div className="w-full px-0 py-0 lg:px-32 lg:py-8">
               <div className="flex flex-wrap items-center justify-center rounded-full ">
-                <SingleImage href="#" Alt="Brand Image" imgSrc={o1} />
-                <SingleImage href="#" Alt="Brand Image" imgSrc={o2} />
-                <SingleImage href="#" Alt="Brand Image" imgSrc={o3} />
+              
                 <SingleImage href="#" Alt="Brand Image" imgSrc={o4} />
                 <SingleImage href="#" Alt="Brand Image" imgSrc={o5} />
                 <SingleImage href="#" Alt="Brand Image" imgSrc={o6} />
                 <SingleImage href="#" Alt="Brand Image" imgSrc={o7} />
                 <SingleImage href="#" Alt="Brand Image" imgSrc={o8} />
+                <SingleImage href="#" Alt="Brand Image" imgSrc={o1} />
+                <SingleImage href="#" Alt="Brand Image" imgSrc={o2} />
+                <SingleImage href="#" Alt="Brand Image" imgSrc={o3} />
                 
               </div>
             </div>

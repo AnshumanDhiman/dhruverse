@@ -1,6 +1,6 @@
 import ACard from "./Cards/Ads/ACards.jsx";
 import FCard from "./Cards/Films/FCards.jsx";
-import BCard from "./Cards/Music/BCards.jsx";
+import BCard from "./Cards/Best/BCards.jsx";
 
 export default function Container() {
   return (
