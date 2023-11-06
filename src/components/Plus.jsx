@@ -27,11 +27,11 @@ export default function Plus() {
           <div className="grid items-center lg:grid-cols-2 ">
             <div className="lg:mb-12">
               <div className="relative z-[1] block lg:rounded-lg bg-[hsla(0,0%,100%,0.55)] px-4 pb-4 pt-8 lg:px-6 lg:py-12 dark:bg-theme_2 dark:shadow-black/20 md:px-12 lg:-mr-14 backdrop-blur-[30px] shadow-lg">
-                <h2 className="mb-6 text-4xl text-theme_4 font-bold">
+                <h2 className="mb-6 text-4xl text-theme_4 font-bold text-center">
                   What do we Do ?
                 </h2>
-                <p className="mb-12 text-neutral-500 dark:text-theme_4">
-                  We are a production powerhouse, armed with over 8 years of
+                <p className="mb-12 text-neutral-500 dark:text-theme_4 text-center">
+                  We are a production powerhouse, armed with over 5 years of
                   industry expertise. With experiences that includes engaging in
                   creating content for various OTT projects across different
                   platforms and working with India's biggest YouTube content
@@ -71,7 +71,7 @@ export default function Plus() {
                       ref={ref3}
                       className="text-theme_4 mb-4 text-3xl font-bold"
                     >
-                      {inView3 && <CountUp end={500} duration={2} />}
+                      {inView3 && <CountUp end={200} duration={2} />}
                       MN+
                     </div>
                     <h5 className="mb-0 text-lg font-medium text-neutral-500 dark:text-neutral-300">

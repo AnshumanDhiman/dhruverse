@@ -11,9 +11,9 @@ import {
 import bi1 from "../../../assets/thumbnails/best/1.jpg";
 import bi2 from "../../../assets/thumbnails/best/2.jpg";
 import bi3 from "../../../assets/thumbnails/best/3.jpg";
-import bi4 from "../../../assets/thumbnails/best/4.jpg";
+import bi4 from "../../../assets/thumbnails/best/6.jpg";
 import bi5 from "../../../assets/thumbnails/best/5.jpg";
-import bi6 from "../../../assets/thumbnails/best/6.jpg";
+import bi6 from "../../../assets/thumbnails/best/4.jpg";
 import bi7 from "../../../assets/thumbnails/best/7.jpg";
 import bi8 from "../../../assets/thumbnails/best/8.jpg";
 import bi9 from "../../../assets/thumbnails/best/9.jpg";
@@ -85,7 +85,7 @@ export default function Index() {
                     </div>
                   </Slide>
                   <Slide index={2}>
-                    <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
+                    <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg brightness-125">
                       <img
                         src={bi3}
                         alt="sitting area"
@@ -95,7 +95,7 @@ export default function Index() {
                     </div>
                   </Slide>
                   <Slide index={3}>
-                    <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
+                    <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg  brightness-125">
                       <img
                         src={bi4}
                         alt="sitting area"
@@ -236,8 +236,8 @@ export default function Index() {
           className="lg:hidden md:block hidden"
           naturalSlideWidth={100}
           isIntrinsicHeight={true}
-          totalSlides={8}
-          visibleSlides={2}
+          totalSlides={14}
+            visibleSlides={1}
           step={1}
           infinite={true}
         >
@@ -428,7 +428,7 @@ export default function Index() {
           className="block md:hidden "
           naturalSlideWidth={100}
           isIntrinsicHeight={true}
-          totalSlides={8}
+          totalSlides={14}
           visibleSlides={1}
           step={1}
           infinite={true}

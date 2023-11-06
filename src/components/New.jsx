@@ -18,7 +18,7 @@ const OurServices = () => {
   return (
     <>
       <div className="">
-        <p className="text-md lg:text-2xl p-4 lg:p-8 md:text-xl md:p-8 sm:text-sm sm:p-8 font-light text-justify lg:text-center text-theme_4">
+        <p className="text-md lg:text-2xl p-4 lg:p-8 md:text-xl md:p-8 sm:text-sm sm:p-8 font-light text-center lg:text-center text-theme_4">
           We are dhruVerse, providing the best production, from pre to
           post.
           <span className="inline lg:block">
