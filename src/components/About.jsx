@@ -44,7 +44,7 @@ const About1 = () => {
                 well as digital industry.
               </p>
             </div>
-            <div className="w-[35rem] md:w-[48rem] ml-[-40px] lg:ml-0 md:ml-0 lg:w-8/12">
+            <div className="m-auto w-[28rem] md:w-[48rem]  lg:ml-0 md:ml-0 lg:w-8/12">
               <img
                 className="w-full h-full px-12"
                 src={i4}
