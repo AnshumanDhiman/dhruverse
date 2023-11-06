@@ -383,7 +383,7 @@ import {
             naturalSlideWidth={100}
             isIntrinsicHeight={true}
             totalSlides={9}
-            visibleSlides={1}
+            visibleSlides={2}
             step={1}
             infinite={true}
           >
@@ -414,7 +414,7 @@ import {
                 <Slider>
                   <div
                     id="slider"
-                    className="h-full w-full flex lg:gap-8 md:gap-6 items-center justify-start transition ease-out duration-700"
+                    className="h-full w-full flex lg:gap-8 md:gap-6 gap-2 items-center justify-start transition ease-out duration-700"
                   >
                    <Slide index={0}>
                     

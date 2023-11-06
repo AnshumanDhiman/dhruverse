@@ -348,15 +348,15 @@ export default function Index() {
 
         {/* Carousel for mobile and Small size Devices */}
         <CarouselProvider
-          className="block md:hidden "
+          className="block md:hidden"
           naturalSlideWidth={100}
           isIntrinsicHeight={true}
           totalSlides={10}
-          visibleSlides={3}
-          step={1}
+          visibleSlides={2}
+          step={2}
           infinite={true}
         >
-          <div className="w-full relative flex items-center justify-center">
+          <div className="w-full relative flex items-center justify-center ">
             <ButtonBack
               role="button"
               aria-label="slide backward"
@@ -383,7 +383,7 @@ export default function Index() {
               <Slider>
                 <div
                   id="slider"
-                  className="h-full w-full flex lg:gap-8 md:gap-6 items-center justify-start transition ease-out duration-700"
+                  className="h-full w-full flex lg:gap-8 md:gap-6 gap-2 items-center justify-start transition ease-out duration-700"
                 >
                   <Slide index={0}>
                     <div className="flex flex-shrink-0 relative w-full sm:w-auto">
