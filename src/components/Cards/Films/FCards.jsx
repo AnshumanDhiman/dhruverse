@@ -295,6 +295,72 @@ import {
                         </div>
                      
                     </Slide>
+                    <Slide index={4}>
+                  
+                  <div className="flex flex-shrink-0 relative w-full sm:w-auto">
+                    <img
+                      src={fi5}
+                      alt="sitting area"
+                      className="object-cover object-center w-full rounded-lg"
+                    />
+                  </div>
+               
+              </Slide>
+              <Slide index={5}>
+                  
+                  <div className="flex flex-shrink-0 relative w-full sm:w-auto">
+                    <img
+                      src={fi6}
+                      alt="sitting area"
+                      className="object-cover object-center w-full rounded-lg"
+                    />
+                  </div>
+               
+              </Slide>
+              <Slide index={6}>
+                  
+                  <div className="flex flex-shrink-0 relative w-full sm:w-auto">
+                    <img
+                      src={fi7}
+                      alt="sitting area"
+                      className="object-cover object-center w-full rounded-lg"
+                    />
+                  </div>
+               
+              </Slide>
+              <Slide index={7}>
+                  
+                  <div className="flex flex-shrink-0 relative w-full sm:w-auto">
+                    <img
+                      src={fi8}
+                      alt="sitting area"
+                      className="object-cover object-center w-full rounded-lg"
+                    />
+                  </div>
+               
+              </Slide>
+              <Slide index={8}>
+                  
+                  <div className="flex flex-shrink-0 relative w-full sm:w-auto">
+                    <img
+                      src={fi9}
+                      alt="sitting area"
+                      className="object-cover object-center w-full rounded-lg"
+                    />
+                  </div>
+               
+              </Slide>
+              <Slide index={9}>
+                  
+                  <div className="flex flex-shrink-0 relative w-full sm:w-auto">
+                    <img
+                      src={fi10}
+                      alt="sitting area"
+                      className="object-cover object-center w-full rounded-lg"
+                    />
+                  </div>
+               
+              </Slide>
                   
                    
                    
@@ -396,14 +462,82 @@ import {
                    
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                           <img
-                            src={fi2}
+                            src={fi3}
                             alt="sitting area"
                             className="object-cover object-center w-full rounded-lg"
                           />
                         </div>
-                    
-                    
                     </Slide>
+                    <Slide index={3}>
+                   
+                   <div className="flex flex-shrink-0 relative w-full sm:w-auto">
+                     <img
+                       src={fi4}
+                       alt="sitting area"
+                       className="object-cover object-center w-full rounded-lg"
+                     />
+                   </div>
+               </Slide>
+               <Slide index={4}>
+                   
+                   <div className="flex flex-shrink-0 relative w-full sm:w-auto">
+                     <img
+                       src={fi5}
+                       alt="sitting area"
+                       className="object-cover object-center w-full rounded-lg"
+                     />
+                   </div>
+               </Slide>
+               <Slide index={5}>
+                   
+                   <div className="flex flex-shrink-0 relative w-full sm:w-auto">
+                     <img
+                       src={fi6}
+                       alt="sitting area"
+                       className="object-cover object-center w-full rounded-lg"
+                     />
+                   </div>
+               </Slide>
+               <Slide index={6}>
+                   
+                   <div className="flex flex-shrink-0 relative w-full sm:w-auto">
+                     <img
+                       src={fi7}
+                       alt="sitting area"
+                       className="object-cover object-center w-full rounded-lg"
+                     />
+                   </div>
+               </Slide>
+               <Slide index={7}>
+                   
+                   <div className="flex flex-shrink-0 relative w-full sm:w-auto">
+                     <img
+                       src={fi8}
+                       alt="sitting area"
+                       className="object-cover object-center w-full rounded-lg"
+                     />
+                   </div>
+               </Slide>
+               <Slide index={8}>
+                   
+                   <div className="flex flex-shrink-0 relative w-full sm:w-auto">
+                     <img
+                       src={fi9}
+                       alt="sitting area"
+                       className="object-cover object-center w-full rounded-lg"
+                     />
+                   </div>
+               </Slide>
+               <Slide index={9}>
+                   
+                   <div className="flex flex-shrink-0 relative w-full sm:w-auto">
+                     <img
+                       src={fi10}
+                       alt="sitting area"
+                       className="object-cover object-center w-full rounded-lg"
+                     />
+                   </div>
+               </Slide>
                   
                   
                   

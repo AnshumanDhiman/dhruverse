@@ -265,6 +265,90 @@ import {
                         </div>
                      
                     </Slide>
+                    <Slide index={2}>
+                     
+                     <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
+                       <img
+                         src={ai3}
+                         alt="sitting area"
+                         className="object-cover object-center w-full  rounded-lg border-lg"
+                       />
+                       <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
+                     </div>
+                  
+                 </Slide>
+                 <Slide index={3}>
+                     
+                     <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
+                       <img
+                         src={ai4}
+                         alt="sitting area"
+                         className="object-cover object-center w-full  rounded-lg border-lg"
+                       />
+                       <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
+                     </div>
+                  
+                 </Slide>
+                 <Slide index={4}>
+                     
+                     <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
+                       <img
+                         src={ai5}
+                         alt="sitting area"
+                         className="object-cover object-center w-full  rounded-lg border-lg"
+                       />
+                       <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
+                     </div>
+                  
+                 </Slide>
+                 <Slide index={5}>
+                     
+                     <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
+                       <img
+                         src={ai6}
+                         alt="sitting area"
+                         className="object-cover object-center w-full  rounded-lg border-lg"
+                       />
+                       <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
+                     </div>
+                  
+                 </Slide>
+                 <Slide index={6}>
+                     
+                     <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
+                       <img
+                         src={ai7}
+                         alt="sitting area"
+                         className="object-cover object-center w-full  rounded-lg border-lg"
+                       />
+                       <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
+                     </div>
+                  
+                 </Slide>
+                 <Slide index={7}>
+                     
+                     <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
+                       <img
+                         src={ai8}
+                         alt="sitting area"
+                         className="object-cover object-center w-full  rounded-lg border-lg"
+                       />
+                       <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
+                     </div>
+                  
+                 </Slide>
+                 <Slide index={8}>
+                     
+                     <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
+                       <img
+                         src={ai9}
+                         alt="sitting area"
+                         className="object-cover object-center w-full  rounded-lg border-lg"
+                       />
+                       <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
+                     </div>
+                  
+                 </Slide>
                     
                   
                   </div>
@@ -356,6 +440,90 @@ import {
                         </div>
                      
                     </Slide>
+                    <Slide index={2}>
+                   
+                   <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
+                     <img
+                       src={ai3}
+                       alt="sitting area"
+                       className="object-cover object-center w-full  rounded-lg border-lg"
+                     />
+                     <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
+                   </div>
+                
+               </Slide>
+               <Slide index={3}>
+                   
+                   <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
+                     <img
+                       src={ai4}
+                       alt="sitting area"
+                       className="object-cover object-center w-full  rounded-lg border-lg"
+                     />
+                     <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
+                   </div>
+                
+               </Slide>
+               <Slide index={4}>
+                   
+                   <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
+                     <img
+                       src={ai5}
+                       alt="sitting area"
+                       className="object-cover object-center w-full  rounded-lg border-lg"
+                     />
+                     <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
+                   </div>
+                
+               </Slide>
+               <Slide index={5}>
+                   
+                   <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
+                     <img
+                       src={ai6}
+                       alt="sitting area"
+                       className="object-cover object-center w-full  rounded-lg border-lg"
+                     />
+                     <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
+                   </div>
+                
+               </Slide>
+               <Slide index={6}>
+                   
+                   <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
+                     <img
+                       src={ai7}
+                       alt="sitting area"
+                       className="object-cover object-center w-full  rounded-lg border-lg"
+                     />
+                     <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
+                   </div>
+                
+               </Slide>
+               <Slide index={7}>
+                   
+                   <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
+                     <img
+                       src={ai8}
+                       alt="sitting area"
+                       className="object-cover object-center w-full  rounded-lg border-lg"
+                     />
+                     <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
+                   </div>
+                
+               </Slide>
+               <Slide index={8}>
+                   
+                   <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
+                     <img
+                       src={ai9}
+                       alt="sitting area"
+                       className="object-cover object-center w-full  rounded-lg border-lg"
+                     />
+                     <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
+                   </div>
+                
+               </Slide>
                     
                    
                   </div>
