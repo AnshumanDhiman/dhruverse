@@ -51,12 +51,12 @@ const Navbar = () => {
     >
       <header>
         <div className="z-20 bg-theme_1">
-          <div className="px-6 md:px-12 lg:mx-auto lg:px-6 lg:py-4">
+          <div className="px-6 md:px-12 lg:mx-auto lg:px-24 lg:py-4">
             <div className="flex items-center justify-between">
               <div className="relative z-20">
                 <Link to="">
                   <div className="flex justify-center items-center">
-                    <img src={logo} alt="logo" className="w-24" />
+                    <img src={logo} alt="logo" className="w-32" />
                   </div>
                 </Link>
               </div>

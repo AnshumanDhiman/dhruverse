@@ -18,13 +18,13 @@ import {
   export default function Index() {
     return (
       <div className="mx-auto">
-        <div className="flex lg:items-center justify-center w-full h-full py-8 px-8 lg:py-8 lg:px-4">
+        <div className="flex lg:items-center justify-center w-full h-full py-8 px-8 lg:py-8 lg:px-4  brightness-110">
           {/* Carousel for desktop and large size devices */}
           <CarouselProvider
             className="lg:block hidden"
             naturalSlideWidth={100}
             isIntrinsicHeight={true}
-            totalSlides={20}
+            totalSlides={5}
             visibleSlides={4}
             step={1}
             infinite={true}
@@ -59,11 +59,7 @@ import {
                     className="h-full flex lg:gap-8 md:gap-6 gap-14 items-center justify-start transition ease-out duration-700"
                   >
                   <Slide index={0}>
-                      <a
-                        href="https://www.hotstar.com/in/clip/the-last-night/1260079622/watch?filters=content_type%3Dclip"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
+                     
                         <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
                           <img
                             src={fi1}
@@ -71,14 +67,10 @@ import {
                             className="object-cover object-center w-full rounded-lg"
                           />
                         </div>
-                      </a>
+                     
                     </Slide>
                        <Slide index={1}>
-                      <a
-                        href="https://youtu.be/mp83Hr6KaOA"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
+                    
                         <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
                           <img
                             src={fi2}
@@ -87,16 +79,12 @@ import {
                           />
                           <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
                         </div>
-                      </a>
+                     
                     </Slide>
                    
                  
                     <Slide index={2}>
-                      <a
-                        href="https://youtu.be/Tg54DU7IIek"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
+                    
                         <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
                           <img
                             src={fi3}
@@ -105,14 +93,10 @@ import {
                           />
                           <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
                         </div>
-                      </a>
+                     
                     </Slide>
                     <Slide index={3}>
-                      <a
-                        href="https://youtu.be/Tg54DU7IIek"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
+                     
                         <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
                           <img
                             src={fi4}
@@ -121,14 +105,10 @@ import {
                           />
                           <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
                         </div>
-                      </a>
+                    
                     </Slide>
                     <Slide index={4}>
-                      <a
-                        href="https://youtu.be/Tg54DU7IIek"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
+                    
                         <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
                           <img
                             src={fi5}
@@ -137,7 +117,7 @@ import {
                           />
                           <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
                         </div>
-                      </a>
+                     
                     </Slide>            
                   </div>
                 </Slider>
@@ -206,11 +186,7 @@ import {
                     className="h-full flex lg:gap-8 md:gap-6 gap-14 items-center justify-start transition ease-out duration-700"
                   >
                   <Slide index={0}>
-                      <a
-                        href="https://www.hotstar.com/in/clip/the-last-night/1260079622/watch?filters=content_type%3Dclip"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
+                   
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                           <img
                             src={fi1}
@@ -218,14 +194,10 @@ import {
                             className="object-cover object-center w-full rounded-lg"
                           />
                         </div>
-                      </a>
+                     
                     </Slide>
                     <Slide index={1}>
-                      <a
-                        href="https://youtu.be/NlwVW-_LPBs"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
+                      
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                           <img
                             src={fi2}
@@ -233,14 +205,10 @@ import {
                             className="object-cover object-center w-full rounded-lg"
                           />
                         </div>
-                      </a>
+                     
                     </Slide>
                     <Slide index={2}>
-                    <a
-                        href="https://youtu.be/YTRC7Ym7z1w"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
+                   
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                           <img
                             src={fi3}
@@ -248,15 +216,11 @@ import {
                             className="object-cover object-center w-full rounded-lg"
                           />
                         </div>
-                      </a>
+                      
                       
                     </Slide>
                     <Slide index={3}>
-                    <a
-                        href="https://youtu.be/1-SGJrjqP4s"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
+                  
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                           <img
                             src={fi4}
@@ -264,7 +228,7 @@ import {
                             className="object-cover object-center w-full rounded-lg"
                           />
                         </div>
-                      </a>
+                     
                     </Slide>
                   
                    
@@ -342,11 +306,7 @@ import {
                     className="h-full w-full flex lg:gap-8 md:gap-6 items-center justify-start transition ease-out duration-700"
                   >
                  <Slide index={0}>
-                      <a
-                        href="https://www.hotstar.com/in/clip/the-last-night/1260079622/watch?filters=content_type%3Dclip"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
+                     
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                           <img
                             src={fi1}
@@ -354,14 +314,10 @@ import {
                             className="object-cover object-center w-full rounded-lg"
                           />
                         </div>
-                      </a>
+                    
                     </Slide>
                     <Slide index={1}>
-                      <a
-                        href="https://youtu.be/NlwVW-_LPBs"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
+                    
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                           <img
                             src={fi2}
@@ -369,14 +325,10 @@ import {
                             className="object-cover object-center w-full rounded-lg"
                           />
                         </div>
-                      </a>
+                     
                     </Slide>
                     <Slide index={2}>
-                    <a
-                        href="https://youtu.be/YTRC7Ym7z1w"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
+                   
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                           <img
                             src={fi2}
@@ -384,7 +336,7 @@ import {
                             className="object-cover object-center w-full rounded-lg"
                           />
                         </div>
-                      </a>
+                    
                     
                     </Slide>
                   

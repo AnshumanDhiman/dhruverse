@@ -22,7 +22,7 @@ import {
   export default function Index() {
     return (
       <div className="mx-auto">
-        <div className="flex lg:items-center justify-center w-full h-full py-8 px-8 lg:py-8 lg:px-4">
+        <div className="flex lg:items-center justify-center w-full h-full py-8 px-8 lg:py-8 lg:px-4 brightness-150 contrast-125">
           {/* Carousel for desktop and large size devices */}
           <CarouselProvider
             className="lg:block hidden"
@@ -64,11 +64,7 @@ import {
                   >
                 
                 <Slide index={0}>
-                      <a
-                        href="https://youtu.be/wsFwnZ5OxNM?si=q5gJC0BIQMk6jb71"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
+                    
                         <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
                           <img
                             src={ai1}
@@ -77,14 +73,10 @@ import {
                           />
                           <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
                         </div>
-                      </a>
+                      
                     </Slide>
                     <Slide index={1}>
-                      <a
-                        href="https://youtu.be/wsFwnZ5OxNM?si=q5gJC0BIQMk6jb71"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
+                    
                         <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
                           <img
                             src={ai2}
@@ -93,14 +85,10 @@ import {
                           />
                           <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
                         </div>
-                      </a>
+                     
                     </Slide>
                     <Slide index={2}>
-                      <a
-                        href="https://youtu.be/wsFwnZ5OxNM?si=q5gJC0BIQMk6jb71"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
+                   
                         <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
                           <img
                             src={ai3}
@@ -109,14 +97,10 @@ import {
                           />
                           <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
                         </div>
-                      </a>
+                     
                     </Slide>
                     <Slide index={3}>
-                      <a
-                        href="https://youtu.be/wsFwnZ5OxNM?si=q5gJC0BIQMk6jb71"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
+                     
                         <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
                           <img
                             src={ai4}
@@ -125,14 +109,10 @@ import {
                           />
                           <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
                         </div>
-                      </a>
+                      
                     </Slide>
                     <Slide index={4}>
-                      <a
-                        href="https://youtu.be/wsFwnZ5OxNM?si=q5gJC0BIQMk6jb71"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
+                      
                         <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
                           <img
                             src={ai5}
@@ -141,14 +121,10 @@ import {
                           />
                           <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
                         </div>
-                      </a>
+                    
                     </Slide>
                     <Slide index={5}>
-                      <a
-                        href="https://youtu.be/wsFwnZ5OxNM?si=q5gJC0BIQMk6jb71"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
+                    
                         <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
                           <img
                             src={ai6}
@@ -157,14 +133,10 @@ import {
                           />
                           <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
                         </div>
-                      </a>
+                     
                     </Slide>
                     <Slide index={6}>
-                      <a
-                        href="https://youtu.be/wsFwnZ5OxNM?si=q5gJC0BIQMk6jb71"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
+                     
                         <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
                           <img
                             src={ai7}
@@ -173,14 +145,10 @@ import {
                           />
                           <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
                         </div>
-                      </a>
+                     
                     </Slide>
                     <Slide index={7}>
-                      <a
-                        href="https://youtu.be/wsFwnZ5OxNM?si=q5gJC0BIQMk6jb71"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
+                    
                         <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
                           <img
                             src={ai8}
@@ -189,7 +157,7 @@ import {
                           />
                           <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
                         </div>
-                      </a>
+                      
                     </Slide>
 
                   
@@ -259,11 +227,7 @@ import {
                     className="h-full flex lg:gap-8 md:gap-6 gap-14 items-center justify-start transition ease-out duration-700"
                   >
                      <Slide index={0}>
-                      <a
-                        href="https://youtu.be/wsFwnZ5OxNM?si=q5gJC0BIQMk6jb71"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
+                    
                         <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
                           <img
                             src={ai1}
@@ -272,14 +236,10 @@ import {
                           />
                           <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
                         </div>
-                      </a>
+                      
                     </Slide>
                     <Slide index={1}>
-                      <a
-                        href="https://youtu.be/wsFwnZ5OxNM?si=q5gJC0BIQMk6jb71"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
+                     
                         <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
                           <img
                             src={ai2}
@@ -288,7 +248,7 @@ import {
                           />
                           <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
                         </div>
-                      </a>
+                     
                     </Slide>
                     
                   
@@ -358,11 +318,7 @@ import {
                     className="h-full w-full flex lg:gap-8 md:gap-6 items-center justify-start transition ease-out duration-700"
                   >
                    <Slide index={0}>
-                      <a
-                        href="https://youtu.be/wsFwnZ5OxNM?si=q5gJC0BIQMk6jb71"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
+                    
                         <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
                           <img
                             src={ai1}
@@ -371,14 +327,10 @@ import {
                           />
                           <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
                         </div>
-                      </a>
+                     
                     </Slide>
                     <Slide index={1}>
-                      <a
-                        href="https://youtu.be/wsFwnZ5OxNM?si=q5gJC0BIQMk6jb71"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
+                   
                         <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
                           <img
                             src={ai2}
@@ -387,7 +339,7 @@ import {
                           />
                           <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
                         </div>
-                      </a>
+                     
                     </Slide>
                     
                    
