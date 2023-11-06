@@ -2,8 +2,7 @@
 import { useEffect, useState } from "react";
 import { gsap, Power2 } from "gsap";
 import axios from "axios";
-import toast ,{ Toaster } from "react-hot-toast";
-
+import toast, { Toaster } from "react-hot-toast";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -26,7 +25,7 @@ const Contact = () => {
     try {
       const response = await axios.post(
         "https://dhruverse-be.vercel.app/api/messages/sendMessage",
-        formData
+        formData,
       );
       console.log("Response:", response.data);
       setFormData({
@@ -41,9 +40,7 @@ const Contact = () => {
     }
   };
 
-
   useEffect(() => {
-
     const mouthSpeed = 0.3;
     const easeType = Power2.easeOut;
     const mouthOpen = gsap.timeline({ paused: true });
@@ -95,7 +92,6 @@ const Contact = () => {
       0,
     );
 
-
     const earWiggle = gsap.timeline({ paused: true, repeat: 2 });
     earWiggle.set(".ear-right", { transformOrigin: "center center" });
     earWiggle.to(".ear-right", { duration: 0.1, rotation: 45 });
@@ -131,7 +127,7 @@ const Contact = () => {
   });
   return (
     <>
-     <Toaster position="top-center" reverseOrder={false} />
+      <Toaster position="top-center" reverseOrder={false} />
       <section className="py-24 px-8 lg:px-24 lg:py-24 overflow-hidden relative z-10">
         <div className="container">
           <div className="flex flex-wrap -mx-4 lg:justify-between">
@@ -145,7 +141,7 @@ const Contact = () => {
                   our email or contact us through our phone number given below.
                   Our team of experts is here and happy to assist.
                 </p>
-              
+
                 <div className="mb-8 flex w-full max-w-[370px]">
                   <div className="mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-theme_2 theme_2 bg-opacity-5 text-theme_2 sm:h-[70px] sm:max-w-[70px]">
                     <svg
@@ -161,9 +157,7 @@ const Contact = () => {
                     <h4 className="mb-1 text-xl font-bold text-theme_4">
                       Our Location
                     </h4>
-                    <p className="text-theme_4 text-body-color">
-                      Delhi, India
-                    </p>
+                    <p className="text-theme_4 text-body-color">Delhi, India</p>
                   </div>
                 </div>
                 <div className="mb-8 flex w-full max-w-[370px]">
@@ -203,7 +197,10 @@ const Contact = () => {
                     <h4 className="mb-1 text-xl font-bold text-theme_4">
                       Email Address
                     </h4>
-                    <a href="mailto:contact@dhruverse.in" className="text-theme_4 text-body-color">
+                    <a
+                      href="mailto:contact@dhruverse.in"
+                      className="text-theme_4 text-body-color"
+                    >
                       contact@dhruverse.in
                     </a>
                   </div>
@@ -213,70 +210,69 @@ const Contact = () => {
             <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
               <div className="relative p-8 bg-theme_2 rounded-lg shadow-lg sm:p-12">
                 <form onSubmit={handleSubmit}>
-                <div className="-mx-2 md:items-center md:flex">
-              <div className="flex-1 px-2">
-                <label className="block mb-2 text-sm text-gray-600">
-                  First Name
-                </label>
-                <input
-                  type="text"
-                  placeholder="First Name"
-                  name="firstName"
-                  value={formData.firstName}
-                  onChange={handleInputChange}
-                  className="block w-full px-5 py-2.5 mt-2 bg-theme_2 text-theme_4 placeholder-theme_3 border border-theme_3 rounded-lg focus:border-theme_3 focus:ring-theme_3 focus:outline-none focus:ring focus:ring-opacity-40"
-                />
-              </div>
+                  <div className="-mx-2 md:items-center md:flex">
+                    <div className="flex-1 px-2">
+                      <label className="block mb-2 text-sm text-gray-600">
+                        First Name
+                      </label>
+                      <input
+                        type="text"
+                        placeholder="First Name"
+                        name="firstName"
+                        value={formData.firstName}
+                        onChange={handleInputChange}
+                        className="block w-full px-5 py-2.5 mt-2 bg-theme_2 text-theme_4 placeholder-theme_3 border border-theme_3 rounded-lg focus:border-theme_3 focus:ring-theme_3 focus:outline-none focus:ring focus:ring-opacity-40"
+                      />
+                    </div>
 
-              <div className="flex-1 px-2 mt-4 md:mt-0">
-                <label className="block mb-2 text-sm text-gray-600">
-                  Last Name
-                </label>
-                <input
-                  type="text"
-                  placeholder="Last Name"
-                  className="block w-full px-5 py-2.5 mt-2 bg-theme_2 text-theme_4 placeholder-theme_3 border border-theme_3 rounded-lg focus:border-theme_3 focus:ring-theme_3 focus:outline-none focus:ring focus:ring-opacity-40"
-                  name="lastName"
-                  value={formData.lastName}
-                  onChange={handleInputChange}
-                />
-              </div>
-            </div>
+                    <div className="flex-1 px-2 mt-4 md:mt-0">
+                      <label className="block mb-2 text-sm text-gray-600">
+                        Last Name
+                      </label>
+                      <input
+                        type="text"
+                        placeholder="Last Name"
+                        className="block w-full px-5 py-2.5 mt-2 bg-theme_2 text-theme_4 placeholder-theme_3 border border-theme_3 rounded-lg focus:border-theme_3 focus:ring-theme_3 focus:outline-none focus:ring focus:ring-opacity-40"
+                        name="lastName"
+                        value={formData.lastName}
+                        onChange={handleInputChange}
+                      />
+                    </div>
+                  </div>
 
-            <div className="mt-4">
-              <label className="block mb-2 text-sm text-gray-600">
-                Email address
-              </label>
-              <input
-                type="email"
-                placeholder="example@example.com"
-                className="block w-full px-5 py-2.5 mt-2 bg-theme_2 text-theme_4 placeholder-theme_3 border border-theme_3 rounded-lg focus:border-theme_3 focus:ring-theme_3 focus:outline-none focus:ring focus:ring-opacity-40"
-                name="email"
-                value={formData.email}
-                onChange={handleInputChange}
-              />
-            </div>
+                  <div className="mt-4">
+                    <label className="block mb-2 text-sm text-gray-600">
+                      Email address
+                    </label>
+                    <input
+                      type="email"
+                      placeholder="example@example.com"
+                      className="block w-full px-5 py-2.5 mt-2 bg-theme_2 text-theme_4 placeholder-theme_3 border border-theme_3 rounded-lg focus:border-theme_3 focus:ring-theme_3 focus:outline-none focus:ring focus:ring-opacity-40"
+                      name="email"
+                      value={formData.email}
+                      onChange={handleInputChange}
+                    />
+                  </div>
 
-            <div className="w-full mt-4">
-              <label className="block mb-2 text-sm text-gray-600">
-                Message
-              </label>
-              <textarea
-                className="block w-full h-32 px-5 py-2.5 mt-2 bg-theme_2 text-theme_4 placeholder-theme_3 border border-theme_3 rounded-lg focus:border-theme_3 focus:ring-theme_3 focus:outline-none focus:ring focus:ring-opacity-40"
-                placeholder="Message"
-                name="message"
-                value={formData.message}
-                onChange={handleInputChange}
-              ></textarea>
-            </div>
-                
+                  <div className="w-full mt-4">
+                    <label className="block mb-2 text-sm text-gray-600">
+                      Message
+                    </label>
+                    <textarea
+                      className="block w-full h-32 px-5 py-2.5 mt-2 bg-theme_2 text-theme_4 placeholder-theme_3 border border-theme_3 rounded-lg focus:border-theme_3 focus:ring-theme_3 focus:outline-none focus:ring focus:ring-opacity-40"
+                      placeholder="Message"
+                      name="message"
+                      value={formData.message}
+                      onChange={handleInputChange}
+                    ></textarea>
+                  </div>
+
                   <button
-                     type="submit"
+                    type="submit"
                     className="text-sm lg:text-md inline-block mr-12  text-white cursor-pointer border rounded border-theme_4 hover:border-theme_2 hover:text-theme_2 hover:bg-theme_4 bg-theme_2 hover:bg-opacity-9 p-2 lg:p-3 mt-8 lg:mt-0"
                   >
                     Send Message
                   </button>
-                
 
                   <div className="hidden lg:inline-block text-center mt-[-50px] ">
                     <button className="contact-button">
@@ -1242,6 +1238,3 @@ const Contact = () => {
 };
 
 export default Contact;
-
-
-

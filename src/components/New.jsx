@@ -7,11 +7,9 @@ const OurServices = () => {
   const services = [
     {
       image: i1,
-
     },
     {
       image: i2,
-
     },
   ];
 
@@ -19,8 +17,7 @@ const OurServices = () => {
     <>
       <div className="">
         <p className="text-md lg:text-2xl p-4 lg:p-8 md:text-xl md:p-8 sm:text-sm sm:p-8 font-light text-center lg:text-center text-theme_4">
-          We are dhruVerse, providing the best production, from pre to
-          post.
+          We are dhruVerse, providing the best production, from pre to post.
           <span className="inline lg:block">
             {" "}
             We are the ultimate platform where lies the pioneers of creative
@@ -39,13 +36,11 @@ const OurServices = () => {
                   key={index}
                   className="flex flex-col items-center justify-center bg-theme_1 rounded-lg shadow-2xl transition duration-300 ease-in-out transform cursor-pointer hover:animate-pulse "
                 >
-                 
-                    <img
-                      src={service.image}
-                      className="rounded-lg "
-                      alt="image"
-                    />
-                  
+                  <img
+                    src={service.image}
+                    className="rounded-lg "
+                    alt="image"
+                  />
                 </div>
               ))}
             </div>
