@@ -10,9 +10,9 @@ import {
 
 import bi1 from "../../../assets/thumbnails/best/1.jpg";
 import bi2 from "../../../assets/thumbnails/best/2.jpg";
-import bi3 from "../../../assets/thumbnails/best/3.jpg";
-import bi4 from "../../../assets/thumbnails/best/6.jpg";
-import bi5 from "../../../assets/thumbnails/best/5.jpg";
+import bi3 from "../../../assets/thumbnails/best/6.jpg";
+import bi4 from "../../../assets/thumbnails/best/5.jpg";
+import bi5 from "../../../assets/thumbnails/best/3.jpg";
 import bi6 from "../../../assets/thumbnails/best/4.jpg";
 import bi7 from "../../../assets/thumbnails/best/7.jpg";
 import bi8 from "../../../assets/thumbnails/best/8.jpg";

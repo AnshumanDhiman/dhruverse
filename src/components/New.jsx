@@ -30,7 +30,7 @@ const OurServices = () => {
         </h2>
         <div className="lg:py-4 lg:px-32 lg:ml-[-390px]">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 rounded-lg">
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-8 rounded-lg">
+            <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-8 rounded-lg">
               {services.map((service, index) => (
                 <div
                   key={index}
