@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import { gsap, Power2 } from "gsap";
 import axios from "axios";
-import toast from "react-hot-toast";
+import toast ,{ Toaster } from "react-hot-toast";
 
 const sr =
   "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112060.14019331978!2d77.15230774967195!3d28.633376950729005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x37205b715389640!2sDelhi!5e0!3m2!1sen!2sin!4v1699190938114!5m2!1sen!2sin";
@@ -27,10 +27,9 @@ const Contact = () => {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "http://localhost:8000/api/messages/sendMessage",
-        formData,
+        "https://dhruverse-be.vercel.app/api/messages/sendMessage",
+        formData
       );
-      toast.success("Message Delivered!");
       console.log("Response:", response.data);
       setFormData({
         firstName: "",
@@ -38,6 +37,7 @@ const Contact = () => {
         email: "",
         message: "",
       });
+      toast.success("Message Delivered!");
     } catch (error) {
       toast.error(error.message);
     }
@@ -97,15 +97,6 @@ const Contact = () => {
       0,
     );
 
-    // ------------
-    // Mouse events
-    // ------------
-
-    const button = document.querySelector("button");
-
-    // ----------
-    // Ear wiggle
-    // ----------
 
     const earWiggle = gsap.timeline({ paused: true, repeat: 2 });
     earWiggle.set(".ear-right", { transformOrigin: "center center" });
@@ -117,10 +108,6 @@ const Contact = () => {
     function earWigglePlay() {
       earWiggle.play(0);
     }
-
-    // ------------
-    // Eye tracking
-    // ------------
 
     const eyeRightPupil = document.querySelector(".eye-right-pupil");
     const eyeLeftPupil = document.querySelector(".eye-left-pupil");
@@ -143,16 +130,10 @@ const Contact = () => {
       eyeLeftPupil.style.transform = `translate(${posX}px, ${posY}px)`;
       eyeRightPupil.style.transform = `translate(${posX}px, ${posY}px)`;
     }
-
-    // Last minute link to the tutorial
-    button.addEventListener("click", () =>
-      window.open(
-        "",
-      ),
-    );
   });
   return (
     <>
+     <Toaster position="top-center" reverseOrder={false} />
       <section className="py-24 px-8 lg:px-24 lg:py-24 overflow-hidden relative z-10">
         <div className="container">
           <div className="flex flex-wrap -mx-4 lg:justify-between">
@@ -242,34 +223,62 @@ const Contact = () => {
             <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
               <div className="relative p-8 bg-theme_2 rounded-lg shadow-lg sm:p-12">
                 <form onSubmit={handleSubmit}>
-                  <ContactInputBox
-                    type="text"
-                    placeholder="First Name"
+                <div className="-mx-2 md:items-center md:flex">
+              <div className="flex-1 px-2">
+                <label className="block mb-2 text-sm text-gray-600">
+                  First Name
+                </label>
+                <input
+                  type="text"
+                  placeholder="First Name"
                   name="firstName"
-                    value={formData.firstName}
+                  value={formData.firstName}
                   onChange={handleInputChange}
-                  />
-                    <ContactInputBox
-                     placeholder="Last Name"
+                  className="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
+                />
+              </div>
+
+              <div className="flex-1 px-2 mt-4 md:mt-0">
+                <label className="block mb-2 text-sm text-gray-600">
+                  Last Name
+                </label>
+                <input
+                  type="text"
+                  placeholder="Last Name"
+                  className="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
                   name="lastName"
-                    value={formData.LastName}
+                  value={formData.lastName}
                   onChange={handleInputChange}
-                  />
-                  <ContactInputBox
-                    type="text"
-                    name="email"
-                    placeholder="Your Email"
-                    value={formData.email}
+                />
+              </div>
+            </div>
+
+            <div className="mt-4">
+              <label className="block mb-2 text-sm text-gray-600">
+                Email address
+              </label>
+              <input
+                type="email"
+                placeholder="example@example.com"
+                className="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
+                name="email"
+                value={formData.email}
                 onChange={handleInputChange}
-                  />
-                 
-                  <ContactTextArea
-                    row="6"
-                    placeholder="Your Message"
-                    name="details"
-                    value={formData.message}
-                    onChange={handleInputChange}
-                  />
+              />
+            </div>
+
+            <div className="w-full mt-4">
+              <label className="block mb-2 text-sm text-gray-600">
+                Message
+              </label>
+              <textarea
+                className="block w-full h-32 px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
+                placeholder="Message"
+                name="message"
+                value={formData.message}
+                onChange={handleInputChange}
+              ></textarea>
+            </div>
                 
                   <button
                      type="submit"
@@ -279,7 +288,7 @@ const Contact = () => {
                   </button>
                 
 
-                  <div className="hidden lg:inline-block text-center mt-[-100px]">
+                  <div className="hidden lg:inline-block text-center mt-[-50px] ">
                     <button className="contact-button">
                       <svg
                         viewBox="0 0 242 109"
@@ -1244,33 +1253,5 @@ const Contact = () => {
 
 export default Contact;
 
-const ContactTextArea = ({ row, placeholder, name, defaultValue }) => {
-  return (
-    <>
-      <div className="mb-6">
-        <textarea
-          rows={row}
-          placeholder={placeholder}
-          name={name}
-          className="border-[f0f0f0] bg-theme_2 w-full resize-none rounded border py-1 px-[5px] lg:py-3 lg:px-[14px] text-theme_4 text-body-color outline-none text-sm focus:border-theme_4 focus-visible:shadow-none"
-          defaultValue={defaultValue}
-        />
-      </div>
-    </>
-  );
-};
 
-const ContactInputBox = ({ type, placeholder, name }) => {
-  return (
-    <>
-      <div className="mb-6">
-        <input
-          type={type}
-          placeholder={placeholder}
-          name={name}
-          className="border-[f0f0f0] w-full rounded border py-1 px-[5px] lg:py-3 lg:px-[14px] bg-theme_2 text-theme_4 text-body-color text-sm outline-none focus:border-theme_4 focus-visible:shadow-none"
-        />
-      </div>
-    </>
-  );
-};
+
