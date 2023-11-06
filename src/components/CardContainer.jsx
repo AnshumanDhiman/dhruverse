@@ -18,7 +18,7 @@ export default function Container() {
             Branding your digital Presence
           </h2>
           <ACard />
-          <h2 className="text-xl text-center lg:text-left lg:text-2xl font-semibold lg:ml-4 py-4 mb-[-65px] lg:mb-[-55px] lg:py-0 bg-gradient-to-r text-transparent bg-clip-text from-theme_3 to-theme_4">
+          <h2 className="text-xl text-center lg:text-left lg:text-2xl font-semibold lg:ml-4 py-4 mb-[-60px] lg:mb-[-55px] lg:py-0 bg-gradient-to-r text-transparent bg-clip-text from-theme_3 to-theme_4">
             Best of Youtube
           </h2>
           <BCard />

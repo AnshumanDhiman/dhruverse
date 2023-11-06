@@ -23,7 +23,7 @@ import {
   export default function Index() {
     return (
       <div className="mx-auto">
-        <div className="flex lg:items-center justify-center w-full h-full py-8 px-8 lg:py-8 lg:px-4 brightness-150 contrast-125">
+        <div className="flex lg:items-center justify-center w-full h-full py-8 px-2  md:px-8   lg:py-8 lg:px-4 brightness-150 contrast-125">
           {/* Carousel for desktop and large size devices */}
           <CarouselProvider
             className="lg:block hidden"
