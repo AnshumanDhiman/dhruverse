@@ -39,7 +39,7 @@ const Brand = () => {
         </p>
         <div className="flex justify-center items-center">
           <div className="flex flex-wrap -mx-4">
-            <div className="w-full py-0 lg:px-40 lg:py-8">
+            <div className="w-full px-0 py-0 lg:px-56 lg:py-8">
               <div className="flex flex-wrap items-center justify-center rounded-full ">
               
                 <SingleImage href="#" Alt="Brand Image" imgSrc={o4} />
