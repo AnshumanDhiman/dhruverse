@@ -35,7 +35,7 @@ const WhydhruVerse = () => {
           <br />
           About Us
         </h2>
-        <p className="text-center text-theme_4 mb-8 mt-4 text-md md:text-2xl lg:text-2xl font-light">
+        <p className="text-center text-theme_4 mb-8 mt-4 text-sm md:text-2xl lg:text-2xl font-light">
           At dhruVerse, we celebrate individuality while embracing a collective
           passion for storytelling and a shared vision to construct a powerful
           platform that fuels creativity and future innovation.
@@ -56,7 +56,7 @@ const WhydhruVerse = () => {
               <h3 className="text-xl text-theme_4 font-semibold text-center mb-4">
                 {card.title}
               </h3>
-              <p className="text-theme_4 text-center">{card.description}</p>
+              <p className="text-theme_4 text-center text-sm lg:text-[16px]">{card.description}</p>
             </div>
           ))}
         </div>

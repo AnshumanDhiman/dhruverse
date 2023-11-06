@@ -32,7 +32,7 @@ const Brand = () => {
       <section className="p-4">
         <br />
         <br />
-        <p className="text-theme_4 text-md lg:text-2xl text-center font-light lg:px-16 lg:py-8">
+        <p className="text-theme_4 text-sm lg:text-2xl text-center font-light lg:px-16 lg:py-8">
           At dhruVerse, we value the power of partnerships. We are proud to
           collaborate with like-minded individuals and organizations who share
           our passion for creating exceptional media content.
