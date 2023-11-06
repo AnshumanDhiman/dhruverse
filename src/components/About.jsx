@@ -46,7 +46,7 @@ const About1 = () => {
             </div>
             <div className="lg:ml-0 md:ml-0 lg:w-8/12">
               <img
-                className="w-full h-full px-12"
+                className="w-full h-full lg:px-12 px-4"
                 src={i4}
                 alt="dhruverse image"
               />
