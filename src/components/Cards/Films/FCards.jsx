@@ -18,6 +18,7 @@ import fi7 from "../../../assets/thumbnails/film/7.jpg";
 import fi8 from "../../../assets/thumbnails/film/8.jpg";
 import fi9 from "../../../assets/thumbnails/film/9.jpg";
 import fi10 from "../../../assets/thumbnails/film/10.jpg";
+import fi11 from "../../../assets/thumbnails/film/11.jpg";
 
 export default function Index() {
   return (
@@ -28,7 +29,7 @@ export default function Index() {
           className="lg:block hidden"
           naturalSlideWidth={100}
           isIntrinsicHeight={true}
-          totalSlides={10}
+          totalSlides={11}
           visibleSlides={5}
           step={1}
           infinite={true}
@@ -102,6 +103,7 @@ export default function Index() {
                       <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
                     </div>
                   </Slide>
+               
                   <Slide index={4}>
                     <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
                       <img
@@ -125,7 +127,7 @@ export default function Index() {
                   <Slide index={6}>
                     <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
                       <img
-                        src={fi7}
+                        src={fi11}
                         alt="sitting area"
                         className="object-cover object-center w-full  rounded-lg border-lg"
                       />
@@ -135,7 +137,7 @@ export default function Index() {
                   <Slide index={7}>
                     <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
                       <img
-                        src={fi8}
+                        src={fi7}
                         alt="sitting area"
                         className="object-cover object-center w-full  rounded-lg border-lg"
                       />
@@ -145,7 +147,7 @@ export default function Index() {
                   <Slide index={8}>
                     <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
                       <img
-                        src={fi9}
+                        src={fi8}
                         alt="sitting area"
                         className="object-cover object-center w-full  rounded-lg border-lg"
                       />
@@ -155,6 +157,16 @@ export default function Index() {
                   <Slide index={9}>
                     <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
                       <img
+                        src={fi9}
+                        alt="sitting area"
+                        className="object-cover object-center w-full  rounded-lg border-lg"
+                      />
+                      <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
+                    </div>
+                  </Slide>
+                  <Slide index={10}>
+                    <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
+                      <img
                         src={fi10}
                         alt="sitting area"
                         className="object-cover object-center w-full  rounded-lg border-lg"
@@ -162,6 +174,7 @@ export default function Index() {
                       <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
                     </div>
                   </Slide>
+                
                 </div>
               </Slider>
             </div>
@@ -194,7 +207,7 @@ export default function Index() {
           className="lg:hidden md:block hidden"
           naturalSlideWidth={100}
           isIntrinsicHeight={true}
-          totalSlides={10}
+          totalSlides={11}
           visibleSlides={2}
           step={1}
           infinite={true}
@@ -285,7 +298,7 @@ export default function Index() {
                   <Slide index={6}>
                     <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                       <img
-                        src={fi7}
+                        src={fi11}
                         alt="sitting area"
                         className="object-cover object-center w-full rounded-lg"
                       />
@@ -294,7 +307,7 @@ export default function Index() {
                   <Slide index={7}>
                     <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                       <img
-                        src={fi8}
+                        src={fi7}
                         alt="sitting area"
                         className="object-cover object-center w-full rounded-lg"
                       />
@@ -303,13 +316,22 @@ export default function Index() {
                   <Slide index={8}>
                     <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                       <img
-                        src={fi9}
+                        src={fi8}
                         alt="sitting area"
                         className="object-cover object-center w-full rounded-lg"
                       />
                     </div>
                   </Slide>
                   <Slide index={9}>
+                    <div className="flex flex-shrink-0 relative w-full sm:w-auto">
+                      <img
+                        src={fi9}
+                        alt="sitting area"
+                        className="object-cover object-center w-full rounded-lg"
+                      />
+                    </div>
+                  </Slide>
+                  <Slide index={10}>
                     <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                       <img
                         src={fi10}
@@ -351,7 +373,7 @@ export default function Index() {
           className="block md:hidden"
           naturalSlideWidth={100}
           isIntrinsicHeight={true}
-          totalSlides={10}
+          totalSlides={11}
           visibleSlides={2}
           step={2}
           infinite={true}
@@ -442,7 +464,7 @@ export default function Index() {
                   <Slide index={6}>
                     <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                       <img
-                        src={fi7}
+                        src={fi11}
                         alt="sitting area"
                         className="object-cover object-center w-full rounded-lg"
                       />
@@ -451,13 +473,23 @@ export default function Index() {
                   <Slide index={7}>
                     <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                       <img
+                        src={fi7}
+                        alt="sitting area"
+                        className="object-cover object-center w-full rounded-lg"
+                      />
+                    </div>
+                  </Slide>
+               
+                  <Slide index={8}>
+                    <div className="flex flex-shrink-0 relative w-full sm:w-auto">
+                      <img
                         src={fi8}
                         alt="sitting area"
                         className="object-cover object-center w-full rounded-lg"
                       />
                     </div>
                   </Slide>
-                  <Slide index={8}>
+                  <Slide index={9}>
                     <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                       <img
                         src={fi9}
@@ -466,7 +498,7 @@ export default function Index() {
                       />
                     </div>
                   </Slide>
-                  <Slide index={9}>
+                  <Slide index={10}>
                     <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                       <img
                         src={fi10}
