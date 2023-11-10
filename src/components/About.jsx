@@ -1,10 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
 
-import bgimg from "../assets/bg.png";
-import a1 from "../assets/about/a1.png";
-import a2 from "../assets/about/a2.png";
-import a3 from "../assets/about/a3.png";
-import i4 from "../assets/about/4.jpg";
+import bgimg from "../assets/bg.webp";
+import a1 from "../assets/about/a1.webp";
+import a2 from "../assets/about/a2.webp";
+import a3 from "../assets/about/a3.webp";
+import i4 from "../assets/about/4.webp";
 
 const About1 = () => {
   return (
