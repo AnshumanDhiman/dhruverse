@@ -20,7 +20,7 @@ const About1 = () => {
           className="hidden lg:block w-full h-[600px]  opacity-[65%] z-[-999]"
         ></div>
 
-        <div className="hidden  relative lg:flex overflow-x-hidden text-white opacity-70">
+        <div className="lg:top-0 md:top-0 top-[38rem] lg:mt-0 relative lg:flex overflow-x-hidden text-white opacity-70">
           <div className="animate-marquee whitespace-nowrap">
             <img src={a1} alt="" className="w-full inline-block" />
           </div>
@@ -53,9 +53,9 @@ const About1 = () => {
             </div>
           </div>
           <br />
-          <div className="inline-block md:w-[50rem] sm:w-full sm:ml-0  md:ml-[-15px] lg:hidden lg:py-0 py-6">
+          {/* <div className="inline-block md:w-[50rem] sm:w-full sm:ml-0  md:ml-[-15px] lg:hidden lg:py-0 py-6">
             <img src={a3} alt="" className=" inline-block" />
-          </div>
+          </div> */}
           <br />
           <br />
 

@@ -40,6 +40,7 @@ const Navbar = () => {
     closeMenu();
   };
 
+  // eslint-disable-next-line no-unused-vars
   const handleDropdownLinkClick = () => {
     closeMenu();
     toggleDropdown();
