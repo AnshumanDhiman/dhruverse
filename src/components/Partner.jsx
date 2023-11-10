@@ -57,90 +57,90 @@ const Brand = () => {
           <div className="flex flex-wrap -mx-4 mb-[-32px]">
             <div className="w-full lg:px-64">
               <div className="flex flex-wrap items-center justify-center  rounded-full ">
-                <div className="hidden lg:block">
+                <div className="">
                   <img
-                    className="w-[75px] p-1 lg:w-[100px] m-4 lg:mx-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
+                    className="w-[55px] lg:w-[100px] p-1 m-4 lg:mx-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
                     src={y10}
                     alt=""
                   />
-                  <p className="text-theme_4 text-center">Gaurav Arora</p>
+                  <p className="text-theme_4 text-center lg:text-[16px] text-[11px]">Gaurav Arora</p>
                 </div>
                 <div>
                   <img
-                    className="w-[75px] p-1 lg:w-[100px] m-4 lg:mx-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
+                    className="w-[55px] p-1 lg:w-[100px] m-4 lg:mx-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
                     src={y2}
                     alt=""
                   />
-                  <p className="text-theme_4 text-center">Harsh Beniwal</p>
+                  <p className="text-theme_4 text-center lg:text-[16px] text-[11px]">Harsh Beniwal</p>
                 </div>
                 <div>
                   <img
-                    className="w-[75px] p-1 lg:w-[100px] m-4 lg:mx-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
+                    className="w-[55px] p-1 lg:w-[100px] m-4 lg:mx-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
                     src={y1}
                     alt=""
                   />
-                  <p className="text-theme_4 text-center">Amit Bhadana</p>
+                  <p className="text-theme_4 text-center lg:text-[16px] text-[11px]">Amit Bhadana</p>
                 </div>
 
                 <div>
                   <img
-                    className="w-[75px] p-1 lg:w-[100px] m-4 lg:mx-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
+                    className="w-[55px] p-1 lg:w-[100px] m-4 lg:mx-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
                     src={y4}
                     alt=""
                   />
-                  <p className="text-theme_4 text-center">Hasley India</p>
+                  <p className="text-theme_4 text-center lg:text-[16px] text-[11px]">Hasley India</p>
                 </div>
 
                 <div>
                   <img
-                    className="w-[75px] p-1 lg:w-[100px] m-4 lg:mx-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
+                    className="w-[55px] p-1 lg:w-[100px] m-4 lg:mx-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
                     src={y6}
                     alt=""
                   />
-                  <p className="text-theme_4 text-center">Fukra Insaan</p>
+                  <p className="text-theme_4 text-center lg:text-[16px] text-[11px]">Fukra Insaan</p>
                 </div>
 
                 <div>
                   <img
-                    className="w-[75px] p-1 lg:w-[100px] m-4 lg:mx-4 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
+                    className="w-[55px] p-1 lg:w-[100px] m-4 lg:mx-4 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
                     src={y8}
                     alt=""
                   />
-                  <p className="text-theme_4 text-center">Tanmay Bhat</p>
+                  <p className="text-theme_4 text-center lg:text-[16px] text-[11px]">Tanmay Bhat</p>
                 </div>
 
-                <div className="hidden lg:block">
+                <div>
                   <img
-                    className="w-[75px] p-1 lg:w-[100px] m-4 lg:mx-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
+                    className="w-[55px] p-1 lg:w-[100px] m-4 lg:mx-4 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
                     src={y11}
                     alt=""
                   />
-                  <p className="text-theme_4 text-center">Payal Jain</p>
+                  <p className="text-theme_4 text-center lg:text-[16px] text-[11px]">Payal Jain</p>
                 </div>
-                <div className="hidden lg:block">
+                <div>
                   <img
-                    className="w-[75px] p-1 lg:w-[100px] m-4 lg:mx-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
+                    className="w-[55px] p-1 lg:w-[100px] m-4 lg:mx-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
                     src={y12}
                     alt=""
                   />
-                  <p className="text-theme_4 text-center">Mayank Mishra</p>
+                  <p className="text-theme_4 text-center lg:text-[16px] text-[11px]">Mayank Mishra</p>
                 </div>
-                <div className="hidden lg:block">
+                <div >
                   <img
-                    className="w-[75px] p-1 lg:w-[100px] m-4 lg:mx-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
+                    className="w-[55px] p-1 lg:w-[100px] m-4 lg:mx-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
                     src={y13}
                     alt=""
                   />
-                  <p className="text-theme_4 text-center">Purav Jha</p>
+                  <p className="text-theme_4 text-center lg:text-[16px] text-[11px]">Purav Jha</p>
                 </div>
 
-                <div className="hidden lg:block">
+                <div>
                   <img
-                    className="w-[75px] p-1 lg:w-[100px] m-4 lg:mx-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
+                    className="w-[55px] p-1 lg:w-[100px] m-4 lg:mx-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
                     src={y15}
                     alt=""
                   />
-                  <p className="text-theme_4 text-center">Bali</p>
+                  <p className="text-theme_4 text-center lg:text-[16px] text-[11px]">Bali</p>
                 </div>
               </div>
             </div>
