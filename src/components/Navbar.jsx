@@ -1,7 +1,9 @@
-/* eslint-disable no-unused-vars */
+
+
 import { useEffect, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import logo from "../assets/logo.png";
+
 const Navbar = () => {
   const [isSticky, setIsSticky] = useState(false);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -51,12 +53,12 @@ const Navbar = () => {
     >
       <header>
         <div className="z-20 bg-theme_1">
-          <div className="px-6 md:px-12 lg:mx-auto lg:px-24 lg:py-4">
+          <div className="px-4 md:px-6 lg:mx-auto lg:px-24 lg:py-4">
             <div className="flex items-center justify-between">
               <div className="relative z-20">
                 <Link to="">
                   <div className="flex justify-center items-center">
-                    <img src={logo} alt="logo" className="w-32" />
+                    <img src={logo} alt="logo" className="w-20 md:w-32 lg:w-32" />
                   </div>
                 </Link>
               </div>
@@ -71,7 +73,7 @@ const Navbar = () => {
                 />
                 <label
                   htmlFor="hamburger"
-                  className="peer-checked:hamburger block relative z-20 p-6 -mr-6 cursor-pointer lg:hidden"
+                  className="peer-checked:hamburger block relative z-20 p-4 -mr-4 cursor-pointer lg:hidden"
                 >
                   <div
                     aria-hidden="true"
@@ -85,8 +87,8 @@ const Navbar = () => {
 
                 <div className="peer-checked:translate-x-0 z-50 fixed inset-0 w-[calc(100%-4.5rem)] translate-x-[-100%] bg-theme_1 border-r shadow-xl transition duration-300 lg:border-r-0 lg:w-auto lg:static lg:shadow-none lg:translate-x-0">
                   <div className="flex flex-col h-full justify-between lg:items-center lg:flex-row">
-                    <ul className="px-6 pt-32 text-white space-y-8 md:px-12 lg:space-y-0 lg:flex lg:space-x-12 lg:pt-0">
-                      <li>
+                    <ul className="px-4 pt-12 text-white space-y-4 md:px-6 lg:space-y-0 lg:flex lg:space-x-6 lg:pt-0">
+                    <li>
                         <NavLink
                           to=""
                           className={({ isActive }) =>
@@ -136,3 +138,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
