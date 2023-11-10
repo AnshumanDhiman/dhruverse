@@ -54,15 +54,9 @@ const About1 = () => {
             </div>
           </div>
           <br />
-          <div className="lg:hidden relative w-[50rem] overflow-x-hidden text-white opacity-80">
-          <div className="animate-marquee whitespace-nowrap">
-            <img src={a1} alt="" className="w-full inline-block" />
+          <div className="inline-block md:w-[50rem] sm:w-full sm:ml-0  md:ml-[-15px] lg:hidden lg:py-0 py-6">
+            <img src={a3} alt="" className=" inline-block" />
           </div>
-
-          <div className="absolute top-0 animate-marquee2 whitespace-nowrap tex-white">
-            <img src={a2} alt="" className="w-full inline-block" />
-          </div>
-        </div>
           <br />
           <br />
 
