@@ -1,30 +1,29 @@
 /* eslint-disable react/prop-types */
 
-import y1 from "../assets/youtubers/1.jpg";
-import y2 from "../assets/youtubers/2.jpg";
-import y4 from "../assets/youtubers/4.jpg";
-import y6 from "../assets/youtubers/6.jpg";
-import y8 from "../assets/youtubers/8.jpg";
-import y10 from "../assets/youtubers/10.jpg";
-import y11 from "../assets/youtubers/11.jpg";
-import y12 from "../assets/youtubers/12.jpg";
-import y13 from "../assets/youtubers/13.jpg";
+import y1 from "../assets/youtubers/1.webp";
+import y2 from "../assets/youtubers/2.webp";
+import y4 from "../assets/youtubers/4.webp";
+import y6 from "../assets/youtubers/6.webp";
+import y8 from "../assets/youtubers/8.webp";
+import y10 from "../assets/youtubers/10.webp";
+import y11 from "../assets/youtubers/11.webp";
+import y12 from "../assets/youtubers/12.webp";
+import y13 from "../assets/youtubers/13.webp";
+import y15 from "../assets/youtubers/15.webp";
 
-import y15 from "../assets/youtubers/15.jpg";
+import o1 from "../assets/ott/1.webp";
+import o2 from "../assets/ott/2.webp";
+import o3 from "../assets/ott/3.webp";
+import o4 from "../assets/ott/4.webp";
+import o5 from "../assets/ott/5.webp";
+import o6 from "../assets/ott/6.webp";
+import o7 from "../assets/ott/7.webp";
+import o8 from "../assets/ott/8.webp";
 
-import o1 from "../assets/ott/1.png";
-import o2 from "../assets/ott/2.png";
-import o3 from "../assets/ott/3.png";
-import o4 from "../assets/ott/4.png";
-import o5 from "../assets/ott/5.png";
-import o6 from "../assets/ott/6.png";
-import o7 from "../assets/ott/7.png";
-import o8 from "../assets/ott/8.png";
-
-import a2 from "../assets/ads/2.png";
-import a3 from "../assets/ads/3.png";
-import a4 from "../assets/ads/4.png";
-import a5 from "../assets/ads/5.png";
+import a2 from "../assets/ads/2.webp";
+import a3 from "../assets/ads/3.webp";
+import a4 from "../assets/ads/4.webp";
+import a5 from "../assets/ads/5.webp";
 
 const Brand = () => {
   return (
