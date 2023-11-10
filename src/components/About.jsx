@@ -3,7 +3,7 @@
 import bgimg from "../assets/bg.webp";
 import a1 from "../assets/about/a1.webp";
 import a2 from "../assets/about/a2.webp";
-import a3 from "../assets/about/a3.webp";
+import a3 from "../assets/about/a3.jpg";
 import i4 from "../assets/about/4.webp";
 
 const About1 = () => {
@@ -54,11 +54,7 @@ const About1 = () => {
             </div>
           </div>
           <br />
-          <div className="inline-block md:w-[50rem] sm:w-full sm:ml-0  md:ml-[-15px] lg:hidden lg:py-0 py-6">
-            <img src={a3} alt="" className=" inline-block" />
-          </div>
-          <br />
-          <br />
+        
 
           <div className="hidden lg:block text-center absolute top-[50%] left-[43%] z-[999]">
             <h1
@@ -73,6 +69,11 @@ const About1 = () => {
             </h1>
           </div>
         </div>
+        <div className="inline-block md:w-[50rem] sm:w-full sm:ml-0  md:ml-[-15px] lg:hidden lg:py-0 py-6">
+            <img src={a3} alt="" className=" inline-block" />
+          </div>
+          <br />
+          <br />
       </div>
     </>
   );
