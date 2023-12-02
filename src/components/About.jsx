@@ -60,7 +60,7 @@ const About1 = () => {
         
 
           <div className="hidden lg:block text-center absolute top-[50%] left-[43%] z-[999]">
-            <h1
+            {/* <h1
               style={{
                 fontFamily: "Bebas Neue",
                 letterSpacing: "5px",
@@ -69,7 +69,7 @@ const About1 = () => {
               className="text-6xl text-white "
             >
               ABOUT US
-            </h1>
+            </h1> */}
           </div>
         </div>
         <div className="inline-block md:w-[50rem] sm:w-full sm:ml-0  md:ml-[-15px] lg:hidden lg:py-0 py-6">
