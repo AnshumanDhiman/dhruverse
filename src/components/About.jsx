@@ -23,7 +23,7 @@ const About1 = () => {
           className="hidden lg:block w-full h-[600px]  opacity-[65%] z-[-999]"
         ></div>
 
-        <div className="hidden  relative lg:flex overflow-x-hidden text-white opacity-70">
+        {/* <div className="hidden  relative lg:flex overflow-x-hidden text-white opacity-70">
           <div className="animate-marquee whitespace-nowrap">
             <img src={a1} alt="" className="w-full inline-block" />
           </div>
@@ -31,7 +31,7 @@ const About1 = () => {
           <div className="absolute top-0 animate-marquee2 whitespace-nowrap tex-white">
             <img src={a2} alt="" className="w-full inline-block" />
           </div>
-        </div>
+        </div> */}
 
         <div className="2xl:container 2xl:mx-auto lg:pt-16 lg:px-20 md:pt-32 md:px-6 pt-24 px-4">
           <div className="flex flex-col lg:flex-row justify-between gap-8">
