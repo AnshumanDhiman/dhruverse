@@ -14,12 +14,12 @@ export default function Home() {
       <div className="circle-left"></div>
       <div className="circle-right"></div>
       <Hero />
-      <New />
+      {/* <New />
       <Container />
-      <Plus />
+      <Plus /> */}
       <PartnersSection />
-      <WhydhruVerse />
-      <Cta />
+      {/* <WhydhruVerse /> */}
+      {/* <Cta /> */}
     </>
   );
 }
