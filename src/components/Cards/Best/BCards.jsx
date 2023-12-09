@@ -8,20 +8,22 @@ import {
 
 /* Install pure-react-carousel using -> npm i pure-react-carousel */
 
-import bi1 from "../../../assets/thumbnails/best/1.jpg";
-import bi2 from "../../../assets/thumbnails/best/2.jpg";
-import bi3 from "../../../assets/thumbnails/best/6.jpg";
-import bi4 from "../../../assets/thumbnails/best/5.jpg";
-import bi5 from "../../../assets/thumbnails/best/3.jpg";
-import bi6 from "../../../assets/thumbnails/best/4.jpg";
-import bi7 from "../../../assets/thumbnails/best/7.jpg";
-import bi8 from "../../../assets/thumbnails/best/8.jpg";
-import bi9 from "../../../assets/thumbnails/best/9.jpg";
-import bi10 from "../../../assets/thumbnails/best/10.jpg";
-import bi11 from "../../../assets/thumbnails/best/11.jpg";
-import bi12 from "../../../assets/thumbnails/best/12.jpg";
-import bi13 from "../../../assets/thumbnails/best/13.jpg";
-import bi14 from "../../../assets/thumbnails/best/14.jpg";
+import bi1 from "../../../assets/thumbnails/best/15.jpg";
+import bi2 from "../../../assets/thumbnails/best/16.jpeg";
+import bi3 from "../../../assets/thumbnails/best/1.jpg";
+import bi4 from "../../../assets/thumbnails/best/2.jpg";
+import bi5 from "../../../assets/thumbnails/best/6.jpg";
+import bi6 from "../../../assets/thumbnails/best/5.jpg";
+import bi7 from "../../../assets/thumbnails/best/3.jpg";
+import bi8 from "../../../assets/thumbnails/best/4.jpg";
+import bi9 from "../../../assets/thumbnails/best/7.jpg";
+import bi10 from "../../../assets/thumbnails/best/8.jpg";
+import bi11 from "../../../assets/thumbnails/best/9.jpg";
+import bi12 from "../../../assets/thumbnails/best/10.jpg";
+import bi13 from "../../../assets/thumbnails/best/11.jpg";
+import bi14 from "../../../assets/thumbnails/best/12.jpg";
+import bi15 from "../../../assets/thumbnails/best/13.jpg";
+import bi16 from "../../../assets/thumbnails/best/14.jpg";
 
 export default function Index() {
   return (
@@ -32,7 +34,7 @@ export default function Index() {
           className="lg:block hidden"
           naturalSlideWidth={100}
           isIntrinsicHeight={true}
-          totalSlides={14}
+          totalSlides={16}
           visibleSlides={5}
           step={1}
           infinite={true}
@@ -66,7 +68,7 @@ export default function Index() {
                   id="slider"
                   className="h-full flex lg:gap-8 md:gap-6 gap-14 items-center justify-start transition ease-out duration-700"
                 >
-                  <Slide index={0}>
+                 <Slide index={0}>
                     <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
                       <img
                         src={bi1}
@@ -85,36 +87,35 @@ export default function Index() {
                     </div>
                   </Slide>
                   <Slide index={2}>
-                    <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg brightness-125">
+                    <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
                       <img
                         src={bi3}
                         alt="sitting area"
-                        className="object-cover object-center w-full  rounded-lg border-lg"
+                        className="object-cover object-center w-full rounded-lg"
                       />
-                      <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
                     </div>
                   </Slide>
                   <Slide index={3}>
-                    <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg  brightness-125">
+                    <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
                       <img
                         src={bi4}
+                        alt="sitting area"
+                        className="object-cover object-center w-full rounded-lg"
+                      />
+                    </div>
+                  </Slide>
+                  <Slide index={4}>
+                    <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg brightness-125">
+                      <img
+                        src={bi5}
                         alt="sitting area"
                         className="object-cover object-center w-full  rounded-lg border-lg"
                       />
                       <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
                     </div>
                   </Slide>
-                  <Slide index={4}>
-                    <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
-                      <img
-                        src={bi5}
-                        alt="sitting area"
-                        className="object-cover object-center w-full  rounded-lg"
-                      />
-                    </div>
-                  </Slide>
                   <Slide index={5}>
-                    <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
+                    <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg  brightness-125">
                       <img
                         src={bi6}
                         alt="sitting area"
@@ -128,9 +129,8 @@ export default function Index() {
                       <img
                         src={bi7}
                         alt="sitting area"
-                        className="object-cover object-center w-full  rounded-lg border-lg"
+                        className="object-cover object-center w-full  rounded-lg"
                       />
-                      <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
                     </div>
                   </Slide>
                   <Slide index={7}>
@@ -197,6 +197,26 @@ export default function Index() {
                     <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
                       <img
                         src={bi14}
+                        alt="sitting area"
+                        className="object-cover object-center w-full  rounded-lg border-lg"
+                      />
+                      <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
+                    </div>
+                  </Slide>
+                  <Slide index={14}>
+                    <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
+                      <img
+                        src={bi15}
+                        alt="sitting area"
+                        className="object-cover object-center w-full  rounded-lg border-lg"
+                      />
+                      <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
+                    </div>
+                  </Slide>
+                  <Slide index={15}>
+                    <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
+                      <img
+                        src={bi16}
                         alt="sitting area"
                         className="object-cover object-center w-full  rounded-lg border-lg"
                       />
@@ -396,6 +416,24 @@ export default function Index() {
                       />
                     </div>
                   </Slide>
+                  <Slide index={14}>
+                    <div className="flex flex-shrink-0 relative w-full sm:w-auto">
+                      <img
+                        src={bi15}
+                        alt="sitting area"
+                        className="object-cover object-center w-full rounded-lg"
+                      />
+                    </div>
+                  </Slide>
+                  <Slide index={15}>
+                    <div className="flex flex-shrink-0 relative w-full sm:w-auto">
+                      <img
+                        src={bi16}
+                        alt="sitting area"
+                        className="object-cover object-center w-full rounded-lg"
+                      />
+                    </div>
+                  </Slide>
                 </div>
               </Slider>
             </div>
@@ -583,6 +621,24 @@ export default function Index() {
                     <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                       <img
                         src={bi14}
+                        alt="sitting area"
+                        className="object-cover object-center w-full rounded-lg"
+                      />
+                    </div>
+                  </Slide>
+                  <Slide index={14}>
+                    <div className="flex flex-shrink-0 relative w-full sm:w-auto">
+                      <img
+                        src={bi15}
+                        alt="sitting area"
+                        className="object-cover object-center w-full rounded-lg"
+                      />
+                    </div>
+                  </Slide>
+                  <Slide index={15}>
+                    <div className="flex flex-shrink-0 relative w-full sm:w-auto">
+                      <img
+                        src={bi16}
                         alt="sitting area"
                         className="object-cover object-center w-full rounded-lg"
                       />
