@@ -12,9 +12,9 @@ import bi1 from "../../../assets/thumbnails/best/15.jpg";
 import bi2 from "../../../assets/thumbnails/best/16.jpeg";
 import bi3 from "../../../assets/thumbnails/best/1.jpg";
 import bi4 from "../../../assets/thumbnails/best/2.jpg";
-import bi5 from "../../../assets/thumbnails/best/6.jpg";
+import bi5 from "../../../assets/thumbnails/best/3.jpg";
 import bi6 from "../../../assets/thumbnails/best/5.jpg";
-import bi7 from "../../../assets/thumbnails/best/3.jpg";
+import bi7 from "../../../assets/thumbnails/best/6.jpg";
 import bi8 from "../../../assets/thumbnails/best/4.jpg";
 import bi9 from "../../../assets/thumbnails/best/7.jpg";
 import bi10 from "../../../assets/thumbnails/best/8.jpg";
@@ -463,12 +463,12 @@ export default function Index() {
         </CarouselProvider>
 
         <CarouselProvider
-          className="block md:hidden "
+          className="block md:hidden"
           naturalSlideWidth={100}
           isIntrinsicHeight={true}
-          totalSlides={14}
+          totalSlides={16}
           visibleSlides={2}
-          step={1}
+          step={2}
           infinite={true}
         >
           <div className="w-full relative flex items-center justify-center">
