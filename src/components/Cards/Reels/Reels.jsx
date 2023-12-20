@@ -11,8 +11,8 @@ import {
 import r1 from "../../../assets/thumbnails/reels/1.jpg";
 import r2 from "../../../assets/thumbnails/reels/2.jpg";
 import r3 from "../../../assets/thumbnails/reels/3.png";
-import r4 from "../../../assets/thumbnails/reels/test3.webp";
-import r5 from "../../../assets/thumbnails/reels/test4.webp";
+import r4 from "../../../assets/thumbnails/reels/4.png";
+import r5 from "../../../assets/thumbnails/reels/5.png";
 import r6 from "../../../assets/thumbnails/reels/test5.webp";
 
 export default function Index() {

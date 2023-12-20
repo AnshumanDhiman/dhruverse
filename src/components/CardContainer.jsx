@@ -22,7 +22,7 @@ export default function Container() {
           </h2>
           <BCard />
           <h2 className="text-xl text-center lg:text-left lg:text-2xl font-semibold lg:ml-4 py-4 mb-[-40px] lg:mb-[-25px] lg:py-0 bg-gradient-to-r text-transparent bg-clip-text from-theme_3 to-theme_4">
-            Wait a minute
+            Rewind it reels
           </h2>
           <Reels />
           <br />
