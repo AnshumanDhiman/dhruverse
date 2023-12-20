@@ -29,7 +29,7 @@ const WhydhruVerse = () => {
     <div className=" pb-0 lg:pb-36">
       <div className="max-w-7xl mx-auto px-4 py-8 lg:py-0 md:py-0 sm:px-6 lg:px-8 ">
         <h2
-          style={{ fontFamily: "Bebas Neue", letterSpacing: "3px" }}
+          
           className=" text-2xl lg:text-4xl font-semibold text-center bg-gradient-to-r text-theme_4"
         >
           <br />
