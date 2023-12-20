@@ -110,7 +110,7 @@ export default function Index() {
                     </div>
                   </Slide>
                   <Slide index={5}>
-                    <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
+                    <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg contrast-[109%]">
                       <img
                         src={r6}
                         alt="sitting area"
