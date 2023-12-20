@@ -8,9 +8,9 @@ import {
 
 /* Install pure-react-carousel using -> npm i pure-react-carousel */
 
-import r1 from "../../../assets/thumbnails/reels/test.jpg";
-import r2 from "../../../assets/thumbnails/reels/test1.webp";
-import r3 from "../../../assets/thumbnails/reels/test2.webp";
+import r1 from "../../../assets/thumbnails/reels/1.jpg";
+import r2 from "../../../assets/thumbnails/reels/2.jpg";
+import r3 from "../../../assets/thumbnails/reels/3.png";
 import r4 from "../../../assets/thumbnails/reels/test3.webp";
 import r5 from "../../../assets/thumbnails/reels/test4.webp";
 import r6 from "../../../assets/thumbnails/reels/test5.webp";
