@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import i1 from "../assets/thumbnails/film/14.jpg";
-import i2 from "../assets/thumbnails/ads/1.webp";
+import i2 from "../assets/thumbnails/ads/1.jpg";
 
 const OurServices = () => {
   const services = [
@@ -38,7 +38,7 @@ const OurServices = () => {
                 >
                   <img
                     src={service.image}
-                    className=""
+                    className={index === 0 ? "brightness-125" : ""}
                     alt="image"
                   />
                 </div>
