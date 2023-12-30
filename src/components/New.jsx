@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
-import i1 from "../assets/thumbnails/film/12.jpg";
+import i1 from "../assets/thumbnails/film/14.jpg";
 import i2 from "../assets/thumbnails/ads/1.webp";
 
 const OurServices = () => {

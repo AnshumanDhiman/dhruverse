@@ -8,12 +8,14 @@ import {
 
 /* Install pure-react-carousel using -> npm i pure-react-carousel */
 
-import r1 from "../../../assets/thumbnails/reels/2.jpg";
-import r2 from "../../../assets/thumbnails/reels/3.png";
-import r3 from "../../../assets/thumbnails/reels/1.jpg";
-import r4 from "../../../assets/thumbnails/reels/5.png";
-import r5 from "../../../assets/thumbnails/reels/4.png";
-import r6 from "../../../assets/thumbnails/reels/6.png";
+import r1 from "../../../assets/thumbnails/reels/7.jpg";
+import r2 from "../../../assets/thumbnails/reels/2.jpg";
+import r3 from "../../../assets/thumbnails/reels/3.png";
+import r4 from "../../../assets/thumbnails/reels/1.jpg";
+import r5 from "../../../assets/thumbnails/reels/5.png";
+import r6 from "../../../assets/thumbnails/reels/4.png";
+import r7 from "../../../assets/thumbnails/reels/6.png";
+
 
 export default function Index() {
   return (
@@ -24,7 +26,7 @@ export default function Index() {
           className="lg:block hidden"
           naturalSlideWidth={100}
           isIntrinsicHeight={true}
-          totalSlides={6}
+          totalSlides={7}
           visibleSlides={5}
           step={1}
           infinite={true}
@@ -119,6 +121,16 @@ export default function Index() {
                       <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
                     </div>
                   </Slide>
+                  <Slide index={6}>
+                    <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg contrast-[109%]">
+                      <img
+                        src={r7}
+                        alt="sitting area"
+                        className="object-cover object-center w-full  rounded-lg border-lg"
+                      />
+                      <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
+                    </div>
+                  </Slide>
                 </div>
               </Slider>
             </div>
@@ -151,7 +163,7 @@ export default function Index() {
           className="lg:hidden md:block hidden"
           naturalSlideWidth={100}
           isIntrinsicHeight={true}
-          totalSlides={6}
+          totalSlides={7}
           visibleSlides={2}
           step={1}
           infinite={true}
@@ -239,6 +251,15 @@ export default function Index() {
                       />
                     </div>
                   </Slide>
+                  <Slide index={6}>
+                    <div className="flex flex-shrink-0 relative w-full sm:w-auto">
+                      <img
+                        src={r7}
+                        alt="sitting area"
+                        className="object-cover object-center w-full rounded-lg"
+                      />
+                    </div>
+                  </Slide>
               
                 </div>
               </Slider>
@@ -273,7 +294,7 @@ export default function Index() {
           className="block md:hidden"
           naturalSlideWidth={100}
           isIntrinsicHeight={true}
-          totalSlides={6}
+          totalSlides={7}
           visibleSlides={2}
           step={2}
           infinite={true}
@@ -356,6 +377,15 @@ export default function Index() {
                     <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                       <img
                         src={r6}
+                        alt="sitting area"
+                        className="object-cover object-center w-full rounded-lg"
+                      />
+                    </div>
+                  </Slide>
+                  <Slide index={6}>
+                    <div className="flex flex-shrink-0 relative w-full sm:w-auto">
+                      <img
+                        src={r7}
                         alt="sitting area"
                         className="object-cover object-center w-full rounded-lg"
                       />
