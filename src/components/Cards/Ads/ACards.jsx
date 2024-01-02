@@ -8,16 +8,19 @@ import {
 import "./car.css";
 /* Install pure-react-carousel using -> npm i pure-react-carousel */
 
-import ai1 from "../../../assets/thumbnails/ads/2.webp";
-import ai2 from "../../../assets/thumbnails/ads/10.jpeg";
-import ai3 from "../../../assets/thumbnails/ads/4.webp";
-import ai4 from "../../../assets/thumbnails/ads/5.webp";
-import ai5 from "../../../assets/thumbnails/ads/9.webp";
-import ai6 from "../../../assets/thumbnails/ads/1.webp";
+import ai1 from "../../../assets/thumbnails/ads/13.png";
+import ai2 from "../../../assets/thumbnails/ads/11.png";
+import ai3 from "../../../assets/thumbnails/ads/2.webp";
+import ai4 from "../../../assets/thumbnails/ads/10.jpeg";
+import ai5 from "../../../assets/thumbnails/ads/1.webp";
+import ai6 from "../../../assets/thumbnails/ads/9.webp";
 import ai7 from "../../../assets/thumbnails/ads/6.webp";
 import ai8 from "../../../assets/thumbnails/ads/8.webp";
 import ai9 from "../../../assets/thumbnails/ads/7.webp";
 import ai10 from "../../../assets/thumbnails/ads/3.webp";
+import ai11 from "../../../assets/thumbnails/ads/5.webp";
+import ai12 from "../../../assets/thumbnails/ads/12.png";
+import ai13 from "../../../assets/thumbnails/ads/4.webp";
  
 export default function Index() {
   return (
@@ -28,7 +31,7 @@ export default function Index() {
           className="lg:block hidden"
           naturalSlideWidth={100}
           isIntrinsicHeight={true}
-          totalSlides={10}
+          totalSlides={13}
           visibleSlides={5}
           step={1}
           infinite={true}
@@ -162,6 +165,36 @@ export default function Index() {
                       <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
                     </div>
                   </Slide>
+                  <Slide index={10}>
+                    <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
+                      <img
+                        src={ai11}
+                        alt="sitting area"
+                        className="object-cover object-center w-full  rounded-lg border-lg"
+                      />
+                      <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
+                    </div>
+                  </Slide>
+                  <Slide index={11}>
+                    <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
+                      <img
+                        src={ai12}
+                        alt="sitting area"
+                        className="object-cover object-center w-full  rounded-lg border-lg"
+                      />
+                      <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
+                    </div>
+                  </Slide>
+                  <Slide index={12}>
+                    <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
+                      <img
+                        src={ai13}
+                        alt="sitting area"
+                        className="object-cover object-center w-full  rounded-lg border-lg"
+                      />
+                      <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
+                    </div>
+                  </Slide>
                 </div>
               </Slider>
             </div>
@@ -193,7 +226,7 @@ export default function Index() {
           className="lg:hidden md:block hidden"
           naturalSlideWidth={100}
           isIntrinsicHeight={true}
-          totalSlides={10}
+          totalSlides={13}
           visibleSlides={2}
           step={1}
           infinite={true}
@@ -327,6 +360,36 @@ export default function Index() {
                       <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
                     </div>
                   </Slide>
+                  <Slide index={10}>
+                    <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
+                      <img
+                        src={ai11}
+                        alt="sitting area"
+                        className="object-cover object-center w-full  rounded-lg border-lg"
+                      />
+                      <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
+                    </div>
+                  </Slide>
+                  <Slide index={11}>
+                    <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
+                      <img
+                        src={ai12}
+                        alt="sitting area"
+                        className="object-cover object-center w-full  rounded-lg border-lg"
+                      />
+                      <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
+                    </div>
+                  </Slide>
+                  <Slide index={12}>
+                    <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
+                      <img
+                        src={ai13}
+                        alt="sitting area"
+                        className="object-cover object-center w-full  rounded-lg border-lg"
+                      />
+                      <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
+                    </div>
+                  </Slide>
                 </div>
               </Slider>
             </div>
@@ -358,7 +421,7 @@ export default function Index() {
           className="block md:hidden "
           naturalSlideWidth={100}
           isIntrinsicHeight={true}
-          totalSlides={10}
+          totalSlides={13}
           visibleSlides={2}
           step={1}
           infinite={true}
@@ -486,6 +549,36 @@ export default function Index() {
                     <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
                       <img
                         src={ai10}
+                        alt="sitting area"
+                        className="object-cover object-center w-full  rounded-lg border-lg"
+                      />
+                      <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
+                    </div>
+                  </Slide>
+                  <Slide index={10}>
+                    <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
+                      <img
+                        src={ai11}
+                        alt="sitting area"
+                        className="object-cover object-center w-full  rounded-lg border-lg"
+                      />
+                      <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
+                    </div>
+                  </Slide>
+                  <Slide index={11}>
+                    <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
+                      <img
+                        src={ai12}
+                        alt="sitting area"
+                        className="object-cover object-center w-full  rounded-lg border-lg"
+                      />
+                      <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
+                    </div>
+                  </Slide>
+                  <Slide index={12}>
+                    <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
+                      <img
+                        src={ai13}
                         alt="sitting area"
                         className="object-cover object-center w-full  rounded-lg border-lg"
                       />
