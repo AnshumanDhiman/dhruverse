@@ -26,7 +26,7 @@ export default function Index() {
           className="lg:block hidden"
           naturalSlideWidth={100}
           isIntrinsicHeight={true}
-          totalSlides={7}
+          totalSlides={6}
           visibleSlides={5}
           step={1}
           infinite={true}
@@ -60,7 +60,7 @@ export default function Index() {
                   id="slider"
                   className="h-full flex lg:gap-8 md:gap-6 gap-14 items-center justify-start transition ease-out duration-700"
                 >
-                  <Slide index={0}>
+                  {/* <Slide index={0}>
                     <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
                       <img
                         src={r1}
@@ -68,8 +68,8 @@ export default function Index() {
                         className="object-cover object-center w-full rounded-lg"
                       />
                     </div>
-                  </Slide>
-                  <Slide index={1}>
+                  </Slide> */}
+                  <Slide index={0}>
                     <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg contrast-[106%]">
                       <img
                         src={r2}
@@ -80,7 +80,7 @@ export default function Index() {
                     </div>
                   </Slide>
 
-                  <Slide index={2}>
+                  <Slide index={1}>
                     <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg contrast-[106%]">
                       <img
                         src={r3}
@@ -90,7 +90,7 @@ export default function Index() {
                       <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
                     </div>
                   </Slide>
-                  <Slide index={3}>
+                  <Slide index={2}>
                     <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
                       <img
                         src={r4}
@@ -101,7 +101,7 @@ export default function Index() {
                     </div>
                   </Slide>
                
-                  <Slide index={4}>
+                  <Slide index={3}>
                     <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
                       <img
                         src={r5}
@@ -111,7 +111,7 @@ export default function Index() {
                       <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
                     </div>
                   </Slide>
-                  <Slide index={5}>
+                  <Slide index={4}>
                     <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg contrast-[109%]">
                       <img
                         src={r6}
@@ -121,7 +121,7 @@ export default function Index() {
                       <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
                     </div>
                   </Slide>
-                  <Slide index={6}>
+                  <Slide index={5}>
                     <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg contrast-[109%]">
                       <img
                         src={r7}
@@ -163,7 +163,7 @@ export default function Index() {
           className="lg:hidden md:block hidden"
           naturalSlideWidth={100}
           isIntrinsicHeight={true}
-          totalSlides={7}
+          totalSlides={6}
           visibleSlides={2}
           step={1}
           infinite={true}
@@ -197,7 +197,7 @@ export default function Index() {
                   id="slider"
                   className="h-full flex lg:gap-8 md:gap-6 gap-14 items-center justify-start transition ease-out duration-700"
                 >
-                  <Slide index={0}>
+                  {/* <Slide index={0}>
                     <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                       <img
                         src={r1}
@@ -205,8 +205,8 @@ export default function Index() {
                         className="object-cover object-center w-full rounded-lg"
                       />
                     </div>
-                  </Slide>
-                  <Slide index={1}>
+                  </Slide> */}
+                  <Slide index={0}>
                     <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                       <img
                         src={r2}
@@ -215,7 +215,7 @@ export default function Index() {
                       />
                     </div>
                   </Slide>
-                  <Slide index={2}>
+                  <Slide index={1}>
                     <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                       <img
                         src={r3}
@@ -224,7 +224,7 @@ export default function Index() {
                       />
                     </div>
                   </Slide>
-                  <Slide index={3}>
+                  <Slide index={2}>
                     <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                       <img
                         src={r4}
@@ -233,7 +233,7 @@ export default function Index() {
                       />
                     </div>
                   </Slide>
-                  <Slide index={4}>
+                  <Slide index={3}>
                     <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                       <img
                         src={r5}
@@ -242,7 +242,7 @@ export default function Index() {
                       />
                     </div>
                   </Slide>
-                  <Slide index={5}>
+                  <Slide index={4}>
                     <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                       <img
                         src={r6}
@@ -251,7 +251,7 @@ export default function Index() {
                       />
                     </div>
                   </Slide>
-                  <Slide index={6}>
+                  <Slide index={5}>
                     <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                       <img
                         src={r7}
@@ -294,7 +294,7 @@ export default function Index() {
           className="block md:hidden"
           naturalSlideWidth={100}
           isIntrinsicHeight={true}
-          totalSlides={7}
+          totalSlides={6}
           visibleSlides={2}
           step={2}
           infinite={true}
@@ -328,7 +328,7 @@ export default function Index() {
                   id="slider"
                   className="h-full w-full flex lg:gap-8 md:gap-6 gap-2 items-center justify-start transition ease-out duration-700"
                 >
-                  <Slide index={0}>
+                  {/* <Slide index={0}>
                     <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                       <img
                         src={r1}
@@ -336,8 +336,8 @@ export default function Index() {
                         className="object-cover object-center w-full rounded-lg"
                       />
                     </div>
-                  </Slide>
-                  <Slide index={1}>
+                  </Slide> */}
+                  <Slide index={0}>
                     <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                       <img
                         src={r2}
@@ -346,7 +346,7 @@ export default function Index() {
                       />
                     </div>
                   </Slide>
-                  <Slide index={2}>
+                  <Slide index={1}>
                     <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                       <img
                         src={r3}
@@ -355,7 +355,7 @@ export default function Index() {
                       />
                     </div>
                   </Slide>
-                  <Slide index={3}>
+                  <Slide index={2}>
                     <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                       <img
                         src={r4}
@@ -364,7 +364,7 @@ export default function Index() {
                       />
                     </div>
                   </Slide>
-                  <Slide index={4}>
+                  <Slide index={3}>
                     <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                       <img
                         src={r5}
@@ -373,7 +373,7 @@ export default function Index() {
                       />
                     </div>
                   </Slide>
-                  <Slide index={5}>
+                  <Slide index={4}>
                     <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                       <img
                         src={r6}
@@ -382,7 +382,7 @@ export default function Index() {
                       />
                     </div>
                   </Slide>
-                  <Slide index={6}>
+                  <Slide index={5}>
                     <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                       <img
                         src={r7}
