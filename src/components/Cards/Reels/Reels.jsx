@@ -9,14 +9,16 @@ import {
 /* Install pure-react-carousel using -> npm i pure-react-carousel */
 
 import r1 from "../../../assets/thumbnails/reels/7.jpg";
-import r4 from "../../../assets/thumbnails/reels/2.jpg";
-import r5 from "../../../assets/thumbnails/reels/3.png";
-import r6 from "../../../assets/thumbnails/reels/1.jpg";
+import r2 from "../../../assets/thumbnails/reels/9.jpg";
+import r3 from "../../../assets/thumbnails/reels/8.jpg";
+import r4 from "../../../assets/thumbnails/reels/3.png";
+import r5 from "../../../assets/thumbnails/reels/2.jpg";
+import r6 from "../../../assets/thumbnails/reels/6.png";
 import r7 from "../../../assets/thumbnails/reels/5.png";
 import r8 from "../../../assets/thumbnails/reels/4.png";
-import r9 from "../../../assets/thumbnails/reels/6.png";
-import r2 from "../../../assets/thumbnails/reels/8.jpg";
-import r3 from "../../../assets/thumbnails/reels/9.jpg";
+import r9 from "../../../assets/thumbnails/reels/1.jpg";
+
+
 
 export default function Index() {
   return (
