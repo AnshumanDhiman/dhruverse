@@ -8,16 +8,17 @@ import {
 
 /* Install pure-react-carousel using -> npm i pure-react-carousel */
 
-import r1 from "../../../assets/thumbnails/reels/7.jpg";
-import r2 from "../../../assets/thumbnails/reels/9.jpg";
-import r3 from "../../../assets/thumbnails/reels/8.jpg";
-import r4 from "../../../assets/thumbnails/reels/3.png";
-import r5 from "../../../assets/thumbnails/reels/2.jpg";
-import r6 from "../../../assets/thumbnails/reels/6.png";
+// import r1 from "../../../assets/thumbnails/reels/7.jpg";
+import r2 from "../../../assets/thumbnails/reels/3.png";
+import r3 from "../../../assets/thumbnails/reels/2.jpg";
+import r4 from "../../../assets/thumbnails/reels/11.png";
+import r5 from "../../../assets/thumbnails/reels/10.png";
+import r6 from "../../../assets/thumbnails/reels/1.jpg";
 import r7 from "../../../assets/thumbnails/reels/5.png";
-import r8 from "../../../assets/thumbnails/reels/4.png";
-import r9 from "../../../assets/thumbnails/reels/1.jpg";
-
+import r8 from "../../../assets/thumbnails/reels/8.jpg";
+import r9 from "../../../assets/thumbnails/reels/4.png";
+import r10 from "../../../assets/thumbnails/reels/9.jpg";
+// import r11 from "../../../assets/thumbnails/reels/6.png";
 
 
 export default function Index() {
@@ -29,7 +30,7 @@ export default function Index() {
           className="lg:block hidden"
           naturalSlideWidth={100}
           isIntrinsicHeight={true}
-          totalSlides={8}
+          totalSlides={9}
           visibleSlides={5}
           step={1}
           infinite={true}
@@ -63,15 +64,7 @@ export default function Index() {
                   id="slider"
                   className="h-full flex lg:gap-8 md:gap-6 gap-14 items-center justify-start transition ease-out duration-700"
                 >
-                  {/* <Slide index={0}>
-                    <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
-                      <img
-                        src={r1}
-                        alt="sitting area"
-                        className="object-cover object-center w-full rounded-lg"
-                      />
-                    </div>
-                  </Slide> */}
+              
                   <Slide index={0}>
                     <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg contrast-[106%]">
                       <img
@@ -156,6 +149,17 @@ export default function Index() {
                       <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
                     </div>
                   </Slide>
+                  <Slide index={8}>
+                    <div className="flex overflow-x-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-lg contrast-[109%]">
+                      <img
+                        src={r10}
+                        alt="sitting area"
+                        className="object-cover object-center w-full  rounded-lg border-lg"
+                      />
+                      <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6"></div>
+                    </div>
+                  </Slide>
+         
                   
                 </div>
               </Slider>
@@ -189,7 +193,7 @@ export default function Index() {
           className="lg:hidden md:block hidden"
           naturalSlideWidth={100}
           isIntrinsicHeight={true}
-          totalSlides={8}
+          totalSlides={9}
           visibleSlides={2}
           step={1}
           infinite={true}
@@ -223,15 +227,7 @@ export default function Index() {
                   id="slider"
                   className="h-full flex lg:gap-8 md:gap-6 gap-14 items-center justify-start transition ease-out duration-700"
                 >
-                  {/* <Slide index={0}>
-                    <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                      <img
-                        src={r1}
-                        alt="sitting area"
-                        className="object-cover object-center w-full rounded-lg"
-                      />
-                    </div>
-                  </Slide> */}
+            
                   <Slide index={0}>
                     <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                       <img
@@ -253,7 +249,7 @@ export default function Index() {
                   <Slide index={2}>
                     <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                       <img
-                        src={r3}
+                        src={r4}
                         alt="sitting area"
                         className="object-cover object-center w-full rounded-lg"
                       />
@@ -262,7 +258,7 @@ export default function Index() {
                   <Slide index={3}>
                     <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                       <img
-                        src={r4}
+                        src={r5}
                         alt="sitting area"
                         className="object-cover object-center w-full rounded-lg"
                       />
@@ -271,7 +267,7 @@ export default function Index() {
                   <Slide index={4}>
                     <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                       <img
-                        src={r5}
+                        src={r6}
                         alt="sitting area"
                         className="object-cover object-center w-full rounded-lg"
                       />
@@ -280,7 +276,7 @@ export default function Index() {
                   <Slide index={5}>
                     <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                       <img
-                        src={r6}
+                        src={r7}
                         alt="sitting area"
                         className="object-cover object-center w-full rounded-lg"
                       />
@@ -289,7 +285,7 @@ export default function Index() {
                   <Slide index={6}>
                     <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                       <img
-                        src={r7}
+                        src={r8}
                         alt="sitting area"
                         className="object-cover object-center w-full rounded-lg"
                       />
@@ -298,7 +294,7 @@ export default function Index() {
                   <Slide index={7}>
                     <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                       <img
-                        src={r8}
+                        src={r9}
                         alt="sitting area"
                         className="object-cover object-center w-full rounded-lg"
                       />
@@ -307,13 +303,13 @@ export default function Index() {
                   <Slide index={8}>
                     <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                       <img
-                        src={r9}
+                        src={r10}
                         alt="sitting area"
                         className="object-cover object-center w-full rounded-lg"
                       />
                     </div>
                   </Slide>
-              
+            
                 </div>
               </Slider>
             </div>
@@ -347,7 +343,7 @@ export default function Index() {
           className="block md:hidden"
           naturalSlideWidth={100}
           isIntrinsicHeight={true}
-          totalSlides={8}
+          totalSlides={9}
           visibleSlides={2}
           step={2}
           infinite={true}
@@ -381,15 +377,7 @@ export default function Index() {
                   id="slider"
                   className="h-full w-full flex lg:gap-8 md:gap-6 gap-2 items-center justify-start transition ease-out duration-700"
                 >
-                  {/* <Slide index={0}>
-                    <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                      <img
-                        src={r1}
-                        alt="sitting area"
-                        className="object-cover object-center w-full rounded-lg"
-                      />
-                    </div>
-                  </Slide> */}
+           
                   <Slide index={0}>
                     <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                       <img
@@ -463,6 +451,17 @@ export default function Index() {
                       />
                     </div>
                   </Slide>
+                  <Slide index={8}>
+                    <div className="flex flex-shrink-0 relative w-full sm:w-auto">
+                      <img
+                        src={r10}
+                        alt="sitting area"
+                        className="object-cover object-center w-full rounded-lg"
+                      />
+                    </div>
+                  </Slide>
+           
+              
                 </div>
               </Slider>
             </div>
