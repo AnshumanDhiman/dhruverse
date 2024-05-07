@@ -9,10 +9,10 @@ import "./car.css";
 /* Install pure-react-carousel using -> npm i pure-react-carousel */
 
 import ai1 from "../../../assets/thumbnails/ads/13.png";
-import ai2 from "../../../assets/thumbnails/ads/11.png";
+import ai2 from "../../../assets/thumbnails/ads/1.webp";
 import ai3 from "../../../assets/thumbnails/ads/2.webp";
 import ai4 from "../../../assets/thumbnails/ads/10.jpeg";
-import ai5 from "../../../assets/thumbnails/ads/1.webp";
+import ai5 from "../../../assets/thumbnails/ads/11.png";
 import ai6 from "../../../assets/thumbnails/ads/9.webp";
 import ai7 from "../../../assets/thumbnails/ads/6.webp";
 import ai8 from "../../../assets/thumbnails/ads/8.webp";
