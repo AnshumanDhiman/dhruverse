@@ -41,7 +41,7 @@ const About1 = () => {
               </h1>
               <p className="font-normal text-base leading-6 text-gray-600 dark:text-white lg:text-justify text-center">
                 Our team believes in 'each to their own' but one thing remains
-                unchanged for all of us at dhruVerse, we are storytellers with a
+                unchanged for all of us at Three Comma Studios, we are storytellers with a
                 clear and simple objective of creating art and building a strong
                 platform for future creation and innovation in film industry as
                 well as digital industry.
@@ -52,7 +52,7 @@ const About1 = () => {
               <img
                 className="w-full h-full lg:px-12 px-4"
                 src={i4}
-                alt="dhruverse image"
+                alt="Three Comma Studios image"
               />
             </div>
           </div>

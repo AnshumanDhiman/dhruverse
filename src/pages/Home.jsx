@@ -2,7 +2,7 @@
 import Hero from "../components/Hero";
 import Container from "../components/CardContainer";
 import New from "../components/New";
-import WhydhruVerse from "../components/WhydhruVerse";
+import WhyThreeCommaStudios from "../components/WhyThreeCommaStudios";
 import Plus from "../components/Plus";
 import Cta from "../components/Cta";
 import PartnersSection from "../components/Partner";
@@ -18,7 +18,7 @@ export default function Home() {
       <Container />
       <Plus />
       <PartnersSection />
-      <WhydhruVerse />
+      <WhyThreeCommaStudios />
       <Cta />
     </>
   );

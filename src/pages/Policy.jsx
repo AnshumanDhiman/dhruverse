@@ -3,7 +3,7 @@
 const PrivacyPolicy = () => {
   return (
     <div className="pt-16 p-8 lg:p-32 text-[#A6C9CB] text-justify">
-      <h1 className="text-3xl text-center p-6">Welcome to dhruVerse!</h1>
+      <h1 className="text-3xl text-center p-6">Welcome to Three Comma Studios!</h1>
       <p>
         You have reached our company's Privacy Policy. This policy is curated to
         brief you about our intent and outlines how we collect, use, and protect

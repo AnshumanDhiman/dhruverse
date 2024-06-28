@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import i1 from "../assets/thumbnails/best/16.jpg";
-import i2 from "../assets/thumbnails/film/15a.jpg";
+import i2 from "../assets/thumbnails/best/18.jpg";
 
 const OurServices = () => {
   const services = [
@@ -17,7 +17,7 @@ const OurServices = () => {
     <>
       <div className="">
         <p className="text-md lg:text-2xl p-4 lg:p-8 md:text-xl md:p-8 sm:text-sm sm:p-8 font-light text-center lg:text-center text-theme_4">
-          We are dhruVerse, providing the best production, from pre to post.
+          We are Three Comma Studios, providing the best production, from pre to post.
           <span className="inline lg:block">
             {" "}
             We are the ultimate platform where lies the pioneers of creative
