@@ -5,7 +5,6 @@ import axios from "axios";
 import toast, { Toaster } from "react-hot-toast";
 
 const Contact = () => {
-  
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
@@ -26,7 +25,7 @@ const Contact = () => {
     try {
       const response = await axios.post(
         "https://dhruverse-be.vercel.app/api/messages/sendMessage",
-        formData,
+        formData
       );
       console.log("Response:", response.data);
       setFormData({
@@ -48,17 +47,17 @@ const Contact = () => {
     mouthOpen.to(
       ".mouth-back",
       { duration: mouthSpeed, ease: easeType, y: -70 },
-      0,
+      0
     );
     mouthOpen.to(
       ".tongue",
       { duration: mouthSpeed * 1.5, ease: easeType, y: -70 },
-      0,
+      0
     );
     mouthOpen.to(
       ".teeth",
       { duration: mouthSpeed, ease: easeType, y: -70, scaleY: 1.2 },
-      0,
+      0
     );
     mouthOpen.to(
       ".body",
@@ -68,29 +67,29 @@ const Contact = () => {
         scaleY: 1.06,
         transformOrigin: "center bottom",
       },
-      0,
+      0
     );
     mouthOpen.to(
       ".freckles",
       { duration: mouthSpeed, ease: easeType, y: -10 },
-      0,
+      0
     );
     mouthOpen.to(".ears", { duration: mouthSpeed, ease: easeType, y: 6 }, 0);
     mouthOpen.to(
       ".eye-right",
       { duration: mouthSpeed, ease: easeType, x: -2 },
-      0,
+      0
     );
     mouthOpen.to(
       ".eye-left",
       { duration: mouthSpeed, ease: easeType, x: 2 },
-      0,
+      0
     );
     mouthOpen.to(".eyes", { duration: mouthSpeed, ease: easeType, y: 2 }, 0);
     mouthOpen.to(
       ".nostrils",
       { duration: mouthSpeed, ease: easeType, y: -6 },
-      0,
+      0
     );
 
     const earWiggle = gsap.timeline({ paused: true, repeat: 2 });
@@ -213,7 +212,7 @@ const Contact = () => {
                 <form onSubmit={handleSubmit}>
                   <div className="-mx-2 md:items-center md:flex">
                     <div className="flex-1 px-2">
-                      <label className="block mb-2 text-sm text-gray-600">
+                      <label className="block mb-2 text-sm text-gray-300">
                         First Name
                       </label>
                       <input
@@ -227,7 +226,7 @@ const Contact = () => {
                     </div>
 
                     <div className="flex-1 px-2 mt-4 md:mt-0">
-                      <label className="block mb-2 text-sm text-gray-600">
+                      <label className="block mb-2 text-sm text-gray-300">
                         Last Name
                       </label>
                       <input
@@ -242,7 +241,7 @@ const Contact = () => {
                   </div>
 
                   <div className="mt-4">
-                    <label className="block mb-2 text-sm text-gray-600">
+                    <label className="block mb-2 text-sm text-gray-300">
                       Email address
                     </label>
                     <input
@@ -256,7 +255,7 @@ const Contact = () => {
                   </div>
 
                   <div className="w-full mt-4">
-                    <label className="block mb-2 text-sm text-gray-600">
+                    <label className="block mb-2 text-sm text-gray-300">
                       Message
                     </label>
                     <textarea
