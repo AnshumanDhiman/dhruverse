@@ -1,7 +1,7 @@
 import ACard from "./Cards/Ads/ACards.jsx";
 import FCard from "./Cards/Films/FCards.jsx";
 import BCard from "./Cards/Best/BCards.jsx";
-import Reels from "./Cards/Reels/Reels.jsx"
+import Reels from "./Cards/Reels/Reels.jsx";
 
 export default function Container() {
   return (
@@ -26,7 +26,7 @@ export default function Container() {
           </h2>
           <Reels />
           <br />
-          <p className="text-theme_3 opacity-75 text-center lg:mb-0 mb-8 text-[12px] px-4 lg:text-md md:text-md lg:px-0">
+          <p className="text-theme_3 opacity-75 text-center lg:mb-0 mb-8 text-[14px] px-4 lg:text-md md:text-md lg:px-0">
             The content on this website reflects our services and required
             assistance for the completion of these projects. However, we do not
             claim ownership.
